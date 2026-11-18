@@ -1,0 +1,3160 @@
+{
+ "version": 2,
+ "retrievedAt": "2026-11-15",
+ "note": "Scraped at build time from the Wikipedia pages listed in `sources` (CC BY-SA 4.0) by tools/hotlines/build_hotlines.py. Numbers are as listed there, in domestic dialing format, and may be out of date or incomplete. Verify before relying on them. Can be overridden at runtime via Firebase Remote Config (key: hotlines_json).",
+ "sources": [
+  {
+   "name": "Wikipedia: List of suicide crisis lines",
+   "url": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines",
+   "license": "CC BY-SA 4.0",
+   "retrievedAt": "2026-11-15"
+  },
+  {
+   "name": "Wikipedia: List of emergency telephone numbers",
+   "url": "https://en.wikipedia.org/wiki/List_of_emergency_telephone_numbers",
+   "license": "CC BY-SA 4.0",
+   "retrievedAt": "2026-11-15"
+  }
+ ],
+ "directoryUrl": "https://findahelpline.com",
+ "countries": [
+  {
+   "code": "AL",
+   "name": "Albania",
+   "emergency": "Police 129, Ambulance 127, Fire 128",
+   "aliases": [
+    "republic of albania"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0800 12345",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "DZ",
+   "name": "Algeria",
+   "emergency": "Police 1548, Ambulance 14, Fire 14",
+   "aliases": [
+    "people's democratic republic of algeria"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0560 00 13 38",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "AS",
+   "name": "American Samoa",
+   "emergency": "911",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "988",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "AD",
+   "name": "Andorra",
+   "emergency": "Police 110, Ambulance 116, Fire 118",
+   "aliases": [
+    "principality of andorra"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "177",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "AI",
+   "name": "Anguilla",
+   "emergency": "911",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "(264) 772-7233",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "AG",
+   "name": "Antigua and Barbuda",
+   "emergency": "911 or 999",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "(268) 463-5555",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "AR",
+   "name": "Argentina",
+   "emergency": "911",
+   "aliases": [
+    "argentine republic"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0800 999 0091",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "AM",
+   "name": "Armenia",
+   "emergency": "112 or 911",
+   "aliases": [
+    "republic of armenia"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0800 00 900",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "AW",
+   "name": "Aruba",
+   "emergency": "911",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "131",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "AU",
+   "name": "Australia",
+   "emergency": "000",
+   "aliases": [
+    "melbourne",
+    "new south wales",
+    "queensland",
+    "south australia",
+    "sydney",
+    "tasmania",
+    "victoria",
+    "western australia"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "13 11 14",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "AT",
+   "name": "Austria",
+   "emergency": "Police 112 or 133, Ambulance 144, Fire 122",
+   "aliases": [
+    "republic of austria"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "142",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "BS",
+   "name": "Bahamas",
+   "emergency": "911 or 919",
+   "aliases": [
+    "commonwealth of the bahamas",
+    "the bahamas"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "(242) 328-0922",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "BH",
+   "name": "Bahrain",
+   "emergency": "999",
+   "aliases": [
+    "kingdom of bahrain"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "3844 7588 (English)",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    },
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "6671 0901 (Arabic)",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "BD",
+   "name": "Bangladesh",
+   "emergency": "999",
+   "aliases": [
+    "people's republic of bangladesh"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "09638 881 888",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "BB",
+   "name": "Barbados",
+   "emergency": "Police 211, Ambulance 511, Fire 311",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "(246) 536-4500",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "BY",
+   "name": "Belarus",
+   "emergency": "Police 102, Ambulance 103, Fire 101",
+   "aliases": [
+    "republic of belarus"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "8 (017) 311-00-99",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "BE",
+   "name": "Belgium",
+   "emergency": "Police 101 or 112, Ambulance 112, Fire 112",
+   "aliases": [
+    "kingdom of belgium"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "107",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "BJ",
+   "name": "Benin",
+   "emergency": "Police 117, Ambulance 112, Fire 118",
+   "aliases": [
+    "republic of benin"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "7344",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "BM",
+   "name": "Bermuda",
+   "emergency": "911",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "(441) 239-1111",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "BT",
+   "name": "Bhutan",
+   "emergency": "Police 113, Ambulance 112, Fire 110",
+   "aliases": [
+    "kingdom of bhutan"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "1010",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "BO",
+   "name": "Bolivia",
+   "emergency": "911",
+   "aliases": [
+    "bolivia, plurinational state of",
+    "plurinational state of bolivia"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "800 11 3040",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "BA",
+   "name": "Bosnia and Herzegovina",
+   "emergency": "Police 122, Ambulance 124, Fire 123",
+   "aliases": [
+    "republic of bosnia and herzegovina"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "080 05 03 05",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "BW",
+   "name": "Botswana",
+   "emergency": "Police 999, Ambulance 997, Fire 998",
+   "aliases": [
+    "republic of botswana"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "75 527 590",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "BR",
+   "name": "Brazil",
+   "emergency": "Police 190, Ambulance 192, Fire 193",
+   "aliases": [
+    "federative republic of brazil"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "188",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "BN",
+   "name": "Brunei",
+   "emergency": "Police 993, Ambulance 991, Fire 995",
+   "aliases": [
+    "brunei darussalam"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "145",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "BG",
+   "name": "Bulgaria",
+   "emergency": "Police 112 or 166, Ambulance 112 or 150, Fire 112 or 160",
+   "aliases": [
+    "republic of bulgaria"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0 8001 1466",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "BI",
+   "name": "Burundi",
+   "emergency": "Police 117, Ambulance 112, Fire 118",
+   "aliases": [
+    "republic of burundi"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "69 77 63 67",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "KH",
+   "name": "Cambodia",
+   "emergency": "Police 117, Ambulance 119, Fire 118",
+   "aliases": [
+    "kingdom of cambodia"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "017 222 372",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "CM",
+   "name": "Cameroon",
+   "emergency": "112",
+   "aliases": [
+    "republic of cameroon"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "242 136 136",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "CA",
+   "name": "Canada",
+   "emergency": "911",
+   "aliases": [
+    "alberta",
+    "british columbia",
+    "manitoba",
+    "montreal",
+    "new brunswick",
+    "newfoundland",
+    "nova scotia",
+    "ontario",
+    "prince edward island",
+    "quebec",
+    "saskatchewan",
+    "toronto",
+    "vancouver"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "988",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    },
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "Quebec: 1-866-277-3553",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "KY",
+   "name": "Cayman Islands",
+   "emergency": "911",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "1-800-534-6463",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "CL",
+   "name": "Chile",
+   "emergency": "Police 133, Ambulance 131, Fire 132",
+   "aliases": [
+    "republic of chile"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "*4141",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "CN",
+   "name": "China",
+   "emergency": "Police 110, Ambulance 120, Fire 119",
+   "aliases": [
+    "people's republic of china"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "12355",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "CO",
+   "name": "Colombia",
+   "emergency": "Police 112, Ambulance 125, Fire 119",
+   "aliases": [
+    "republic of colombia"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "106",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "CR",
+   "name": "Costa Rica",
+   "emergency": "911",
+   "aliases": [
+    "republic of costa rica"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "800 273 7869",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "HR",
+   "name": "Croatia",
+   "emergency": "Police 112 or 192, Ambulance 112 or 194, Fire 112 or 193",
+   "aliases": [
+    "republic of croatia"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0800 655 222",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "CU",
+   "name": "Cuba",
+   "emergency": "Police 106, Ambulance 104, Fire 105",
+   "aliases": [
+    "republic of cuba"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "103",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "CW",
+   "name": "Curaçao",
+   "emergency": "Police 911, Ambulance 910 and 912, Fire 911",
+   "aliases": [
+    "curacao"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "918",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "CY",
+   "name": "Cyprus",
+   "emergency": "112 or 199",
+   "aliases": [
+    "republic of cyprus"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "8000 7773",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "CZ",
+   "name": "Czech Republic",
+   "emergency": "Police 112 or 158, Ambulance 112 or 155, Fire 112 or 150",
+   "aliases": [
+    "czechia"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "116 123",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "DK",
+   "name": "Denmark",
+   "emergency": "112",
+   "aliases": [
+    "kingdom of denmark"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "70 201 201",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "DM",
+   "name": "Dominica",
+   "emergency": "999",
+   "aliases": [
+    "commonwealth of dominica"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "767-317-3030",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "DO",
+   "name": "Dominican Republic",
+   "emergency": "911",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "809-200-1400",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "EC",
+   "name": "Ecuador",
+   "emergency": "911",
+   "aliases": [
+    "republic of ecuador"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "171 (Press 6)",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "EG",
+   "name": "Egypt",
+   "emergency": "Police 112 or 122, Ambulance 123, Fire 180",
+   "aliases": [
+    "arab republic of egypt"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "16328",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "SV",
+   "name": "El Salvador",
+   "emergency": "Police 911, Ambulance 132, Fire 913",
+   "aliases": [
+    "republic of el salvador"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "126",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "EE",
+   "name": "Estonia",
+   "emergency": "112",
+   "aliases": [
+    "republic of estonia"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "116 123",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "SZ",
+   "name": "Eswatini",
+   "emergency": "Police 999, Ambulance 977, Fire 933",
+   "aliases": [
+    "kingdom of eswatini",
+    "swaziland"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "2404 3160",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "ET",
+   "name": "Ethiopia",
+   "emergency": "911",
+   "aliases": [
+    "federal democratic republic of ethiopia"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "8335",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "FK",
+   "name": "Falkland Islands",
+   "emergency": "112 or 999",
+   "aliases": [
+    "falkland islands (malvinas)"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "51515",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "FO",
+   "name": "Faroe Islands",
+   "emergency": "112",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "00 45 70 201 201",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "FJ",
+   "name": "Fiji",
+   "emergency": "911",
+   "aliases": [
+    "republic of fiji"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "1543",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "FI",
+   "name": "Finland",
+   "emergency": "112",
+   "aliases": [
+    "republic of finland"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "09 2525 0111",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "FR",
+   "name": "France",
+   "emergency": "Police 17, Ambulance 112 or 15, Fire 112 or 18",
+   "aliases": [
+    "french republic"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "3114",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "GF",
+   "name": "French Guiana",
+   "emergency": "112",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "3114",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "PF",
+   "name": "French Polynesia",
+   "emergency": "112",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "444 767",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    },
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "89 20 25 23 (Vodafone)",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    },
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "87 20 25 23 (Vini)",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "GE",
+   "name": "Georgia",
+   "emergency": "112",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "116 123",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "DE",
+   "name": "Germany",
+   "emergency": "Police 110, Ambulance 112, Fire 112",
+   "aliases": [
+    "federal republic of germany"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "116 123",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    },
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0800 111 0111",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    },
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0800 111 0222",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "GH",
+   "name": "Ghana",
+   "emergency": "112",
+   "aliases": [
+    "republic of ghana"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "024 447 1279",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "GI",
+   "name": "Gibraltar",
+   "emergency": "Police 199 or 112 or 999, Ambulance 190 or 112 or 999, Fire 190 or 112 or 999",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "116 123",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "GR",
+   "name": "Greece",
+   "emergency": "Police 100 or 112, Ambulance 166 or 112, Fire 199 or 112",
+   "aliases": [
+    "hellenic republic"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "1018",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "GL",
+   "name": "Greenland",
+   "emergency": "112",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "801180",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "GD",
+   "name": "Grenada",
+   "emergency": "911",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "(473) 440-6849",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "GP",
+   "name": "Guadeloupe",
+   "emergency": "112",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "3114",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "GU",
+   "name": "Guam",
+   "emergency": "911",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "988",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "GT",
+   "name": "Guatemala",
+   "emergency": "Police 110, Ambulance 122 CBV (national) 123 CBM (municipal lo, Fire 122 CBV (national) 123 CBM (municipal lo",
+   "aliases": [
+    "republic of guatemala"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "1503",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "GG",
+   "name": "Guernsey",
+   "emergency": "112 or 999",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "116 123",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "GY",
+   "name": "Guyana",
+   "emergency": "Police 911, Ambulance 913, Fire 912",
+   "aliases": [
+    "republic of guyana"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "915",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "HT",
+   "name": "Haiti",
+   "emergency": "Police 114, Ambulance 116, Fire 115",
+   "aliases": [
+    "republic of haiti"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "116",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "HN",
+   "name": "Honduras",
+   "emergency": "Police 911, Ambulance 195, Fire 198",
+   "aliases": [
+    "republic of honduras"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "150",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "HK",
+   "name": "Hong Kong",
+   "emergency": "999",
+   "aliases": [
+    "hong kong special administrative region of china"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "2389 2222",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "HU",
+   "name": "Hungary",
+   "emergency": "Police 112 or 107, Ambulance 112 or 104, Fire 112 or 105",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "116123",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "IS",
+   "name": "Iceland",
+   "emergency": "112",
+   "aliases": [
+    "republic of iceland"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "1717",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "IN",
+   "name": "India",
+   "emergency": "112",
+   "aliases": [
+    "republic of india"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "14416",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "ID",
+   "name": "Indonesia",
+   "emergency": "112",
+   "aliases": [
+    "republic of indonesia"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "119 (Press 8)",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "IR",
+   "name": "Iran",
+   "emergency": "Police 110, Ambulance 115, Fire 125",
+   "aliases": [
+    "iran, islamic republic of",
+    "islamic republic of iran"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "1480",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "IQ",
+   "name": "Iraq",
+   "emergency": "112 or 911",
+   "aliases": [
+    "republic of iraq"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0750 309 6649",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    },
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "053 339 0840",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "IE",
+   "name": "Ireland",
+   "emergency": "112 or 999",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "116 123",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "IM",
+   "name": "Isle of Man",
+   "emergency": "112 or 999",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0808 802 1221",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "IL",
+   "name": "Israel",
+   "emergency": "Police 100, Ambulance 101, Fire 102",
+   "aliases": [
+    "state of israel"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "1201",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "IT",
+   "name": "Italy",
+   "emergency": "112",
+   "aliases": [
+    "italian republic"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "02 99777",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "CI",
+   "name": "Ivory Coast",
+   "emergency": "Police 110 or 111 or 170, Ambulance 185, Fire 180",
+   "aliases": [
+    "côte d'ivoire",
+    "republic of côte d'ivoire"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "143",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "JM",
+   "name": "Jamaica",
+   "emergency": "Police 119, Ambulance 110, Fire 110",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "(888) 639-5433",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "JP",
+   "name": "Japan",
+   "emergency": "Police 110, Ambulance 119, Fire 119",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0120 061 338",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "JE",
+   "name": "Jersey",
+   "emergency": "112 or 999",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "116 123",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "JO",
+   "name": "Jordan",
+   "emergency": "911",
+   "aliases": [
+    "hashemite kingdom of jordan"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "079 544 0416",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "KZ",
+   "name": "Kazakhstan",
+   "emergency": "112",
+   "aliases": [
+    "republic of kazakhstan"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "150",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "KE",
+   "name": "Kenya",
+   "emergency": "112 or 999 or 911",
+   "aliases": [
+    "republic of kenya"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0722 178 177",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "KI",
+   "name": "Kiribati",
+   "emergency": "100 or 999",
+   "aliases": [
+    "republic of kiribati"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "189",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "XK",
+   "name": "Kosovo",
+   "emergency": "Police 192, Ambulance 194, Fire 193",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0800 12345",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "KW",
+   "name": "Kuwait",
+   "emergency": "112",
+   "aliases": [
+    "state of kuwait"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "147",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "KG",
+   "name": "Kyrgyzstan",
+   "emergency": "112",
+   "aliases": [
+    "kyrgyz republic"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "111",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "LA",
+   "name": "Laos",
+   "emergency": "Police 191, Ambulance 195, Fire 190",
+   "aliases": [
+    "lao people's democratic republic"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "1362",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "LV",
+   "name": "Latvia",
+   "emergency": "112",
+   "aliases": [
+    "republic of latvia"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "116123",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "LB",
+   "name": "Lebanon",
+   "emergency": "Police 999 or 112, Ambulance 140, Fire 175",
+   "aliases": [
+    "lebanese republic"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "1564",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "LR",
+   "name": "Liberia",
+   "emergency": "911",
+   "aliases": [
+    "republic of liberia"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "6534308",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "LI",
+   "name": "Liechtenstein",
+   "emergency": "Police 117, Ambulance 144, Fire 118",
+   "aliases": [
+    "principality of liechtenstein"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "147",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "LT",
+   "name": "Lithuania",
+   "emergency": "112",
+   "aliases": [
+    "republic of lithuania"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "116 123",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "LU",
+   "name": "Luxembourg",
+   "emergency": "112",
+   "aliases": [
+    "grand duchy of luxembourg"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "45-45-45",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "MO",
+   "name": "Macau",
+   "emergency": "999",
+   "aliases": [
+    "macao",
+    "macao special administrative region of china"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "2852 5222",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "MW",
+   "name": "Malawi",
+   "emergency": "Police 997, Ambulance 998, Fire 999",
+   "aliases": [
+    "republic of malawi"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0999 399 765 (Airtel)",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    },
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "885 400 502 (TNM)",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "MY",
+   "name": "Malaysia",
+   "emergency": "999",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "15555",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "MV",
+   "name": "Maldives",
+   "emergency": "911",
+   "aliases": [
+    "republic of maldives"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "1677",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "ML",
+   "name": "Mali",
+   "emergency": "Police 17, Ambulance 15, Fire 18",
+   "aliases": [
+    "republic of mali"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "8000 1115",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "MT",
+   "name": "Malta",
+   "emergency": "112",
+   "aliases": [
+    "republic of malta"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "179",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "MH",
+   "name": "Marshall Islands",
+   "emergency": "911",
+   "aliases": [
+    "republic of the marshall islands"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "988",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "MQ",
+   "name": "Martinique",
+   "emergency": "112",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "3114",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "MU",
+   "name": "Mauritius",
+   "emergency": "Police 112, Ambulance 114, Fire 115",
+   "aliases": [
+    "republic of mauritius"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "800 93 93",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "YT",
+   "name": "Mayotte",
+   "emergency": "112",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "3114",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "MX",
+   "name": "Mexico",
+   "emergency": "911",
+   "aliases": [
+    "united mexican states"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "55-5259-8121",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "MD",
+   "name": "Moldova",
+   "emergency": "112",
+   "aliases": [
+    "moldova, republic of",
+    "republic of moldova"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "022 593 593",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "MC",
+   "name": "Monaco",
+   "emergency": "Police 17, Ambulance 112 or 18, Fire 112 or 18",
+   "aliases": [
+    "principality of monaco"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0800 91 90 10",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "MN",
+   "name": "Mongolia",
+   "emergency": "105",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "1800-2000",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "Montenegro",
+   "emergency": "Police 122 or 112, Ambulance 124 or 112, Fire 123 or 112",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "116 111",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "MA",
+   "name": "Morocco",
+   "emergency": "Police 19, Ambulance 15, Fire 15",
+   "aliases": [
+    "kingdom of morocco"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0522 25 25 25",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "MM",
+   "name": "Myanmar",
+   "emergency": "999",
+   "aliases": [
+    "burma",
+    "republic of myanmar"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "09 765 400 200",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "Namibia",
+   "emergency": "10 111",
+   "aliases": [
+    "republic of namibia"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "116",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "NR",
+   "name": "Nauru",
+   "emergency": "Police 110, Ambulance 111, Fire 112",
+   "aliases": [
+    "republic of nauru"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "249",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "NP",
+   "name": "Nepal",
+   "emergency": "Police 100, Ambulance 102, Fire 101",
+   "aliases": [
+    "federal democratic republic of nepal"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "1166",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "NL",
+   "name": "Netherlands",
+   "emergency": "112",
+   "aliases": [
+    "kingdom of the netherlands"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "113",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "NC",
+   "name": "New Caledonia",
+   "emergency": "112",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "05 30 30",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "NZ",
+   "name": "New Zealand",
+   "emergency": "111",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "1737",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "NI",
+   "name": "Nicaragua",
+   "emergency": "Police 118, Ambulance 128, Fire 115",
+   "aliases": [
+    "republic of nicaragua"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "2222 4830",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "NG",
+   "name": "Nigeria",
+   "emergency": "112",
+   "aliases": [
+    "federal republic of nigeria"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0800 078 7746",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "NF",
+   "name": "Norfolk Island",
+   "emergency": "",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "13 11 14",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "MK",
+   "name": "North Macedonia",
+   "emergency": "Police 192 or 112, Ambulance 194 or 112, Fire 193 or 112",
+   "aliases": [
+    "macedonia",
+    "republic of north macedonia"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "070 390 632",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "MP",
+   "name": "Northern Mariana Islands",
+   "emergency": "911",
+   "aliases": [
+    "commonwealth of the northern mariana islands"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "988",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "NO",
+   "name": "Norway",
+   "emergency": "Police 112, Ambulance 113, Fire 110",
+   "aliases": [
+    "kingdom of norway"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "116 123",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "OM",
+   "name": "Oman",
+   "emergency": "9999",
+   "aliases": [
+    "sultanate of oman"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "800-77788",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "PK",
+   "name": "Pakistan",
+   "emergency": "Police 15, Ambulance 115 and 1122, Fire 16",
+   "aliases": [
+    "islamic republic of pakistan"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0304 111 1741",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "PW",
+   "name": "Palau",
+   "emergency": "911",
+   "aliases": [
+    "republic of palau"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "988",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "PS",
+   "name": "Palestine",
+   "emergency": "Police 100, Ambulance 101, Fire 102",
+   "aliases": [
+    "palestine, state of",
+    "state of palestine",
+    "the state of palestine"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "164",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "PA",
+   "name": "Panama",
+   "emergency": "911",
+   "aliases": [
+    "republic of panama"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "147",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "PG",
+   "name": "Papua New Guinea",
+   "emergency": "Police 112, Ambulance 111, Fire 110",
+   "aliases": [
+    "independent state of papua new guinea"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "7147 1518",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "PY",
+   "name": "Paraguay",
+   "emergency": "911",
+   "aliases": [
+    "republic of paraguay"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "155",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "PE",
+   "name": "Peru",
+   "emergency": "911",
+   "aliases": [
+    "republic of peru"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "113 (Press 5)",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "PH",
+   "name": "Philippines",
+   "emergency": "911",
+   "aliases": [
+    "republic of the philippines"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "1553",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "PL",
+   "name": "Poland",
+   "emergency": "Police 997 or 112, Ambulance 999 or 112, Fire 998 or 112",
+   "aliases": [
+    "republic of poland"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "116 123",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "PT",
+   "name": "Portugal",
+   "emergency": "112",
+   "aliases": [
+    "portuguese republic"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "1411",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "PR",
+   "name": "Puerto Rico",
+   "emergency": "911",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "988",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "QA",
+   "name": "Qatar",
+   "emergency": "999",
+   "aliases": [
+    "state of qatar"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "16000 (Press 4)",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "RO",
+   "name": "Romania",
+   "emergency": "112",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0374 456 420",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "RU",
+   "name": "Russia",
+   "emergency": "Police 102 or 112, Ambulance 103 or 112, Fire 101 or 112",
+   "aliases": [
+    "russian federation"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "8 (495) 989-50-50",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "RW",
+   "name": "Rwanda",
+   "emergency": "Police 112, Ambulance 912, Fire 112",
+   "aliases": [
+    "rwandese republic"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "8015",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "RE",
+   "name": "Réunion",
+   "emergency": "112",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "3114",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "BL",
+   "name": "Saint Barthélemy",
+   "emergency": "Police 17, Ambulance 17, Fire 18",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "3114",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "KN",
+   "name": "Saint Kitts and Nevis",
+   "emergency": "911",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "(869) 465-5000",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "LC",
+   "name": "Saint Lucia",
+   "emergency": "911 or 999",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "203",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "MF",
+   "name": "Saint Martin",
+   "emergency": "Police 17, Ambulance 15, Fire 18",
+   "aliases": [
+    "saint martin (french part)"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "3114",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "PM",
+   "name": "Saint Pierre and Miquelon",
+   "emergency": "112",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "3114",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "VC",
+   "name": "Saint Vincent and the Grenadines",
+   "emergency": "999 or 911 or 112",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "(784) 456-1044",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "WS",
+   "name": "Samoa",
+   "emergency": "999",
+   "aliases": [
+    "independent state of samoa"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "800 7874",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "SM",
+   "name": "San Marino",
+   "emergency": "Police 112 or 113, Ambulance 118, Fire 115",
+   "aliases": [
+    "republic of san marino"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "800 995 988",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "SA",
+   "name": "Saudi Arabia",
+   "emergency": "911",
+   "aliases": [
+    "kingdom of saudi arabia"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "9200 33360",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "SN",
+   "name": "Senegal",
+   "emergency": "Police 17, Ambulance 18, Fire 1515",
+   "aliases": [
+    "republic of senegal"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "33 889 38 00",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "RS",
+   "name": "Serbia",
+   "emergency": "Police 192 or 112, Ambulance 194, Fire 193",
+   "aliases": [
+    "republic of serbia"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0800/309-309",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "SC",
+   "name": "Seychelles",
+   "emergency": "112 or 999",
+   "aliases": [
+    "republic of seychelles"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "432 3535",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "SL",
+   "name": "Sierra Leone",
+   "emergency": "Police 019, Ambulance 999, Fire 999",
+   "aliases": [
+    "republic of sierra leone"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "078 522 787",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "SG",
+   "name": "Singapore",
+   "emergency": "Police 999, Ambulance 995, Fire 995",
+   "aliases": [
+    "republic of singapore"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "1767",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "SX",
+   "name": "Sint Maarten",
+   "emergency": "Police 911, Ambulance 912, Fire 919",
+   "aliases": [
+    "sint maarten (dutch part)"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "721 585-5556",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "SK",
+   "name": "Slovakia",
+   "emergency": "Police 112 or 158, Ambulance 112 or 155, Fire 112 or 150",
+   "aliases": [
+    "slovak republic"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0800 800 566",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "SI",
+   "name": "Slovenia",
+   "emergency": "Police 113, Ambulance 112, Fire 112",
+   "aliases": [
+    "republic of slovenia"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "116 123",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "SB",
+   "name": "Solomon Islands",
+   "emergency": "911 or 999",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "699",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "ZA",
+   "name": "South Africa",
+   "emergency": "Police 10 111, Ambulance 10 177, Fire 10 177",
+   "aliases": [
+    "republic of south africa"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0800 567 567",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "KR",
+   "name": "South Korea",
+   "emergency": "",
+   "aliases": [
+    "korea, republic of"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "109",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "SS",
+   "name": "South Sudan",
+   "emergency": "999",
+   "aliases": [
+    "republic of south sudan"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "778",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "ES",
+   "name": "Spain",
+   "emergency": "112",
+   "aliases": [
+    "kingdom of spain"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "024",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "LK",
+   "name": "Sri Lanka",
+   "emergency": "Police 119, Ambulance 110, Fire 110",
+   "aliases": [
+    "democratic socialist republic of sri lanka"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "1926",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "SD",
+   "name": "Sudan",
+   "emergency": "999",
+   "aliases": [
+    "republic of the sudan"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "011 555 253",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "SR",
+   "name": "Suriname",
+   "emergency": "115",
+   "aliases": [
+    "republic of suriname"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "123",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "SJ",
+   "name": "Svalbard",
+   "emergency": "",
+   "aliases": [
+    "svalbard and jan mayen"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "116 123",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "SE",
+   "name": "Sweden",
+   "emergency": "112",
+   "aliases": [
+    "kingdom of sweden"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "90101",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "CH",
+   "name": "Switzerland",
+   "emergency": "Police 117, Ambulance 144, Fire 118",
+   "aliases": [
+    "swiss confederation"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "143",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "SY",
+   "name": "Syria",
+   "emergency": "Police 112, Ambulance 110, Fire 113",
+   "aliases": [
+    "syrian arab republic"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0944 868 444",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "ST",
+   "name": "São Tomé and Príncipe",
+   "emergency": "112",
+   "aliases": [
+    "democratic republic of sao tome and principe",
+    "sao tome and principe"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "222 2222",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "TW",
+   "name": "Taiwan",
+   "emergency": "Police 110, Ambulance 119, Fire 119",
+   "aliases": [
+    "republic of china",
+    "taiwan, province of china"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "1925",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "TJ",
+   "name": "Tajikistan",
+   "emergency": "112",
+   "aliases": [
+    "republic of tajikistan"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "935 50 50 50",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "TZ",
+   "name": "Tanzania",
+   "emergency": "Police 112, Ambulance 114, Fire 115",
+   "aliases": [
+    "tanzania, united republic of",
+    "united republic of tanzania"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "199",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "TH",
+   "name": "Thailand",
+   "emergency": "Police 191, Ambulance 1669, Fire 199",
+   "aliases": [
+    "kingdom of thailand"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "1323",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "TL",
+   "name": "Timor-Leste",
+   "emergency": "112",
+   "aliases": [
+    "democratic republic of timor-leste",
+    "east timor"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "7725 4597",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "TG",
+   "name": "Togo",
+   "emergency": "Police 117, Ambulance 8200, Fire 118",
+   "aliases": [
+    "togolese republic"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "2221 1234",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "TO",
+   "name": "Tonga",
+   "emergency": "911",
+   "aliases": [
+    "kingdom of tonga"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "22091",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "TT",
+   "name": "Trinidad and Tobago",
+   "emergency": "Police 999 or 911, Ambulance 811, Fire 990",
+   "aliases": [
+    "republic of trinidad and tobago"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "800-5588",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "TN",
+   "name": "Tunisia",
+   "emergency": "Police 197, Ambulance 190, Fire 198",
+   "aliases": [
+    "republic of tunisia"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "8010 3666",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "TR",
+   "name": "Turkiye",
+   "emergency": "Police 112 or 911 or 153, Ambulance 112 or 911, Fire 112 or 911",
+   "aliases": [
+    "republic of türkiye",
+    "turkey",
+    "türkiye"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "183",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "TM",
+   "name": "Turkmenistan",
+   "emergency": "Police 02, Ambulance 03, Fire 01",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "8 (12) 229 389",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "UG",
+   "name": "Uganda",
+   "emergency": "Police 112, Ambulance 911, Fire 112",
+   "aliases": [
+    "republic of uganda"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0800 21 21 21",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "UA",
+   "name": "Ukraine",
+   "emergency": "Police 102, Ambulance 103, Fire 101",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0800100102",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "AE",
+   "name": "United Arab Emirates",
+   "emergency": "Police 999, Ambulance 998, Fire 997",
+   "aliases": [
+    "uae"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "800 4673",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "GB",
+   "name": "United Kingdom",
+   "emergency": "999 or 112",
+   "aliases": [
+    "britain",
+    "england",
+    "great britain",
+    "london",
+    "northern ireland",
+    "scotland",
+    "u k",
+    "uk",
+    "united kingdom of great britain and northern ireland",
+    "wales"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "England: 116 123",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    },
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "Northern Ireland: 0808 808 8000",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    },
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "Scotland: 0800 83 85 87",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    },
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "116 123",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    },
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0800 58 58 58 (5pm - midnight)",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    },
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "Wales: 0800 132 737",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "US",
+   "name": "United States",
+   "emergency": "911",
+   "aliases": [
+    "alabama",
+    "alaska",
+    "america",
+    "arizona",
+    "arkansas",
+    "california",
+    "colorado",
+    "connecticut",
+    "delaware",
+    "florida",
+    "hawaii",
+    "idaho",
+    "illinois",
+    "indiana",
+    "iowa",
+    "kansas",
+    "kentucky",
+    "louisiana",
+    "maine",
+    "maryland",
+    "massachusetts",
+    "michigan",
+    "minnesota",
+    "mississippi",
+    "missouri",
+    "montana",
+    "nebraska",
+    "nevada",
+    "new hampshire",
+    "new jersey",
+    "new mexico",
+    "new york",
+    "north carolina",
+    "north dakota",
+    "ohio",
+    "oklahoma",
+    "oregon",
+    "pennsylvania",
+    "rhode island",
+    "south carolina",
+    "south dakota",
+    "tennessee",
+    "texas",
+    "u s",
+    "u s a",
+    "united states of america",
+    "usa",
+    "utah",
+    "vermont",
+    "virginia",
+    "washington",
+    "washington dc",
+    "west virginia",
+    "wisconsin",
+    "wyoming"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "988",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    },
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "Veterans & Military: Press 1 · Text 838255 Spanish (Español): Press 2 · Text AYUDA",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    },
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "LGBTQ+ Youth (under 25): Press 3 · Text YOUTH",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "VI",
+   "name": "United States Virgin Islands",
+   "emergency": "911",
+   "aliases": [
+    "u.s. virgin islands",
+    "us virgin islands",
+    "virgin islands of the united states",
+    "virgin islands, u.s."
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "988",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "UY",
+   "name": "Uruguay",
+   "emergency": "911",
+   "aliases": [
+    "eastern republic of uruguay"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0800 0767",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "UZ",
+   "name": "Uzbekistan",
+   "emergency": "Police 102, Ambulance 103, Fire 101",
+   "aliases": [
+    "republic of uzbekistan"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "71 276 49 66",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "VU",
+   "name": "Vanuatu",
+   "emergency": "Police 111, Ambulance 112, Fire 113",
+   "aliases": [
+    "republic of vanuatu"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "7716156 (Vodafone)",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    },
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "7716155 (Digicel)",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "VA",
+   "name": "Vatican City",
+   "emergency": "112",
+   "aliases": [
+    "holy see (vatican city state)"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "06 7720 8977",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "VE",
+   "name": "Venezuela",
+   "emergency": "911 and 171",
+   "aliases": [
+    "bolivarian republic of venezuela",
+    "venezuela, bolivarian republic of"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "0424-290-7338",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "VN",
+   "name": "Vietnam",
+   "emergency": "Police 113, Ambulance 115, Fire 114",
+   "aliases": [
+    "socialist republic of viet nam",
+    "viet nam"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "1900 6233",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "YE",
+   "name": "Yemen",
+   "emergency": "Police 194, Ambulance 191, Fire 191",
+   "aliases": [
+    "republic of yemen"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "8000202",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "ZM",
+   "name": "Zambia",
+   "emergency": "999",
+   "aliases": [
+    "republic of zambia"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "096 026 4040",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "ZW",
+   "name": "Zimbabwe",
+   "emergency": "999",
+   "aliases": [
+    "republic of zimbabwe"
+   ],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "029 226 5000",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "AX",
+   "name": "Åland Islands",
+   "emergency": "112",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "Crisis / suicide prevention line",
+     "phone": "116 123",
+     "source": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": "Another country",
+   "emergency": "",
+   "aliases": [],
+   "lines": [
+    {
+     "name": "International helpline directory",
+     "phone": "",
+     "url": "https://findahelpline.com",
+     "notes": "Lists crisis lines by country."
+    }
+   ]
+  }
+ ]
+}

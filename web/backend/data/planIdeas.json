@@ -1,0 +1,1162 @@
+[
+  {
+    "id": "burnout-weekly-unplugged-day",
+    "situation": "burnout",
+    "title": "Take a day with no obligations",
+    "idea": "Take a day with no obligations: phone and alarms off, sleep in, and do only what you feel like. It can help you recharge.",
+    "why": "A full day free of obligations gives you a chance to recharge.",
+    "tags": [
+      "burnout",
+      "exhausted",
+      "drained",
+      "tired",
+      "rest",
+      "day off",
+      "overwork",
+      "unplug",
+      "weekend",
+      "recharge"
+    ],
+    "source": {
+      "name": "Grand Valley State University Student Life",
+      "url": "https://gvsu.edu/studentlife/weekly/watching-for-burnout-and-how-to-recover-from-212.htm"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "burnout-track-time-drains",
+    "situation": "burnout",
+    "title": "Notice what drains your time and scale back",
+    "idea": "Notice which commitment is taking up the most of your time, then think about where you could pull back a little so you have more time for yourself.",
+    "why": "Seeing what takes your time helps you find where you can ease off.",
+    "tags": [
+      "burnout",
+      "overcommitted",
+      "overwhelmed",
+      "too much",
+      "workload",
+      "drained",
+      "study",
+      "say no",
+      "busy",
+      "exhausted"
+    ],
+    "source": {
+      "name": "Grand Valley State University Student Life",
+      "url": "https://gvsu.edu/studentlife/weekly/watching-for-burnout-and-how-to-recover-from-212.htm"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "burnout-set-daily-stop-time",
+    "situation": "burnout",
+    "title": "Set a firm daily stop time for study",
+    "idea": "Choose an end time for study or work each day and close the laptop then, keeping some part of every day free. Hold to it across weeks so evenings become reliably yours.",
+    "why": "A clear end point creates a boundary so you can mentally switch off.",
+    "tags": [
+      "burnout",
+      "study",
+      "overwork",
+      "exhausted",
+      "boundaries",
+      "routine",
+      "stop time",
+      "drained",
+      "student",
+      "switch off"
+    ],
+    "source": {
+      "name": "Curtin University",
+      "url": "https://www.curtin.edu.au/news/oasis-news/beating-burnout-part-3-recovering-from-burnout-without-waiting-for-holidays/"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "burnout-protect-sleep-movement-hobbies",
+    "situation": "burnout",
+    "title": "Protect weekly time for sleep, movement, hobbies",
+    "idea": "Treat sleep, movement, hobbies and time with people you enjoy as part of your week, not distractions from study, because they help fuel you.",
+    "why": "They are part of having a life outside your studies and help keep your energy up.",
+    "tags": [
+      "burnout",
+      "tired",
+      "exhausted",
+      "hobbies",
+      "sleep",
+      "exercise",
+      "friends",
+      "student",
+      "routine",
+      "drained"
+    ],
+    "source": {
+      "name": "Curtin University",
+      "url": "https://www.curtin.edu.au/news/oasis-news/beating-burnout-part-3-recovering-from-burnout-without-waiting-for-holidays/"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "burnout-daily-downtime-routine",
+    "situation": "burnout",
+    "title": "Build a steady daily downtime and sleep routine",
+    "idea": "Make regular rest a priority by setting aside some downtime each day, and look after your sleep habits.",
+    "why": "Daily rest may support sleep and reduce stress, and poor sleep habits can make burnout worse.",
+    "tags": [
+      "burnout",
+      "sleep",
+      "tired",
+      "exhausted",
+      "downtime",
+      "routine",
+      "rest",
+      "drained",
+      "insomnia",
+      "evenings"
+    ],
+    "source": {
+      "name": "University of Maryland Graduate School",
+      "url": "https://gradschool.umd.edu/gradcounselor/burnout-graduate-students"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "burnout-recurring-friend-and-respite-time",
+    "situation": "burnout",
+    "title": "Schedule recurring time with friends and breaks",
+    "idea": "Catch up with a friend, perhaps a weekly walk or an occasional lunch or film, and do something you enjoy for yourself. If you care for someone, tell others it is too much alone and accept help.",
+    "why": "Friends who listen help, and time off renews your energy.",
+    "tags": [
+      "burnout",
+      "caring",
+      "carer",
+      "drained",
+      "exhausted",
+      "friends",
+      "social",
+      "hobbies",
+      "respite",
+      "help"
+    ],
+    "source": {
+      "name": "Harvard Health Publishing",
+      "url": "https://www.harvardhealth.org/staying-healthy/relief-for-caregiver-burnout"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "conflict-weekly-check-in-slot",
+    "situation": "conflict",
+    "title": "Keep a regular weekly check-in time",
+    "idea": "Set aside a regular time to talk with someone you trust, such as a friend or family member. Checking in often means small worries are shared early, before they build up.",
+    "why": "Checking in regularly makes challenges easier to manage as they arise, and a set time means you don't have to start from scratch each time.",
+    "tags": [
+      "friend",
+      "family",
+      "argument",
+      "falling out",
+      "check-in",
+      "routine",
+      "support",
+      "talking"
+    ],
+    "source": {
+      "name": "NHS Every Mind Matters",
+      "url": "https://www.nhs.uk/every-mind-matters/lifes-challenges/maintaining-healthy-relationships-and-mental-wellbeing/"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "conflict-trusted-people-list",
+    "situation": "conflict",
+    "title": "Build a list of trusted people to confide in",
+    "idea": "Make a list of a few people you trust. When you talk to one, say whether you want advice, support or just a listener, and jot down a few thoughts beforehand if that helps.",
+    "why": "Talking about how you feel gets easier with practice, and if one person can't support you, it isn't a reflection on you.",
+    "tags": [
+      "falling out",
+      "friend",
+      "family",
+      "talking",
+      "trust",
+      "support",
+      "notes",
+      "confide"
+    ],
+    "source": {
+      "name": "NHS Every Mind Matters",
+      "url": "https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/how-to-talk-about-your-mental-health"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "conflict-limits-on-availability",
+    "situation": "conflict",
+    "title": "Practise setting limits on your availability",
+    "idea": "Think about what you can realistically offer someone, and set clear limits on it. You can still be there for them while keeping the relationship from feeling so taxing.",
+    "why": "Clear limits help a strained relationship feel less taxing, and you don't need to cut ties to make that change.",
+    "tags": [
+      "boundaries",
+      "family",
+      "parents",
+      "friend",
+      "argument",
+      "limits",
+      "draining",
+      "saying no"
+    ],
+    "source": {
+      "name": "Harvard Health Publishing",
+      "url": "https://www.harvardhealth.org/staying-healthy/fostering-healthy-relationships"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "conflict-invest-less-time",
+    "situation": "conflict",
+    "title": "Spend less time on draining relationships",
+    "idea": "If a relationship has stopped feeling positive, consider whether it should take up less of your time, and step back a little. Keep looking after yourself with sleep, physical activity and things you enjoy.",
+    "why": "You don't have to cut ties with someone to change things; taking a step back can make a difficult relationship less taxing.",
+    "tags": [
+      "family",
+      "friend",
+      "falling out",
+      "drained",
+      "boundaries",
+      "toxic",
+      "space",
+      "stress"
+    ],
+    "source": {
+      "name": "Harvard Health Publishing",
+      "url": "https://www.harvardhealth.org/staying-healthy/fostering-healthy-relationships"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "conflict-join-regular-group",
+    "situation": "conflict",
+    "title": "Join an interest group or class",
+    "idea": "Look for a local club, class, walk or online meet-up built around something you enjoy, and try going along. Simply being around people who share your interests can help.",
+    "why": "Being around others who share your interests may be enough to help, and it gives you a place to feel connected.",
+    "tags": [
+      "new friends",
+      "club",
+      "group",
+      "class",
+      "loneliness",
+      "falling out",
+      "social",
+      "hobby",
+      "student"
+    ],
+    "source": {
+      "name": "Samaritans",
+      "url": "https://www.samaritans.org/how-we-can-help/if-youre-having-difficult-time/if-youre-feeling-lonely/"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "conflict-regular-volunteering",
+    "situation": "conflict",
+    "title": "Try volunteering for a cause you care about",
+    "idea": "Look into volunteering. It is a good way to meet people, and you could choose something you enjoy or care about. Seeing the benefits of what you do can feel rewarding.",
+    "why": "Volunteering is a way to meet people, and seeing the benefits of your actions can boost your mental wellbeing.",
+    "tags": [
+      "volunteering",
+      "new friends",
+      "community",
+      "falling out",
+      "lonely",
+      "student",
+      "routine",
+      "belonging"
+    ],
+    "source": {
+      "name": "NHS Every Mind Matters",
+      "url": "https://www.nhs.uk/every-mind-matters/lifes-challenges/loneliness/"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "grief-peer-support-group",
+    "situation": "grief",
+    "title": "Join a peer grief support group",
+    "idea": "Consider peer support, where people who have been through loss use their experiences to help each other.",
+    "why": "Hearing from others with similar experiences can help you feel less on your own.",
+    "tags": [
+      "grief",
+      "loss",
+      "bereavement",
+      "died",
+      "support group",
+      "peer support",
+      "lonely",
+      "death"
+    ],
+    "source": {
+      "name": "NHS",
+      "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/grief-bereavement-loss/"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "grief-regular-exercise",
+    "situation": "grief",
+    "title": "Build regular exercise into your week",
+    "idea": "Regular exercise of a kind you enjoy may lift your mood and help you sleep a little better.",
+    "why": "Regular exercise may lift mood and help you sleep while you are grieving.",
+    "tags": [
+      "grief",
+      "loss",
+      "exercise",
+      "movement",
+      "sleep",
+      "mood",
+      "routine",
+      "bereavement"
+    ],
+    "source": {
+      "name": "NHS",
+      "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/grief-bereavement-loss/"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "grief-keep-everyday-routines",
+    "situation": "grief",
+    "title": "Keep gentle everyday routines going",
+    "idea": "Stick to familiar routines where you can, such as classes, seeing friends and hobbies, to give yourself stability.",
+    "why": "Keeping up your usual habits is one of the ways suggested for coping with grief.",
+    "tags": [
+      "grief",
+      "loss",
+      "routine",
+      "classes",
+      "friends",
+      "hobbies",
+      "student",
+      "died"
+    ],
+    "source": {
+      "name": "University of Rhode Island Counseling Center",
+      "url": "https://web.uri.edu/counseling/grief_coping/"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "grief-creative-outlet",
+    "situation": "grief",
+    "title": "Make art or music as an outlet",
+    "idea": "If it appeals, try painting, drawing, music or crafts as a way to release feelings.",
+    "why": "Creative activity is suggested as a way to express feelings while coping with grief.",
+    "tags": [
+      "grief",
+      "loss",
+      "creative",
+      "art",
+      "music",
+      "crafts",
+      "painting",
+      "expression"
+    ],
+    "source": {
+      "name": "University of Rhode Island Counseling Center",
+      "url": "https://web.uri.edu/counseling/grief_coping/"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "grief-student-grief-workshops",
+    "situation": "grief",
+    "title": "Attend student grief workshops and peer groups",
+    "idea": "If your university has a student grief network, see what workshops and groups it runs. They aim to be friendly and non-judgemental spaces to meet others in a similar position.",
+    "why": "These groups aim to be friendly, non-judgemental places to connect with others who understand.",
+    "tags": [
+      "grief",
+      "student",
+      "university",
+      "workshop",
+      "peer group",
+      "loss",
+      "bereavement",
+      "mindfulness"
+    ],
+    "source": {
+      "name": "University of Reading",
+      "url": "https://www.reading.ac.uk/essentials/Support-And-Wellbeing/support-with-grief-at-university"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "grief-memory-box",
+    "situation": "grief",
+    "title": "Gather a memory box at your own pace",
+    "idea": "If you wish, make a memory box for the person, and perhaps talk with others about how they remember them.",
+    "why": "A keepsake box is offered as a way to hold memories of someone who has died.",
+    "tags": [
+      "grief",
+      "loss",
+      "memory box",
+      "keepsakes",
+      "memorial",
+      "remembrance",
+      "died",
+      "family"
+    ],
+    "source": {
+      "name": "University of Reading",
+      "url": "https://www.reading.ac.uk/essentials/Support-And-Wellbeing/support-with-grief-at-university"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "grief-volunteer-meaningful-cause",
+    "situation": "grief",
+    "title": "Volunteer for a cause that matters",
+    "idea": "If you feel ready, get involved in a cause or organisation that was important to the person you lost.",
+    "why": "Supporting a cause they cared about is one way to honour them.",
+    "tags": [
+      "grief",
+      "loss",
+      "volunteering",
+      "cause",
+      "meaning",
+      "charity",
+      "remembrance",
+      "bereavement"
+    ],
+    "source": {
+      "name": "UTMB Counseling and Psychological Services",
+      "url": "https://www.utmb.edu/caps/grief-loss/helping-yourself"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "grief-plan-anniversaries-holidays",
+    "situation": "grief",
+    "title": "Plan ahead for anniversaries and holidays",
+    "idea": "Ahead of difficult dates, talk with family or friends about how you might spend them, and agree on a way to honour the person if you want.",
+    "why": "Planning ahead for anniversaries and holidays is suggested, including agreeing with relatives how to honour your loved one.",
+    "tags": [
+      "grief",
+      "anniversary",
+      "holidays",
+      "family",
+      "remembrance",
+      "ritual",
+      "loss",
+      "died"
+    ],
+    "source": {
+      "name": "UTMB Counseling and Psychological Services",
+      "url": "https://www.utmb.edu/caps/grief-loss/helping-yourself"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "heartbreak-join-regular-group",
+    "situation": "heartbreak",
+    "title": "Join a club or group",
+    "idea": "Pick a group, in person or online, built around something you like or want to try, and join in. It is one way to meet new people.",
+    "why": "Joining a group around your interests is a great route to meeting people.",
+    "tags": [
+      "breakup",
+      "lonely",
+      "friends",
+      "club",
+      "group",
+      "new people",
+      "social",
+      "student",
+      "meet people"
+    ],
+    "source": {
+      "name": "NHS Every Mind Matters",
+      "url": "https://www.nhs.uk/every-mind-matters/lifes-challenges/loneliness/"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "heartbreak-regular-volunteering",
+    "situation": "heartbreak",
+    "title": "Take up volunteering in your area",
+    "idea": "Look for a local volunteering role that suits you. It is a way to meet people, and seeing the difference your actions make can lift how you feel.",
+    "why": "Volunteering is a good way to meet people, and seeing the results of your efforts can lift wellbeing.",
+    "tags": [
+      "breakup",
+      "heartbreak",
+      "volunteering",
+      "lonely",
+      "purpose",
+      "meet people",
+      "community",
+      "free",
+      "student"
+    ],
+    "source": {
+      "name": "NHS Every Mind Matters",
+      "url": "https://www.nhs.uk/every-mind-matters/lifes-challenges/loneliness/"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "heartbreak-daily-routine",
+    "situation": "heartbreak",
+    "title": "Build a steady daily routine and stick to it",
+    "idea": "Set one or two small daily anchors, such as a walk or an evening shower, to give your days some stability while things feel unsettled.",
+    "why": "A small daily routine can give stability and help you stay grounded.",
+    "tags": [
+      "breakup",
+      "routine",
+      "structure",
+      "daily",
+      "grounded",
+      "ex",
+      "student",
+      "habits",
+      "stability"
+    ],
+    "source": {
+      "name": "Australian National University",
+      "url": "https://www.anu.edu.au/students/health-safety-wellbeing/mental-health/break-ups"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "heartbreak-new-interests-of-your-own",
+    "situation": "heartbreak",
+    "title": "Start interests that belong only to you",
+    "idea": "Try a new interest of your own, such as art, poetry or music, that has no reminders of your ex. It can help you regain meaning and balance.",
+    "why": "Activities that are yours alone help create a life apart from your ex and restore meaning and balance.",
+    "tags": [
+      "breakup",
+      "ex",
+      "hobby",
+      "new interest",
+      "art",
+      "music",
+      "identity",
+      "creative",
+      "rebuild"
+    ],
+    "source": {
+      "name": "Union College Counseling Center",
+      "url": "https://www.union.edu/counseling-center/resources/students/handouts/relationship-breakup"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "heartbreak-plan-hard-dates-with-people",
+    "situation": "heartbreak",
+    "title": "Plan get-togethers for hard dates ahead",
+    "idea": "Look at the calendar for holidays, anniversaries and other tough dates in the coming months, and arrange to spend them with friends or family in advance.",
+    "why": "Planning new things with friends or family on tough dates gives those days a different shape.",
+    "tags": [
+      "breakup",
+      "anniversary",
+      "holidays",
+      "friends",
+      "family",
+      "lonely",
+      "plans",
+      "support",
+      "ex"
+    ],
+    "source": {
+      "name": "Union College Counseling Center",
+      "url": "https://www.union.edu/counseling-center/resources/students/handouts/relationship-breakup"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "heartbreak-regular-time-with-friends",
+    "situation": "heartbreak",
+    "title": "Set regular time aside with friends and family",
+    "idea": "Set aside a regular time to talk with someone you trust outside the relationship, by call or message, and check in with each other often.",
+    "why": "Regular check-ins help you keep good connections, which can ease loneliness.",
+    "tags": [
+      "breakup",
+      "friends",
+      "family",
+      "lonely",
+      "support",
+      "call",
+      "weekly",
+      "reconnect",
+      "isolation"
+    ],
+    "source": {
+      "name": "NHS Every Mind Matters",
+      "url": "https://www.nhs.uk/every-mind-matters/lifes-challenges/our-personal-lives-and-relationships"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "heartbreak-move-regularly",
+    "situation": "heartbreak",
+    "title": "Go back to movement that helped before",
+    "idea": "Go back to something that helped you before, such as a long walk, a sport or a hobby, and look after eating and sleep too.",
+    "why": "Returning to what helped before is worth trying, and eating and sleeping enough help ease pressure on you.",
+    "tags": [
+      "breakup",
+      "exercise",
+      "sport",
+      "walking",
+      "dog",
+      "sleep",
+      "routine",
+      "movement",
+      "grief"
+    ],
+    "source": {
+      "name": "University of Warwick Wellbeing Support Services",
+      "url": "https://warwick.ac.uk/services/wss/topics/dealing_with_relationship_breakdowns/"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "heartbreak-creative-expression-habit",
+    "situation": "heartbreak",
+    "title": "Make writing, drawing or painting a habit",
+    "idea": "Try writing, drawing or painting how you feel whenever it suits you.",
+    "why": "Putting feelings into writing or art can help you let them out.",
+    "tags": [
+      "breakup",
+      "writing",
+      "journal",
+      "drawing",
+      "painting",
+      "creative",
+      "feelings",
+      "expression",
+      "heartbreak"
+    ],
+    "source": {
+      "name": "University of Texas at Dallas Counseling",
+      "url": "https://counseling.utdallas.edu/?p=760"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "loneliness-join-interest-group",
+    "situation": "loneliness",
+    "title": "Join a group around an interest",
+    "idea": "Look for a group, in person or online, that focuses on something you like or would like to try, and give it a go.",
+    "why": "Groups centred on things you enjoy give you a natural way to be around other people with similar interests.",
+    "tags": [
+      "lonely",
+      "friends",
+      "club",
+      "group",
+      "new city",
+      "moved",
+      "hobby",
+      "shared interests"
+    ],
+    "source": {
+      "name": "NHS Every Mind Matters",
+      "url": "https://www.nhs.uk/every-mind-matters/lifes-challenges/loneliness/"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "loneliness-regular-volunteering",
+    "situation": "loneliness",
+    "title": "Volunteer for a local cause",
+    "idea": "Think about volunteering for something you care about. It is a good way to meet people, and seeing the benefits of your actions can feel rewarding.",
+    "why": "Volunteering is a way to meet people, and seeing the benefits of your actions can boost your mental wellbeing.",
+    "tags": [
+      "lonely",
+      "volunteering",
+      "meet people",
+      "new city",
+      "moved",
+      "purpose",
+      "community",
+      "helping"
+    ],
+    "source": {
+      "name": "NHS Every Mind Matters",
+      "url": "https://www.nhs.uk/every-mind-matters/lifes-challenges/loneliness/"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "loneliness-get-to-know-neighbours",
+    "situation": "loneliness",
+    "title": "Get to know people in your neighbourhood",
+    "idea": "If you pass someone you recognise nearby, try smiling and saying hello. If you click with someone, you could suggest joining or setting up a local group together.",
+    "why": "Getting to know people in your area can ease isolation, especially when you have moved somewhere new.",
+    "tags": [
+      "lonely",
+      "moved",
+      "new area",
+      "neighbours",
+      "local",
+      "community",
+      "new country",
+      "friends"
+    ],
+    "source": {
+      "name": "NHS Every Mind Matters",
+      "url": "https://www.nhs.uk/every-mind-matters/lifes-challenges/loneliness/"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "loneliness-regular-contact-old-friends",
+    "situation": "loneliness",
+    "title": "Keep a regular chat going with old friends",
+    "idea": "Message old friends or family on a regular rhythm, or set up a group chat, to keep those connections going.",
+    "why": "Regular chats with friends and family can ease loneliness, and they help the person you contact too.",
+    "tags": [
+      "lonely",
+      "homesick",
+      "family",
+      "old friends",
+      "group chat",
+      "moved",
+      "new country",
+      "stay in touch"
+    ],
+    "source": {
+      "name": "NHS Every Mind Matters",
+      "url": "https://www.nhs.uk/every-mind-matters/lifes-challenges/loneliness/"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "loneliness-join-society-or-sports-club",
+    "situation": "loneliness",
+    "title": "Join a student society or sports club",
+    "idea": "Sign up for a society, sports club or class at your university and go along. It is an easy way to meet people who enjoy the same things as you.",
+    "why": "Clubs and societies bring together people with common interests, which makes starting conversations and finding friends easier.",
+    "tags": [
+      "lonely",
+      "university",
+      "student",
+      "society",
+      "sports club",
+      "new university",
+      "friends",
+      "freshers"
+    ],
+    "source": {
+      "name": "University of St Andrews",
+      "url": "https://st-andrews.ac.uk/guides/lonely-homesick-students"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "loneliness-study-in-shared-spaces",
+    "situation": "loneliness",
+    "title": "Study in shared spaces and explore the area",
+    "idea": "Try studying in a library or another shared space instead of your room, and get out to explore your new area with walks, a bus ride or a trip.",
+    "why": "Changing your surroundings and getting out and about helps you feel less stuck in your room and more at home in a new place.",
+    "tags": [
+      "lonely",
+      "student",
+      "library",
+      "routine",
+      "new city",
+      "explore",
+      "moved",
+      "walks"
+    ],
+    "source": {
+      "name": "University of St Andrews",
+      "url": "https://st-andrews.ac.uk/guides/lonely-homesick-students"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "loneliness-book-club-or-team",
+    "situation": "loneliness",
+    "title": "Join a book club or sports team",
+    "idea": "Join a book club, sports team or a class outside your course. The focus is on the activity or team, not you. If it feels daunting, you can watch a session first.",
+    "why": "With attention on the book or team rather than you, there is less social pressure while you meet people.",
+    "tags": [
+      "lonely",
+      "book club",
+      "sports team",
+      "class",
+      "university",
+      "friends",
+      "shy",
+      "new city"
+    ],
+    "source": {
+      "name": "Goldsmiths, University of London",
+      "url": "https://www.gold.ac.uk/students/wellbeing/guides/loneliness/"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "motivation-steady-daily-rhythm",
+    "situation": "motivation",
+    "title": "Keep a steady wake-up time and meals",
+    "idea": "Over the coming weeks, get up at about the same time each day and keep regular meals, so your days have a familiar shape. Avoid long daytime naps and late nights where you can.",
+    "why": "Low mood can disrupt sleep, and keeping to your normal schedule helps counter that.",
+    "tags": [
+      "unmotivated",
+      "flat",
+      "stuck",
+      "routine",
+      "sleep",
+      "wake up",
+      "meals",
+      "structure",
+      "daily rhythm"
+    ],
+    "source": {
+      "name": "NHS",
+      "url": "https://www.nhs.uk/mental-health/self-help/tips-and-support/cope-with-depression/"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "motivation-daily-gentle-walk",
+    "situation": "motivation",
+    "title": "Build a daily gentle walking habit",
+    "idea": "If you have not been moving much lately, start with a gentle daily walk of around 20 minutes. Over weeks, let it settle into your routine, adding a little more when it feels right.",
+    "why": "The NHS suggests easing back into activity with a daily walk when you have been inactive for a while.",
+    "tags": [
+      "unmotivated",
+      "low mood",
+      "flat",
+      "walking",
+      "exercise",
+      "routine",
+      "inactive",
+      "stuck",
+      "daily"
+    ],
+    "source": {
+      "name": "NHS",
+      "url": "https://www.nhs.uk/mental-health/self-help/tips-and-support/cope-with-depression/"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "motivation-restart-enjoyed-activities",
+    "situation": "motivation",
+    "title": "Make a list and restart past interests",
+    "idea": "Write down things you used to enjoy or find worthwhile, then do a few each day, easiest first. Add the harder ones gradually across the following weeks.",
+    "why": "Low mood can make you stop doing things you value, and gradually resuming them should lift your mood.",
+    "tags": [
+      "losing interest",
+      "unmotivated",
+      "flat",
+      "hobbies",
+      "enjoyment",
+      "stuck",
+      "old interests",
+      "list",
+      "small steps"
+    ],
+    "source": {
+      "name": "NHS Every Mind Matters",
+      "url": "https://www.nhs.uk/every-mind-matters/mental-health-issues/low-mood/"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "motivation-regular-people-time",
+    "situation": "motivation",
+    "title": "Set regular times to see people",
+    "idea": "Arrange a fixed time to eat together with screens off, or set up a video chat with someone who lives far away, rather than relying on texts or social media alone.",
+    "why": "Good relationships build belonging and self-worth, and texting or social media alone are not enough.",
+    "tags": [
+      "lonely",
+      "isolated",
+      "flat",
+      "friends",
+      "family",
+      "connection",
+      "social",
+      "stuck",
+      "regular catch-up"
+    ],
+    "source": {
+      "name": "NHS",
+      "url": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/five-steps-to-mental-wellbeing"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "motivation-learn-practical-skill",
+    "situation": "motivation",
+    "title": "Learn a new hands-on skill",
+    "idea": "Try something hands-on, such as cooking something new, a DIY fix like a broken bike, or a local college course. Return to it as you like.",
+    "why": "Learning builds confidence and self-esteem, gives a sense of purpose, and can connect you with others.",
+    "tags": [
+      "unmotivated",
+      "stuck",
+      "bored",
+      "learning",
+      "new skill",
+      "hobby",
+      "course",
+      "cooking",
+      "diy",
+      "purpose"
+    ],
+    "source": {
+      "name": "NHS",
+      "url": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/five-steps-to-mental-wellbeing"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "motivation-regular-local-volunteering",
+    "situation": "motivation",
+    "title": "Volunteer locally",
+    "idea": "Offer your time locally, for example helping at a school, hospital or care home, and add small kindnesses to people around you.",
+    "why": "Giving brings a sense of reward, purpose and connection with others.",
+    "tags": [
+      "purpose",
+      "meaning",
+      "flat",
+      "stuck",
+      "volunteering",
+      "giving",
+      "community",
+      "unmotivated",
+      "kindness",
+      "helping"
+    ],
+    "source": {
+      "name": "NHS",
+      "url": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/five-steps-to-mental-wellbeing"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "motivation-weekly-calendar-of-enjoyables",
+    "situation": "motivation",
+    "title": "Put relaxing and outdoor time in your week",
+    "idea": "Block out regular times in your weekly calendar for things you enjoy, like music, reading or time in nature, plus a consistent bedtime with fewer screens late at night. Keep these slots week after week.",
+    "why": "Setting regular times for things you enjoy helps healthy habits stick.",
+    "tags": [
+      "flat",
+      "unmotivated",
+      "routine",
+      "nature",
+      "outdoors",
+      "music",
+      "reading",
+      "sleep",
+      "schedule",
+      "hobbies"
+    ],
+    "source": {
+      "name": "NIMH",
+      "url": "https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "motivation-student-study-community",
+    "situation": "motivation",
+    "title": "Set up a study space and a study group",
+    "idea": "Set up a place that encourages you to study, and if working with others motivates you, join a study group. Stay connected with classmates and staff in your faculty.",
+    "why": "A suitable study spot and company from peers can make studying feel easier.",
+    "tags": [
+      "student",
+      "study",
+      "unmotivated",
+      "stuck",
+      "routine",
+      "classmates",
+      "study group",
+      "university",
+      "motivation",
+      "connection"
+    ],
+    "source": {
+      "name": "UTS Counselling Service",
+      "url": "https://www.uts.edu.au/for-students/current-students/support/counselling-service-and-self-help/self-help-resources/improving-motivation"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "stress-backwards-revision-timetable",
+    "situation": "stress",
+    "title": "Build a revision timetable working back from exams",
+    "idea": "Write down every exam and its date, then plan your revision backwards from those dates, leaving some spare time in the plan for things you did not expect.",
+    "why": "Knowing what is coming and when, with room for surprises, makes revision feel more manageable.",
+    "tags": [
+      "exams",
+      "revision",
+      "timetable",
+      "planning",
+      "overwhelmed",
+      "deadline",
+      "studying",
+      "schedule"
+    ],
+    "source": {
+      "name": "University of Sheffield Academic Skills",
+      "url": "https://www.sheffield.ac.uk/academic-skills/study-skills-online/revision"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "stress-scheduled-breaks-days-off",
+    "situation": "stress",
+    "title": "Plan breaks and whole days off",
+    "idea": "Build plenty of breaks, including whole days off, into your revision plan, and think of a small reward for yourself during those breaks.",
+    "why": "Rest time helps you reflect and stay motivated, whereas being tired and overwhelmed makes it harder to retain what you study.",
+    "tags": [
+      "exams",
+      "burnout",
+      "rest",
+      "breaks",
+      "studying",
+      "tired",
+      "overwhelmed",
+      "days off"
+    ],
+    "source": {
+      "name": "University of Sheffield Academic Skills",
+      "url": "https://www.sheffield.ac.uk/academic-skills/study-skills-online/revision"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "stress-daily-study-blocks-rewards",
+    "situation": "stress",
+    "title": "Rotate subjects in daily study blocks with rewards",
+    "idea": "Break revision into manageable chunks for a few hours a day, switch between subjects, and follow each block with something you enjoy, like music, a film or time with friends.",
+    "why": "Chunks, variety and rewards keep you engaged and reduce tiredness during long revision stretches.",
+    "tags": [
+      "exams",
+      "revision",
+      "routine",
+      "studying",
+      "motivation",
+      "workload",
+      "schedule",
+      "procrastination"
+    ],
+    "source": {
+      "name": "NHS",
+      "url": "https://www.nhs.uk/conditions/stress-anxiety-depression/tips-on-surviving-exams/"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "stress-active-social-routine",
+    "situation": "stress",
+    "title": "Keep a regular active routine, ideally with others",
+    "idea": "Fit regular movement you like, such as walking, cycling, swimming, sport or dancing, into the weeks of heavy study. Doing it with friends or a team tends to help most.",
+    "why": "Regular activity can lift energy and ease stress, and doing it with other people tends to help most.",
+    "tags": [
+      "exercise",
+      "exams",
+      "sport",
+      "friends",
+      "stress",
+      "energy",
+      "studying",
+      "movement"
+    ],
+    "source": {
+      "name": "NHS",
+      "url": "https://www.nhs.uk/conditions/stress-anxiety-depression/coping-with-exam-stress/"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "stress-regular-check-ins-tutor-buddy",
+    "situation": "stress",
+    "title": "Check in regularly with a tutor or study partner",
+    "idea": "When worries build up, share them with someone supportive such as a tutor or study buddy. After each exam, talk through what went well, then move on to the next one.",
+    "why": "Sharing worries and not dwelling on what cannot be changed helps keep things in perspective.",
+    "tags": [
+      "exams",
+      "tutor",
+      "study partner",
+      "worry",
+      "talking",
+      "support",
+      "studying",
+      "pressure"
+    ],
+    "source": {
+      "name": "NHS",
+      "url": "https://www.nhs.uk/conditions/stress-anxiety-depression/coping-with-exam-stress/"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  },
+  {
+    "id": "stress-trusted-people-and-daily-appreciation",
+    "situation": "stress",
+    "title": "Stay in touch with trusted people, note daily positives",
+    "idea": "Keep regular contact with friends, family or colleagues you trust, and each day jot down three things you appreciated, however small. Plan ahead for demanding days with a simple to-do list.",
+    "why": "Regular connection, appreciation and planning ahead support a more positive outlook and make demanding days easier.",
+    "tags": [
+      "friends",
+      "family",
+      "colleagues",
+      "gratitude",
+      "to-do list",
+      "work",
+      "studying",
+      "overwhelmed"
+    ],
+    "source": {
+      "name": "NHS Every Mind Matters",
+      "url": "https://www.nhs.uk/every-mind-matters/mental-health-issues/stress/"
+    },
+    "sourceChecked": "2026-11-18",
+    "reviewed": false
+  }
+]

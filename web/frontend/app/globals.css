@@ -1,0 +1,173 @@
+@import "tailwindcss";
+
+/* Light is the default. Dark mode is a manual choice in Settings (data-theme="dark"); the system setting is not followed. */
+:root {
+  color-scheme: light;
+  --bg: #faf7f1;
+  --surface: #f3eee3;
+  --ink: #2e3431;
+  --muted: #5b635e;
+  --line: #e6dfd2;
+  --accent: #46766a;
+  --accent-ink: #ffffff;
+  --accent-soft: #e6efe9;
+  --peach: #f8e6da;
+  --bubble-user: #4f6f8a;
+  --bubble-user-ink: #ffffff;
+  --bubble-bot: #f0e9db;
+  --warn-bg: #f7edd6;
+  --warn-ink: #664a10;
+  --danger-bg: #f7e5e1;
+  --danger-ink: #85291f;
+  --note-butter: #f6edc8;
+  --note-peach: #f8e0d2;
+  --note-sage: #dfeadf;
+  --note-sky: #dbe8f1;
+  --note-lilac: #e6e0f0;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #1b1f1e;
+  --surface: #242928;
+  --ink: #e9e6df;
+  --muted: #a9b1ab;
+  --line: #363d3a;
+  --accent: #8dbaa9;
+  --accent-ink: #10201b;
+  --accent-soft: #26352f;
+  --peach: #3a2e28;
+  --bubble-user: #46688a;
+  --bubble-user-ink: #ffffff;
+  --bubble-bot: #2b302e;
+  --warn-bg: #3a3017;
+  --warn-ink: #f1d68a;
+  --danger-bg: #3b201d;
+  --danger-ink: #f2b0a8;
+  --note-butter: #3f3a22;
+  --note-peach: #40302a;
+  --note-sage: #2c3a32;
+  --note-sky: #2a3744;
+  --note-lilac: #35304a;
+}
+
+/* Text size option (Settings): rem-based sizes and spacing scale with the root. Smaller gives about
+   15px body text; going lower would hurt legibility for people who are tired or finding it hard to focus. */
+html[data-text="small"] {
+  font-size: 88%;
+}
+html[data-text="large"] {
+  font-size: 112.5%;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-soft: var(--accent-soft);
+  --color-peach: var(--peach);
+  --color-bubble-user: var(--bubble-user);
+  --color-bubble-user-ink: var(--bubble-user-ink);
+  --color-bubble-bot: var(--bubble-bot);
+  --color-warn-bg: var(--warn-bg);
+  --color-warn-ink: var(--warn-ink);
+  --color-danger-bg: var(--danger-bg);
+  --color-danger-ink: var(--danger-ink);
+  --color-note-butter: var(--note-butter);
+  --color-note-peach: var(--note-peach);
+  --color-note-sage: var(--note-sage);
+  --color-note-sky: var(--note-sky);
+  --color-note-lilac: var(--note-lilac);
+  --radius-lg: 10px;
+  --radius-xl: 10px;
+  --radius-2xl: 10px;
+  --font-sans: var(--font-geist-sans);
+  --font-serif: var(--font-serif-source);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Headings use a warmer serif; body text and controls stay in the plain sans. */
+h1,
+h2 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-size: 1.0625rem;
+  line-height: 1.55;
+}
+
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@keyframes haven-dot {
+  0%,
+  80%,
+  100% {
+    opacity: 0.25;
+    transform: translateY(0);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(-3px);
+  }
+}
+
+.typing-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 9999px;
+  background: var(--muted);
+  animation: haven-dot 1.2s infinite ease-in-out;
+}
+.typing-dot:nth-child(2) {
+  animation-delay: 0.15s;
+}
+.typing-dot:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .typing-dot {
+    animation: none;
+    opacity: 0.6;
+  }
+}
+
+/* Sticky notes: a gentle arrival, and no tilt or movement for people who prefer reduced motion.
+   The tilt itself is the `rotate` property (set per note), so this only animates opacity and position. */
+@keyframes haven-note-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.note-fresh {
+  animation: haven-note-in 200ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .note-fresh {
+    animation: none;
+  }
+  .note-paper {
+    rotate: none !important;
+    transition: none !important;
+  }
+}

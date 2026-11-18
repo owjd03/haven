@@ -1,0 +1,15 @@
+{
+  "name": "@haven/backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Haven knowledge layer: coping cards and retrieval (RAG). Pure TypeScript, runs in the browser. No server, no network, no user data leaves the device.",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,2141 @@
+[
+  {
+    "id": "panic-wave",
+    "title": "Ride the panic wave",
+    "tags": [
+      "panic",
+      "panicking",
+      "panic attack",
+      "anxiety",
+      "anxious",
+      "heart racing",
+      "racing heart",
+      "can't breathe",
+      "freaking out"
+    ],
+    "text": "Panic usually passes, often within 5 to 20 minutes. Remind yourself: this is a wave, not danger. Stay where you are if you can, slow your breathing a little, and focus on one thing nearby until it eases.",
+    "source": {
+      "name": "NHS: Panic disorder - NHS",
+      "url": "https://www.nhs.uk/mental-health/conditions/panic-disorder/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "anxiety-name-it",
+    "title": "Name the worry",
+    "tags": [
+      "anxiety",
+      "anxious",
+      "worry",
+      "worried",
+      "nervous",
+      "uneasy",
+      "on edge",
+      "dread",
+      "scared"
+    ],
+    "text": "Try saying it plainly: \"I'm feeling anxious about ___.\" Naming a feeling can take some of its power away. Then ask: is this something I can act on today, or something I can only set down for now?",
+    "source": {
+      "name": "UCLA Newsroom (Lieberman et al. neuroimaging study): Putting Feelings Into Words Produces Therapeutic Effects in the Brain; UCLA Neuroimaging Study Supports Ancient Buddhist Teachings",
+      "url": "https://newsroom.ucla.edu/releases/Putting-Feelings-Into-Words-Produces-8047"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "grounding-54321",
+    "title": "5-4-3-2-1 grounding",
+    "tags": [
+      "grounding",
+      "ground",
+      "spiraling",
+      "dissociate",
+      "numb",
+      "overwhelmed",
+      "panic",
+      "present",
+      "racing thoughts"
+    ],
+    "text": "Look around and name 5 things you can see, 4 you can touch, 3 you can hear, 2 you can smell, and 1 you can taste. It pulls your attention out of your head and back into the room.",
+    "source": {
+      "name": "University of Rochester Medical Center, Behavioral Health Partners: 5-4-3-2-1 Coping Technique for Anxiety",
+      "url": "https://www.urmc.rochester.edu/behavioral-health-partners/bhp-blog/april-2018/5-4-3-2-1-coping-technique-for-anxiety"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "grounding-cold-feet",
+    "title": "Feel your feet",
+    "tags": [
+      "grounding",
+      "ground",
+      "dizzy",
+      "shaky",
+      "panic",
+      "anxious",
+      "anxiety",
+      "stuck in my head",
+      "spiraling"
+    ],
+    "text": "Press your feet firmly into the floor and notice the pressure. Hold something cool, like a glass of water or a cold cloth, and focus on how it feels. Small physical sensations can steady a racing mind.",
+    "source": {
+      "name": "San Diego State University Counseling & Psychological Services: Grounding Techniques",
+      "url": "https://sacd.sdsu.edu/cps/self-care/self-care-strategies-and-skills/groundingtechniques"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "breathing-slow-out",
+    "title": "Longer breath out",
+    "tags": [
+      "breathing",
+      "breathe",
+      "breath",
+      "calm down",
+      "calm",
+      "anxiety",
+      "panic",
+      "tense",
+      "stress",
+      "stressed"
+    ],
+    "text": "Breathe in gently through your nose for about 4 counts, then out slowly for about 6. Slow, steady breathing can help your body settle. Try 5 or 6 rounds, and pause if you feel dizzy.",
+    "source": {
+      "name": "NHS: Breathing exercises for stress - NHS",
+      "url": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/breathing-exercises-for-stress/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "breathing-box",
+    "title": "Box breathing",
+    "tags": [
+      "breathing",
+      "breathe",
+      "box breathing",
+      "focus",
+      "calm",
+      "nervous",
+      "presentation",
+      "tense",
+      "exam nerves",
+      "before my exam",
+      "before a test"
+    ],
+    "text": "Picture a square. Breathe in for 4, hold for 4, breathe out for 4, hold for 4. Trace the square in your mind as you go. It gives your attention something steady to follow.",
+    "source": {
+      "name": "Cleveland Clinic: How Box Breathing Can Help You Destress",
+      "url": "https://health.clevelandclinic.org/box-breathing-benefits"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "exam-small-chunks",
+    "title": "Study in small chunks",
+    "tags": [
+      "exam",
+      "exams",
+      "test",
+      "finals",
+      "midterm",
+      "study",
+      "studying",
+      "revision",
+      "grades",
+      "behind",
+      "deadline"
+    ],
+    "text": "Big exams feel huge because they are one big blob. Break it into small chunks, like one topic for 25 minutes, then a 5 minute break. Finishing one small piece builds momentum and makes the rest feel doable.",
+    "source": {
+      "name": "Kansas State University Academic Achievement Center: Pomodoro Study Method",
+      "url": "https://www.k-state.edu/aac/success-tools/collection/pomodoro_study_method.html"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "exam-worst-case",
+    "title": "Look at the realistic picture",
+    "tags": [
+      "exam",
+      "exams",
+      "test",
+      "fail",
+      "failing",
+      "finals",
+      "grades",
+      "scared",
+      "afraid",
+      "what if",
+      "anxious"
+    ],
+    "text": "When your mind says \"I'll fail everything,\" try writing the worst case, the best case, and the most likely case. The likely one is often less scary than it feels. Then pick one thing you can do today.",
+    "source": {
+      "name": "University of Alabama at Birmingham: Five common thinking traps and what to think instead",
+      "url": "https://www.uab.edu/medicine/physicalmedicine/news-events/department-news/5-common-thinking-traps-and-what-to-think-instead"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "lonely-small-reach",
+    "title": "One small reach-out",
+    "tags": [
+      "lonely",
+      "loneliness",
+      "alone",
+      "isolated",
+      "no friends",
+      "left out",
+      "nobody"
+    ],
+    "text": "Loneliness is a signal that you want connection, not a flaw in you. Try one tiny step: send a short message to someone, wave to a neighbor, or join a low-pressure activity. Small contact adds up.",
+    "source": {
+      "name": "NHS Every Mind Matters: Loneliness - Every Mind Matters - NHS (page heading: Dealing with loneliness)",
+      "url": "https://www.nhs.uk/every-mind-matters/lifes-challenges/loneliness/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "lonely-self-company",
+    "title": "Be a good companion to yourself",
+    "tags": [
+      "lonely",
+      "loneliness",
+      "alone",
+      "isolated",
+      "weekend",
+      "evening",
+      "empty",
+      "bored"
+    ],
+    "text": "On lonely evenings, plan something small that feels kind: a favorite meal, music, a walk outside, or a show you love. Treat the time as company you give yourself, and let it be gentle.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "sleep-wind-down",
+    "title": "A gentle wind-down",
+    "tags": [
+      "sleep",
+      "can't sleep",
+      "insomnia",
+      "awake",
+      "tired",
+      "night",
+      "bed",
+      "bedtime",
+      "restless",
+      "up late",
+      "late at night",
+      "staying up"
+    ],
+    "text": "About an hour before bed, dim the lights and put your phone away. Do something slow, like stretching, a warm shower, or reading something light. Regular, quiet routines tell your body that night is for resting.",
+    "source": {
+      "name": "Sleep Foundation: How to Build a Better Bedtime Routine for Adults | Sleep Foundation",
+      "url": "https://www.sleepfoundation.org/sleep-hygiene/bedtime-routine-for-adults"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "sleep-brain-dump",
+    "title": "Brain dump before bed",
+    "tags": [
+      "sleep",
+      "can't sleep",
+      "insomnia",
+      "racing thoughts",
+      "overthinking",
+      "awake",
+      "night",
+      "worry",
+      "thinking too much"
+    ],
+    "text": "If your mind races at night, keep a notebook by the bed. Write down what's circling, plus one small step for tomorrow. Putting thoughts on paper gives your mind permission to let go for the night.",
+    "source": {
+      "name": "NHS Every Mind Matters: How to fall asleep faster and sleep better",
+      "url": "https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/how-to-fall-asleep-faster-and-sleep-better/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "grief-make-room",
+    "title": "Make room for grief",
+    "tags": [
+      "grief",
+      "grieving",
+      "loss",
+      "lost",
+      "died",
+      "death",
+      "passed away",
+      "miss",
+      "mourning",
+      "funeral"
+    ],
+    "text": "Grief has no schedule and no right way. Waves of sadness, numbness, or even anger are all normal. Let yourself feel what comes, talk about the person if you want to, and be patient with how slowly it moves.",
+    "source": {
+      "name": "NHS: Grief after bereavement or loss - NHS",
+      "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/grief-bereavement-loss/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "burnout-tiny-rest",
+    "title": "Protect small pockets of rest",
+    "tags": [
+      "burnout",
+      "burned out",
+      "burnt out",
+      "exhausted",
+      "drained",
+      "no energy",
+      "tired",
+      "worn out",
+      "empty"
+    ],
+    "text": "When you're running on empty, rest has to be planned, not earned. Protect a few small pockets each day, like a short walk, a real lunch break, or ten quiet minutes. Rest is part of doing well, not a reward.",
+    "source": {
+      "name": "NHS Every Mind Matters: Work-related stress",
+      "url": "https://www.nhs.uk/every-mind-matters/lifes-challenges/work-related-stress/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "burnout-drop-one",
+    "title": "Drop or shrink one thing",
+    "tags": [
+      "burnout",
+      "burned out",
+      "overloaded",
+      "too much",
+      "workload",
+      "exhausted",
+      "drained",
+      "overcommitted",
+      "no time"
+    ],
+    "text": "Look at your list and ask: what could I drop, delay, or do at 70% this week? You don't have to do everything at full effort. Easing one commitment can free up more energy than you'd expect.",
+    "source": {
+      "name": "NHS Every Mind Matters: Work-related stress",
+      "url": "https://www.nhs.uk/every-mind-matters/lifes-challenges/work-related-stress/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "anger-pause",
+    "title": "Pause before reacting",
+    "tags": [
+      "anger",
+      "angry",
+      "furious",
+      "mad",
+      "rage",
+      "pissed",
+      "irritated",
+      "frustrated",
+      "snap",
+      "yell"
+    ],
+    "text": "Anger carries energy that needs somewhere to go. Before you respond, pause: step away, take a few slow breaths, or move your body with a brisk walk. Come back to the conversation once the heat has dropped a little.",
+    "source": {
+      "name": "NHS: Get help with anger - NHS",
+      "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/anger/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "anger-what-underneath",
+    "title": "What's under the anger?",
+    "tags": [
+      "anger",
+      "angry",
+      "resentful",
+      "resentment",
+      "mad",
+      "frustrated",
+      "betrayed",
+      "hurt",
+      "unfair"
+    ],
+    "text": "Anger often sits on top of something softer, like hurt, fear, or feeling disrespected. Ask yourself: what am I really upset about, and what do I need? Naming it can help you say it calmly.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "procrastination-two-minutes",
+    "title": "Start with two minutes",
+    "tags": [
+      "procrastination",
+      "procrastinating",
+      "avoiding",
+      "can't start",
+      "putting off",
+      "motivation",
+      "unmotivated",
+      "lazy",
+      "assignment",
+      "essay"
+    ],
+    "text": "Starting is the hardest part. Tell yourself you'll work on it for just two minutes, then you're allowed to stop. Most of the time, starting breaks the resistance and you'll keep going a bit longer.",
+    "source": {
+      "name": "University of Iowa University Counseling Service: Procrastination Self-help Workshop | University Counseling Service - Division of Student Life | The University of Iowa",
+      "url": "https://counseling.uiowa.edu/procrastination-self-help-workshop"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "procrastination-first-step",
+    "title": "Make the first step tiny",
+    "tags": [
+      "procrastination",
+      "procrastinating",
+      "avoiding",
+      "overwhelmed",
+      "task",
+      "project",
+      "deadline",
+      "stuck",
+      "motivation",
+      "paper"
+    ],
+    "text": "Big tasks feel scary because they're vague. Shrink the first step until it's almost silly, like opening the document and typing a title. Do that one thing, then choose the next small step.",
+    "source": {
+      "name": "University of Iowa University Counseling Service: Procrastination Self-help Workshop | University Counseling Service - Division of Student Life | The University of Iowa",
+      "url": "https://counseling.uiowa.edu/procrastination-self-help-workshop"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "family-boundaries",
+    "title": "Cool down, then talk",
+    "tags": [
+      "family",
+      "parents",
+      "mom",
+      "dad",
+      "sibling",
+      "conflict",
+      "pressure",
+      "family fight",
+      "fight with my parents",
+      "fighting with my parents",
+      "argument with my parents",
+      "fight with my mom",
+      "fight with my dad",
+      "fight with my sister",
+      "fight with my brother"
+    ],
+    "text": "Family arguments feel intense because the relationships matter. If things are heated, take a break first. Later, try \"I feel ___ when ___, and I'd like ___.\" If you ever feel unsafe, step away and reach out for support.",
+    "source": {
+      "name": "Utah State University Extension: During the Fight: Perspectives and Skills for De-escalating Conflicts",
+      "url": "https://extension.usu.edu/strongermarriage/blog/perspectives-and-skills-for-de-escalating-conflicts"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "self-critic-friend",
+    "title": "Talk to yourself like a friend",
+    "tags": [
+      "self-criticism",
+      "self critical",
+      "hate myself",
+      "i'm stupid",
+      "not good enough",
+      "failure",
+      "worthless",
+      "useless",
+      "inner critic",
+      "ashamed",
+      "mistake"
+    ],
+    "text": "Imagine a close friend made the same mistake. What would you say to them? Try saying that to yourself. You can hold high standards and still be kind about being human.",
+    "source": {
+      "name": "Greater Good Science Center, UC Berkeley: How Would You Treat a Friend?",
+      "url": "https://ggia.berkeley.edu/practice/how_would_you_treat_a_friend"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "self-critic-facts",
+    "title": "Thought, not fact",
+    "tags": [
+      "self-criticism",
+      "inner critic",
+      "not good enough",
+      "failure",
+      "stupid",
+      "worthless",
+      "imposter",
+      "negative thoughts",
+      "doubt",
+      "comparing"
+    ],
+    "text": "A harsh thought like \"I'm a failure\" feels true but is still just a thought. Try rewording it: \"I'm having the thought that I'm a failure.\" Then look for one piece of evidence that doesn't fit.",
+    "source": {
+      "name": "Northwestern University (CSAW): Defusion Techniques",
+      "url": "https://www.northwestern.edu/csaw/documents/defusion-techniques-csaw.pdf"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "overwhelm-brain-list",
+    "title": "Get it out of your head",
+    "tags": [
+      "overwhelmed",
+      "overwhelm",
+      "too much",
+      "swamped",
+      "drowning",
+      "everything at once",
+      "stress",
+      "stressed",
+      "chaos",
+      "pressure"
+    ],
+    "text": "When everything feels like too much, write every task and worry on paper without sorting. Then circle just one thing for today. Seeing it all on paper can make it feel more manageable than it did in your head.",
+    "source": {
+      "name": "NHS: Get help with stress - NHS",
+      "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/stress/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "overwhelm-next-small",
+    "title": "Just the next small thing",
+    "tags": [
+      "overwhelmed",
+      "overwhelm",
+      "stuck",
+      "frozen",
+      "don't know where to start",
+      "paralyzed",
+      "too much",
+      "stress",
+      "stressed",
+      "shutdown"
+    ],
+    "text": "You don't have to solve it all right now. Ask: what is the next small thing I can do in the next ten minutes? Do just that, then ask again. Steady small steps can get you through a heavy day.",
+    "source": {
+      "name": "University of Colorado Boulder, Division of Student Life: 5 ways to manage stress during midterms | Division of Student Life | University of Colorado Boulder",
+      "url": "https://www.colorado.edu/health/5-things-you-can-do-if-youre-feeling-overwhelmed-midterms"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "rumination-scheduled-worry",
+    "title": "Set a worry window",
+    "tags": [
+      "rumination",
+      "overthinking",
+      "overthink",
+      "ruminating",
+      "replaying",
+      "can't stop thinking",
+      "worry",
+      "worrying",
+      "what if",
+      "stuck in my head"
+    ],
+    "text": "If worries keep looping, set aside a 10 minute worry window each day. When a worry pops up outside it, jot it down and tell yourself you'll think about it later. This helps your mind trust it won't be forgotten.",
+    "source": {
+      "name": "NHS Every Mind Matters: Tackling your worries - Every Mind Matters - NHS",
+      "url": "https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/self-help-cbt-techniques/tackling-your-worries"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "breakup-let-it-hurt",
+    "title": "Let heartbreak be real",
+    "tags": [
+      "heartbreak",
+      "heartbroken",
+      "breakup",
+      "broke up",
+      "breaking up",
+      "dumped",
+      "split up",
+      "relationship ended",
+      "miss my ex",
+      "ex",
+      "broke up with me",
+      "she broke up",
+      "he broke up",
+      "they broke up",
+      "relationship is over",
+      "my ex",
+      "ex boyfriend",
+      "ex girlfriend",
+      "my ex boyfriend",
+      "my ex girlfriend"
+    ],
+    "text": "Heartbreak is a real loss, and it can ache like grief. You don't have to rush to feel better. Let the sadness come in waves, cry if you need to, and be gentle with yourself while it settles.",
+    "source": {
+      "name": "Loyola University Maryland Counseling Center: Break-Ups | Counseling Center | Loyola University Maryland",
+      "url": "https://www.loyola.edu/department/counseling-center/services/students/concerns/break-up"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "breakup-create-space",
+    "title": "Give your heart some space",
+    "tags": [
+      "ex",
+      "texting my ex",
+      "text my ex",
+      "checking his profile",
+      "checking her profile",
+      "stalking",
+      "social media",
+      "miss my ex",
+      "breakup",
+      "heartbreak",
+      "contact",
+      "my ex",
+      "keeps texting me",
+      "ex boyfriend",
+      "ex girlfriend"
+    ],
+    "text": "The urge to check an ex's messages or profiles is normal, and checking can make it harder to heal. Consider muting or pausing contact for a while. It isn't punishment, it just gives your heart room to heal.",
+    "source": {
+      "name": "UT Dallas Student Counseling Center: Coping with a Breakup – Student Counseling Center | UT Dallas",
+      "url": "https://counseling.utdallas.edu/?p=760"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "breakup-daily-anchors",
+    "title": "Small daily anchors",
+    "tags": [
+      "breakup",
+      "heartbreak",
+      "heartbroken",
+      "can't eat",
+      "not eating",
+      "empty",
+      "routine",
+      "after the breakup",
+      "lost",
+      "shapeless days"
+    ],
+    "text": "When a relationship ends, days can feel shapeless. Anchor them with small basics: eat something, step outside, move a little, sleep at regular times. These aren't fixes, just steady ground while you grieve.",
+    "source": {
+      "name": "NHS: Get help with grief after bereavement or loss - NHS",
+      "url": "https://www.nhs.uk/conditions/stress-anxiety-depression/coping-with-bereavement/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "unrequited-love",
+    "title": "When love isn't returned",
+    "tags": [
+      "unrequited",
+      "rejected",
+      "rejection",
+      "doesn't like me",
+      "doesnt like me",
+      "friend zoned",
+      "one sided",
+      "one-sided",
+      "i have a crush",
+      "a crush on",
+      "has a crush",
+      "crush on"
+    ],
+    "text": "Not being chosen hurts, but it says something about fit, not your worth. Let yourself feel the disappointment, then turn some of that care back toward yourself and the people who already value you.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "ghosted",
+    "title": "Ghosted and wondering why",
+    "tags": [
+      "ghosted",
+      "ghosting",
+      "left on read",
+      "no reply",
+      "ignored me",
+      "stopped replying",
+      "silent treatment",
+      "disappeared on me",
+      "left me on read",
+      "read my message",
+      "read my text",
+      "seen and ignored",
+      "hasn't texted back",
+      "hasnt texted back",
+      "stopped texting me"
+    ],
+    "text": "Being ghosted leaves you without answers, and your mind fills the gap with blame. Their silence reflects their choices, not your value. You can decide you've waited enough and move on without closure.",
+    "source": {
+      "name": "University of Colorado Boulder, Health Center: Been ghosted? Check out these tips",
+      "url": "https://www.colorado.edu/health/blog/ghosted"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "parents-divorce",
+    "title": "When your parents split up",
+    "tags": [
+      "parents divorce",
+      "parents are divorcing",
+      "divorce",
+      "separated",
+      "custody",
+      "parents separating",
+      "parents fighting",
+      "split"
+    ],
+    "text": "A parent split can shake your sense of home, even if you saw it coming. It's okay to feel sad, angry, or relieved, sometimes all at once. You didn't cause it, and you're allowed to ask for support.",
+    "source": {
+      "name": "Boston Children's Hospital, Center for Young Women's Health: Dealing with Divorce and Separation",
+      "url": "https://youngwomenshealth.org/guides/divorce/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "tough-times-one-day",
+    "title": "One day at a time",
+    "tags": [
+      "tough times",
+      "hard time",
+      "rough patch",
+      "struggling",
+      "going through it",
+      "falling apart",
+      "everything is falling apart",
+      "bad time",
+      "hard period",
+      "difficult time"
+    ],
+    "text": "When life is heavy, planning far ahead can feel impossible. Shrink your focus to today: what is one thing that would make it a little bit easier? Getting through this day is enough.",
+    "source": {
+      "name": "NHS: Help for suicidal thoughts",
+      "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/help-for-suicidal-thoughts/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "tough-times-steady-thing",
+    "title": "Hold on to one steady thing",
+    "tags": [
+      "tough times",
+      "hard time",
+      "rough patch",
+      "struggling",
+      "unstable",
+      "chaos",
+      "everything changing",
+      "too many changes",
+      "falling apart"
+    ],
+    "text": "In a stormy stretch, hold on to one steady thing, like a daily walk, a favorite song, or a call with someone who knows you. A small constant gives you something solid when everything else shifts.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "hopeless-feelings-shift",
+    "title": "Feelings shift over time",
+    "tags": [
+      "hopeless",
+      "hopelessness",
+      "nothing will get better",
+      "no future",
+      "stuck forever",
+      "never get better",
+      "nothing changes",
+      "pointless"
+    ],
+    "text": "Hopelessness can make this moment feel permanent, but feelings can change over time, even when it doesn't seem possible. Focus on getting through today, and consider telling someone you trust how heavy things feel.",
+    "source": {
+      "name": "NHS: Help for suicidal thoughts",
+      "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/help-for-suicidal-thoughts/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "bankruptcy-not-your-worth",
+    "title": "Bankruptcy isn't a verdict on you",
+    "tags": [
+      "bankruptcy",
+      "bankrupt",
+      "filed for bankruptcy",
+      "lost everything",
+      "financial ruin",
+      "broke",
+      "insolvent",
+      "financial failure",
+      "went under"
+    ],
+    "text": "Money trouble is stressful and can bring heavy shame, but financial setbacks happen to many people and say nothing about your worth. Take it one practical step at a time, and free advice is available.",
+    "source": {
+      "name": "NHS Every Mind Matters: Money worries and mental health",
+      "url": "https://www.nhs.uk/every-mind-matters/lifes-challenges/money-worries-mental-health/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "debt-face-numbers",
+    "title": "Face the numbers gently",
+    "tags": [
+      "debt",
+      "debts",
+      "owe",
+      "loan",
+      "loans",
+      "creditors",
+      "collectors",
+      "can't pay",
+      "cant pay",
+      "bills",
+      "rent",
+      "money problems",
+      "financial stress",
+      "drowning in debt",
+      "in debt",
+      "so much debt",
+      "owe money",
+      "owe so much"
+    ],
+    "text": "Avoiding money worries can let them grow. Set aside a calm time to write down what you owe and what's coming in. Seeing the real numbers can be a first step to a plan, and free advice can help.",
+    "source": {
+      "name": "NHS Every Mind Matters: Money worries and mental health",
+      "url": "https://www.nhs.uk/every-mind-matters/lifes-challenges/money-worries-mental-health/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "money-right-help",
+    "title": "Ask the right kind of help",
+    "tags": [
+      "bankruptcy",
+      "debt",
+      "financial",
+      "money",
+      "lawyer",
+      "legal",
+      "credit counseling",
+      "can't afford",
+      "cant afford",
+      "eviction",
+      "foreclosure"
+    ],
+    "text": "Money and legal questions are worth taking to people who know them well. Look for free or low-cost financial counseling or legal aid in your area, and ask someone you trust to sit with you through the paperwork.",
+    "source": {
+      "name": "NHS: Coping with financial worries",
+      "url": "https://www.nhs.uk/mental-health/advice-for-life-situations-and-events/how-to-cope-with-financial-worries/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "job-loss",
+    "title": "After losing a job",
+    "tags": [
+      "fired",
+      "laid off",
+      "layoff",
+      "lost my job",
+      "unemployed",
+      "job loss",
+      "jobless",
+      "redundant",
+      "let go"
+    ],
+    "text": "Losing a job can shake your confidence, routine, and income all at once. It's okay to grieve it. Keep a simple daily structure, tell a few people you trust, and take job-hunting steps in small pieces.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "rejection-setback",
+    "title": "When you get turned down",
+    "tags": [
+      "rejected",
+      "rejection",
+      "turned down",
+      "didn't get in",
+      "didnt get in",
+      "waitlisted",
+      "denied",
+      "didn't get the job",
+      "didnt get the job",
+      "application",
+      "declined",
+      "rejected from",
+      "rejected by",
+      "dream school",
+      "college application",
+      "university application",
+      "didn't get into",
+      "didnt get into",
+      "got rejected"
+    ],
+    "text": "A rejection stings, and it's fine to feel disappointed for a bit. One no is about one decision at one moment, not your whole future. Give yourself time, then choose one small next step.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "failure-information",
+    "title": "Failure is information",
+    "tags": [
+      "failed",
+      "failure",
+      "bombed",
+      "flunked",
+      "messed up",
+      "setback",
+      "fell short",
+      "blew it",
+      "disappointed in myself"
+    ],
+    "text": "A failure feels final in the moment, but it also tells you something about what to change. Ask gently: what's one thing I learned, and what's one thing I'd try differently? Then give yourself credit for trying.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "friend-breakup-grief",
+    "title": "Losing a friend hurts",
+    "tags": [
+      "friendship",
+      "broken friendship",
+      "friend breakup",
+      "fell out",
+      "falling out",
+      "ex friend",
+      "lost a friend",
+      "drifted apart",
+      "friend ended",
+      "friends stopped talking",
+      "stopped talking",
+      "best friend",
+      "stopped talking to me",
+      "not talking",
+      "fight with my friend",
+      "friend group"
+    ],
+    "text": "Friendship breakups are real losses, yet they often get less comfort than romantic ones. It's okay to grieve what you shared. People can also drift apart without anyone being the villain.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "friend-betrayal",
+    "title": "Betrayed by a friend",
+    "tags": [
+      "betrayed",
+      "betrayal",
+      "backstabbed",
+      "talked behind my back",
+      "gossip",
+      "lied to me",
+      "fake friend",
+      "broke my trust",
+      "spread rumors"
+    ],
+    "text": "Being betrayed by a friend hurts deeply because you trusted them. Your anger and sadness make sense. You get to decide how much trust to give next, and it's okay to protect yourself for now.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "friend-repair",
+    "title": "Thinking about repairing it",
+    "tags": [
+      "apologize",
+      "apology",
+      "make up",
+      "reconcile",
+      "repair",
+      "miss my friend",
+      "fight with friend",
+      "argument with friend",
+      "fell out",
+      "patch things up"
+    ],
+    "text": "If you miss the friendship, a short, honest message can open a door: say what you value, own your part, and don't demand anything back right away. They may not reply, and that's okay. You reached out with care.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "left-out-group",
+    "title": "Left out of the group",
+    "tags": [
+      "left out",
+      "excluded",
+      "not invited",
+      "group chat",
+      "clique",
+      "outsider",
+      "don't fit in",
+      "dont fit in",
+      "everyone hangs out without me"
+    ],
+    "text": "Being left out stings, and it can make you question yourself. It doesn't have to mean something is wrong with you. Look for one person or space where you feel relaxed, and slowly build from there.",
+    "source": {
+      "name": "Cornell Chronicle (Cornell University): Talking with a friend can ease the sting of being left out",
+      "url": "https://news.cornell.edu/node/328633"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "regret-shows-values",
+    "title": "Regret shows what you value",
+    "tags": [
+      "regret",
+      "regrets",
+      "guilty",
+      "guilt",
+      "wish i hadn't",
+      "wish i hadnt",
+      "shouldn't have",
+      "shouldnt have",
+      "remorse",
+      "feel terrible"
+    ],
+    "text": "Regret can hurt because you care. Try separating \"I did something I regret\" from \"I'm a terrible person.\" Guilt about an action can point toward repair, while harsh self-judgment tends to feel heavier and less useful.",
+    "source": {
+      "name": "PubMed Central (Behavioral Sciences, Dempsey review): A Comparison of the Social-Adaptive Perspective and Functionalist Perspective on Guilt and Shame",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5746692/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "emotional-cheating",
+    "title": "Facing emotional cheating",
+    "tags": [
+      "emotional cheating",
+      "emotional affair",
+      "cheated",
+      "cheating",
+      "crossed a line",
+      "hurt my partner",
+      "betrayed my partner",
+      "affair",
+      "unfaithful",
+      "texting someone else",
+      "i cheated",
+      "cheated on my girlfriend",
+      "cheated on my boyfriend",
+      "cheated on my partner",
+      "cheated on my wife",
+      "cheated on my husband"
+    ],
+    "text": "Crossing a line in a relationship, even emotionally, can bring heavy guilt. Be honest with yourself about what happened and what you were looking for. Own it without self-punishment, and consider a counselor to help with next steps.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "partner-cheated",
+    "title": "When a partner cheated",
+    "tags": [
+      "partner cheated",
+      "cheated on me",
+      "infidelity",
+      "boyfriend cheated",
+      "girlfriend cheated",
+      "husband cheated",
+      "wife cheated",
+      "found out they cheated",
+      "betrayed by my partner",
+      "he cheated",
+      "she cheated",
+      "they cheated"
+    ],
+    "text": "Finding out about cheating can feel like the ground vanished. Shock, rage, and grief are all normal. You don't have to decide anything right away. Lean on someone you trust, and give yourself time before big choices.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "make-amends",
+    "title": "Taking responsibility",
+    "tags": [
+      "hurt someone",
+      "make amends",
+      "owe an apology",
+      "wronged",
+      "said something awful",
+      "did something wrong",
+      "i was wrong",
+      "apologize to",
+      "apology"
+    ],
+    "text": "A real apology names what you did, acknowledges how it affected them, and asks what repair could look like, without excuses or demands for forgiveness. Do your part, and accept that healing runs on their timeline.",
+    "source": {
+      "name": "Greater Good Science Center, UC Berkeley: Making an Effective Apology",
+      "url": "https://ggia.berkeley.edu/practice/making_an_effective_apology"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "self-forgiveness",
+    "title": "Forgiving yourself",
+    "tags": [
+      "forgive myself",
+      "can't forgive myself",
+      "cant forgive myself",
+      "hate myself for",
+      "replaying",
+      "haunted",
+      "what i did",
+      "past mistake",
+      "guilt"
+    ],
+    "text": "Forgiving yourself doesn't mean what happened was okay. It means you stop punishing yourself and use what you learned. Ask: what would I need to do, or change, to carry this more lightly?",
+    "source": {
+      "name": "Greater Good Science Center, UC Berkeley: Why Forgiving Ourselves Feels So Hard—and What Helps",
+      "url": "https://greatergood.berkeley.edu/article/item/why_forgiving_ourselves_feels_so_hard_and_what_helps"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "choices-cant-undo",
+    "title": "Choices you can't undo",
+    "tags": [
+      "wish i could go back",
+      "if only",
+      "what if i had",
+      "past decision",
+      "should have",
+      "can't undo",
+      "cant undo",
+      "wasted",
+      "too late"
+    ],
+    "text": "It's painful to look back and see the road you didn't take. You made your choices with what you knew then. Try asking what the regret is asking of you now, and whether there's a small step you can still take.",
+    "source": {
+      "name": "Cleveland Clinic: How To Deal With Regrets",
+      "url": "https://health.clevelandclinic.org/dealing-with-regrets"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "bullying",
+    "title": "If you're being bullied",
+    "tags": [
+      "bullied",
+      "bullying",
+      "harassed",
+      "teased",
+      "mocked",
+      "cyberbullying",
+      "picked on",
+      "humiliated",
+      "targeted"
+    ],
+    "text": "Being bullied is not your fault, and you don't have to handle it alone. Tell someone you trust, like a teacher, counselor, or family member, and keep a record of what happened. You deserve to feel safe.",
+    "source": {
+      "name": "Manchester University NHS Foundation Trust (CAMHS): Bullying - CAMHS",
+      "url": "https://mft.nhs.uk/camhs/advice/bullying/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "unsafe-relationship",
+    "title": "If a relationship feels unsafe",
+    "tags": [
+      "abusive",
+      "abuse",
+      "controlling",
+      "afraid of my partner",
+      "scared of my partner",
+      "hits me",
+      "threatens me",
+      "unsafe",
+      "toxic relationship",
+      "manipulative",
+      "gaslighting"
+    ],
+    "text": "If someone makes you afraid, controls who you see, or hurts you, it is not your fault, and you deserve safety. Please reach out to someone you trust or a local support service. If you're in danger now, contact emergency services.",
+    "source": {
+      "name": "NHS: Getting help for domestic violence and abuse - NHS",
+      "url": "https://www.nhs.uk/live-well/getting-help-for-domestic-violence/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "homesickness",
+    "title": "Missing home",
+    "tags": [
+      "homesick",
+      "miss home",
+      "new city",
+      "moved",
+      "new school",
+      "far from home",
+      "international student",
+      "culture shock",
+      "miss my family",
+      "moving abroad",
+      "moved away",
+      "moving away",
+      "studying abroad",
+      "moved abroad",
+      "new country"
+    ],
+    "text": "Missing home is a sign of how much those people and places matter. Keep small links alive, like a regular call or a familiar meal, while also giving the new place small chances, like one class or one coffee, to become yours.",
+    "source": {
+      "name": "Lafayette College Counseling Center: Homesickness",
+      "url": "https://counselingcenter.lafayette.edu/promoting-healthy-behaviors/homesickness/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "comparison-envy",
+    "title": "Comparison and envy",
+    "tags": [
+      "jealous",
+      "jealousy",
+      "envy",
+      "envious",
+      "comparing",
+      "compare myself",
+      "everyone else",
+      "behind everyone",
+      "fomo",
+      "social media makes me"
+    ],
+    "text": "Comparing yourself to others usually pits your behind-the-scenes against their highlight reel. Notice what the envy points to that you want, then take one small step toward it. Consider muting accounts that leave you feeling worse.",
+    "source": {
+      "name": "Penn State (student psychology blog) plus Manchester NHS CAMHS: The Psychology Behind Social Media Envy",
+      "url": "https://sites.psu.edu/aspsy/2025/10/02/the-psychology-behind-social-media-envy/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "social-anxiety",
+    "title": "Dreading social situations",
+    "tags": [
+      "social anxiety",
+      "shy",
+      "awkward",
+      "embarrassed",
+      "embarrassment",
+      "speaking up",
+      "judged",
+      "people watching me",
+      "afraid to talk",
+      "parties",
+      "afraid of parties",
+      "scared of parties"
+    ],
+    "text": "Worry about being judged is common. Start small: one short chat, one comment in class. Notice how it actually went, and be kind to yourself afterward.",
+    "source": {
+      "name": "NHS: Social anxiety (social phobia) - NHS",
+      "url": "https://www.nhs.uk/mental-health/conditions/social-anxiety/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "body-image",
+    "title": "Body image struggles",
+    "tags": [
+      "body image",
+      "ugly",
+      "fat",
+      "weight",
+      "appearance",
+      "hate my body",
+      "insecure",
+      "insecurity",
+      "mirror",
+      "how i look"
+    ],
+    "text": "Your worth isn't tied to how you look, even when your mind insists it is. Notice what your body does for you, wear what feels comfortable, and be careful with feeds that leave you feeling worse about yourself.",
+    "source": {
+      "name": "Manchester University NHS Foundation Trust (CAMHS): Body Image - CAMHS",
+      "url": "https://mft.nhs.uk/camhs/advice/body-image/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "health-worries",
+    "title": "Waiting on health news",
+    "tags": [
+      "sick",
+      "illness",
+      "diagnosis",
+      "hospital",
+      "health scare",
+      "medical",
+      "test results",
+      "chronic",
+      "scared about my health",
+      "doctor"
+    ],
+    "text": "Waiting on health news is frightening. Focus on what you can control, like writing down questions for your doctor and having someone with you. Try not to spend hours searching online; your care team can give reliable answers.",
+    "source": {
+      "name": "NHS: Health anxiety",
+      "url": "https://www.nhs.uk/mental-health/conditions/health-anxiety/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "caregiver-strain",
+    "title": "Caring for someone else",
+    "tags": [
+      "caregiver",
+      "taking care of",
+      "sick parent",
+      "sick mom",
+      "sick dad",
+      "looking after",
+      "carer",
+      "responsibility for my family",
+      "caring for"
+    ],
+    "text": "Caring for someone you love is demanding, and feeling tired or resentful doesn't make you a bad person. Ask for help with one concrete task, protect a little time for yourself, and share how heavy it is with someone.",
+    "source": {
+      "name": "Oxford Health NHS Foundation Trust: Getting the support you need",
+      "url": "https://oxfordhealth.nhs.uk/carers/handbook/getting-support/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "identity-direction",
+    "title": "Feeling lost about who you are",
+    "tags": [
+      "don't know who i am",
+      "dont know who i am",
+      "identity",
+      "purpose",
+      "direction",
+      "drifting",
+      "aimless",
+      "lost my way",
+      "after graduation",
+      "quit",
+      "what to do with my life"
+    ],
+    "text": "Not knowing who you are or where you're headed can be unsettling, but it's also a normal stretch of growing up. You don't need the whole map. Try small experiments and notice what gives you energy.",
+    "source": {
+      "name": "Loyola University Maryland Counseling Center: Who am I? How do Others View Me?",
+      "url": "https://www.loyola.edu/department/counseling-center/services/students/concerns/who-am-i.html"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "expectations-pressure",
+    "title": "Feeling like you let people down",
+    "tags": [
+      "disappointed my parents",
+      "let down",
+      "expectations",
+      "pressure",
+      "perfectionism",
+      "perfect",
+      "high standards",
+      "afraid to disappoint",
+      "parents expect"
+    ],
+    "text": "The fear of letting people down can feel crushing. Remember that you're a person, not a performance. Consider telling someone you trust what pressure you feel, and decide which expectations you actually want to carry.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "numbness",
+    "title": "Feeling numb",
+    "tags": [
+      "numb",
+      "empty",
+      "don't feel anything",
+      "dont feel anything",
+      "flat",
+      "apathetic",
+      "nothing matters",
+      "emotionally shut down",
+      "blank"
+    ],
+    "text": "Numbness can be your mind's way of coping with too much. It isn't a failing. Try small sensory comforts like warmth, music, or a walk, and stay in touch with someone you trust. If it lasts, a counselor can help.",
+    "source": {
+      "name": "Cleveland Clinic: Emotional Numbness: What Causes It and What To Do About It",
+      "url": "https://health.clevelandclinic.org/why-you-feel-emotionally-numb"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "crying-is-ok",
+    "title": "It's okay to cry",
+    "tags": [
+      "crying",
+      "cry",
+      "tears",
+      "can't stop crying",
+      "cant stop crying",
+      "sob",
+      "breaking down",
+      "cried all night"
+    ],
+    "text": "Crying is a natural response to stress and sadness, and it often brings some relief. You don't have to hold it in or explain it. Let it come, then maybe drink some water and do one small, gentle thing for yourself.",
+    "source": {
+      "name": "Cleveland Clinic: Why You May Feel Better After Crying",
+      "url": "https://health.clevelandclinic.org/benefits-of-crying"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "hard-conversation",
+    "title": "Preparing for a hard conversation",
+    "tags": [
+      "hard conversation",
+      "difficult conversation",
+      "tell them",
+      "confront",
+      "confrontation",
+      "difficult talk",
+      "break up with",
+      "coming clean",
+      "have to tell"
+    ],
+    "text": "Before a hard conversation, jot down the one thing you most want them to understand and how you'd like to say it. Pick a calm time and place, use \"I\" statements, and let there be pauses.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "reaching-out",
+    "title": "Reaching out is okay",
+    "tags": [
+      "ask for help",
+      "need help",
+      "don't want to burden",
+      "dont want to burden",
+      "nobody understands",
+      "can't talk to anyone",
+      "cant talk to anyone",
+      "no one to talk to",
+      "afraid to ask"
+    ],
+    "text": "Many people worry about being a burden, but most are glad to be trusted. Start small: \"I've been having a hard time. Can I talk?\" The right person will want to listen, and you deserve that.",
+    "source": {
+      "name": "Samaritans: TALK tips: how to open up and talk about how you are feeling | Samaritans",
+      "url": "https://www.samaritans.org/how-we-can-help/if-youre-having-difficult-time/talk-tips/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "imposter-syndrome",
+    "title": "Feeling like a fraud",
+    "tags": [
+      "imposter",
+      "impostor",
+      "imposter syndrome",
+      "fraud",
+      "don't belong",
+      "dont belong",
+      "not smart enough",
+      "everyone is smarter",
+      "got in by luck",
+      "going to be found out"
+    ],
+    "text": "Feeling like a fraud is common, especially in new or competitive places, and many people around you quietly feel it too. Keep a short list of things you've handled well, and read it when the doubt gets loud.",
+    "source": {
+      "name": "University of Colorado Denver: Imposter Syndrome: When You Feel Like a Fraud",
+      "url": "https://www.cudenver.edu/student/healthy-happy-life/imposter-syndrome-when-you-feel-like-a-fraud"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "failing-class",
+    "title": "Failing a class",
+    "tags": [
+      "failing a class",
+      "failed a class",
+      "failing my class",
+      "academic probation",
+      "probation",
+      "gpa",
+      "bad grade",
+      "low grade",
+      "flunking",
+      "retake",
+      "failing out"
+    ],
+    "text": "A bad grade can feel like a disaster, but it's usually more fixable than it seems. Talk to the instructor or an academic advisor soon, since they often know options you don't. One class or semester doesn't define your path.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "changing-path",
+    "title": "Thinking about changing course",
+    "tags": [
+      "drop out",
+      "dropping out",
+      "quit school",
+      "change my major",
+      "changing majors",
+      "wrong major",
+      "hate my major",
+      "gap year",
+      "leave university",
+      "quit college",
+      "leave college"
+    ],
+    "text": "Questioning your path is normal and doesn't mean you've failed. Before deciding, talk it through with an advisor and someone who knows you well. Ask what you'd be moving toward, not just what you'd be escaping.",
+    "source": {
+      "name": "University of Northern Iowa Academic Advising: Thinking about Changing Your Major?",
+      "url": "https://advising.uni.edu/thinking-about-changing-your-major"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "waiting-uncertainty",
+    "title": "Living with waiting",
+    "tags": [
+      "waiting for results",
+      "waiting to hear back",
+      "uncertainty",
+      "uncertain",
+      "don't know what will happen",
+      "dont know what will happen",
+      "results day",
+      "visa",
+      "immigration",
+      "limbo",
+      "waiting for an answer"
+    ],
+    "text": "Waiting is hard because your mind keeps trying to solve something it can't solve yet. Give the worry a short daily check-in time, then turn to something absorbing. You'll handle the answer when it comes.",
+    "source": {
+      "name": "NHS Every Mind Matters: Tackling your worries - Every Mind Matters - NHS",
+      "url": "https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/self-help-cbt-techniques/tackling-your-worries/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "roommate-conflict",
+    "title": "Tension with a roommate",
+    "tags": [
+      "roommate",
+      "roommates",
+      "flatmate",
+      "housemate",
+      "messy roommate",
+      "dorm",
+      "shared apartment",
+      "roomie"
+    ],
+    "text": "Living closely with someone lets small irritations pile up. Pick a calm moment, raise one specific issue, and suggest a simple fix you could both try. Agreeing on a few house rules can prevent bigger fights later.",
+    "source": {
+      "name": "University of North Florida Housing: Conflict Resolution Tips",
+      "url": "https://www.unf.edu/housing/roommate-resources/conflict-resolution-tips.html"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "hard-job",
+    "title": "A hard job or boss",
+    "tags": [
+      "boss",
+      "manager",
+      "toxic workplace",
+      "toxic job",
+      "coworker",
+      "coworkers",
+      "work stress",
+      "hate my job",
+      "overworked",
+      "micromanaged",
+      "my shift"
+    ],
+    "text": "A difficult job can follow you home. Keep notes on problems, set limits where you can, like not answering messages late at night, and lean on people outside work. You're allowed to look for something better while you stay.",
+    "source": {
+      "name": "NHS: Get help with stress - NHS",
+      "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/stress/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "interview-nerves",
+    "title": "Nerves before an interview",
+    "tags": [
+      "interview",
+      "job interview",
+      "interview tomorrow",
+      "interviews",
+      "audition",
+      "nervous for my interview"
+    ],
+    "text": "Nerves before an interview mean you care. Prepare a few short stories about times you handled something well, practice them out loud, and plan your route. Remember it's also your chance to decide if they're right for you.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "long-distance",
+    "title": "Long-distance strain",
+    "tags": [
+      "long distance",
+      "long-distance",
+      "ldr",
+      "far apart",
+      "different time zones",
+      "miss my boyfriend",
+      "miss my girlfriend",
+      "miss my partner"
+    ],
+    "text": "Distance makes small gaps feel bigger. Plan regular calls you can both count on, share little everyday moments, and keep a visit on the calendar to look forward to. It's okay to talk honestly about how hard it feels.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "mixed-signals",
+    "title": "Mixed signals",
+    "tags": [
+      "situationship",
+      "mixed signals",
+      "what are we",
+      "hot and cold",
+      "not official",
+      "talking stage",
+      "don't know where we stand",
+      "dont know where we stand",
+      "leading me on"
+    ],
+    "text": "Not knowing where you stand can be exhausting. You're allowed to ask for clarity, kindly and directly. Their answer, or their silence, gives you information, and you can decide what you need from there.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "relationship-insecurity",
+    "title": "Insecurity in a relationship",
+    "tags": [
+      "insecure in my relationship",
+      "jealous of my partner",
+      "does he love me",
+      "does she love me",
+      "overthinking my relationship",
+      "afraid they'll leave",
+      "afraid theyll leave",
+      "clingy",
+      "trust issues",
+      "need reassurance"
+    ],
+    "text": "Relationship worries can spiral into checking and needing reassurance. Notice the fear, breathe, and ask what has actually happened versus what you're imagining. Then share what you need calmly, rather than testing your partner.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "ended-it-guilt",
+    "title": "When you were the one who ended it",
+    "tags": [
+      "i broke up with",
+      "broke up with him",
+      "broke up with her",
+      "broke up with them",
+      "i ended it",
+      "ended the relationship",
+      "guilty about breaking up",
+      "i dumped"
+    ],
+    "text": "Ending a relationship can bring guilt and grief, even when it was the right call. You can care about someone and still know it wasn't working. Let yourself miss them while trusting the reasons you had.",
+    "source": {
+      "name": "NHS: Get help with grief after bereavement or loss - NHS",
+      "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/grief-bereavement-loss/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "pet-loss",
+    "title": "Losing a pet",
+    "tags": [
+      "pet died",
+      "my dog died",
+      "my cat died",
+      "lost my pet",
+      "pet passed away",
+      "dog passed away",
+      "cat passed away",
+      "put down",
+      "put to sleep",
+      "euthanized"
+    ],
+    "text": "Losing a pet can feel like losing a family member, and the grief can be intense. It's okay to cry, keep their things for a while, or make a small memorial. Your grief is real, even if others don't understand.",
+    "source": {
+      "name": "Cleveland Clinic: How to Grieve the Death of a Pet",
+      "url": "https://health.clevelandclinic.org/grieving-the-loss-of-a-pet"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "grief-anniversary",
+    "title": "Anniversaries and reminders",
+    "tags": [
+      "death anniversary",
+      "anniversary of",
+      "since she died",
+      "since he died",
+      "since they died",
+      "first christmas without",
+      "holidays without",
+      "birthday without",
+      "a year since"
+    ],
+    "text": "Anniversaries, holidays, and small reminders can bring grief rushing back. That doesn't mean you're going backwards. Plan something gentle for those days, like visiting a place or spending time with people who remember too.",
+    "source": {
+      "name": "NHS: Get help with grief after bereavement or loss - NHS",
+      "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/grief-bereavement-loss/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "discrimination",
+    "title": "Facing discrimination",
+    "tags": [
+      "discrimination",
+      "discriminated",
+      "racism",
+      "racist",
+      "sexism",
+      "sexist",
+      "homophobia",
+      "homophobic",
+      "transphobia",
+      "transphobic",
+      "microaggression",
+      "prejudice",
+      "treated differently"
+    ],
+    "text": "Being treated unfairly for who you are is painful, and it is not your fault. Your anger and hurt make sense. Write down what happened, find people who understand, and know you can report it to someone with the power to act.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "identity-exploring",
+    "title": "Exploring who you are",
+    "tags": [
+      "coming out",
+      "gay",
+      "lesbian",
+      "bisexual",
+      "queer",
+      "transgender",
+      "im trans",
+      "nonbinary",
+      "non-binary",
+      "sexuality",
+      "gender identity",
+      "questioning my sexuality",
+      "questioning my gender"
+    ],
+    "text": "Exploring your sexuality or gender is a personal journey with no deadline. You get to decide who to tell and when, and your safety comes first. Look for affirming people or communities where you can be fully yourself.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "frightening-event",
+    "title": "After something frightening",
+    "tags": [
+      "accident",
+      "car accident",
+      "robbed",
+      "mugged",
+      "got attacked",
+      "was attacked",
+      "witnessed",
+      "something scary happened",
+      "shaken up",
+      "flashbacks",
+      "trauma",
+      "traumatic"
+    ],
+    "text": "After something frightening, it's normal to feel shaky, jumpy, or keep replaying it. Be gentle with yourself, stay near people you trust, and keep basic routines. If memories keep disrupting your life, talking to a professional can really help.",
+    "source": {
+      "name": "NIMH: Coping With Traumatic Events",
+      "url": "https://www.nimh.nih.gov/health/topics/coping-with-traumatic-events"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "sexual-assault",
+    "title": "If someone hurt you sexually",
+    "tags": [
+      "sexual assault",
+      "sexually assaulted",
+      "assaulted",
+      "raped",
+      "rape",
+      "molested",
+      "without my consent",
+      "touched me without",
+      "sexual harassment",
+      "sexually harassed"
+    ],
+    "text": "If someone did something sexual without your consent, it is not your fault, and you deserve care. Consider telling someone you trust or contacting a local sexual assault support service. If you're hurt or in danger, please seek emergency or medical help.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "substance-coping",
+    "title": "Leaning on drinking or substances",
+    "tags": [
+      "drinking too much",
+      "been drinking",
+      "drinking a lot",
+      "drunk",
+      "alcohol",
+      "getting high",
+      "weed",
+      "drugs",
+      "using to cope",
+      "hungover",
+      "addicted",
+      "addiction"
+    ],
+    "text": "Using alcohol or other substances to cope is common, and it often makes hard feelings heavier later. Without judging yourself, notice when and why you reach for it. A doctor or support service can help if cutting back feels hard.",
+    "source": {
+      "name": "NHS: Alcohol support - NHS",
+      "url": "https://www.nhs.uk/live-well/alcohol-advice/alcohol-support/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "gambling-losses",
+    "title": "Gambling losses",
+    "tags": [
+      "gambling",
+      "gambled",
+      "betting",
+      "bets",
+      "casino",
+      "sports betting",
+      "lost money gambling",
+      "crypto losses",
+      "lost my savings",
+      "chasing losses"
+    ],
+    "text": "Losing money on gambling or risky bets can bring panic and shame. Pause before trying to win it back, since chasing losses usually deepens them. Tell someone you trust, and look for a gambling support service if it's hard to stop.",
+    "source": {
+      "name": "NHS: Help for problems with gambling - NHS",
+      "url": "https://www.nhs.uk/live-well/addiction-support/gambling-addiction/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "food-struggles",
+    "title": "When food feels like a battle",
+    "tags": [
+      "not eating",
+      "stopped eating",
+      "skipping meals",
+      "binge eating",
+      "binging food",
+      "purging",
+      "starving myself",
+      "calories",
+      "eating disorder",
+      "afraid to eat"
+    ],
+    "text": "If food, eating, or weight feel like a constant battle, you're not alone, and you deserve support, not judgment. A doctor or counselor can help, and it's worth reaching out soon, even if you're unsure it's serious.",
+    "source": {
+      "name": "NHS: Overview - Eating disorders - NHS",
+      "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/eating-disorders/overview/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "nothing-enjoyable",
+    "title": "When nothing feels enjoyable",
+    "tags": [
+      "nothing is fun",
+      "nothing feels fun",
+      "no motivation",
+      "don't enjoy anything",
+      "dont enjoy anything",
+      "low mood",
+      "sad all the time",
+      "depressed",
+      "bored of everything",
+      "no interest"
+    ],
+    "text": "When nothing feels enjoyable, it can help to try one tiny pleasant thing anyway, like music, sunlight, or texting a friend, and notice any small shift. If this low mood lasts weeks, a doctor or counselor can help.",
+    "source": {
+      "name": "NHS: Overview - Depression in adults - NHS",
+      "url": "https://www.nhs.uk/mental-health/conditions/depression-in-adults/overview/"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "feeling-unwanted",
+    "title": "Feeling unwanted",
+    "tags": [
+      "unwanted",
+      "unloved",
+      "nobody loves me",
+      "no one loves me",
+      "no one cares",
+      "nobody cares",
+      "not wanted",
+      "invisible",
+      "nobody likes me"
+    ],
+    "text": "Feeling unwanted is deeply painful, and it makes the mind notice only evidence that fits. Try to recall one person who has shown you care, even in a small way. Reaching out to them, or to a counselor, can ease the isolation.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "heavy-news",
+    "title": "Heavy news and world events",
+    "tags": [
+      "watching the news",
+      "world news",
+      "world events",
+      "war",
+      "climate change",
+      "climate anxiety",
+      "doomscrolling",
+      "politics",
+      "election",
+      "scary world",
+      "the news is",
+      "news is making me",
+      "reading the news",
+      "scrolling the news",
+      "following the news",
+      "the news makes me",
+      "the news is making me"
+    ],
+    "text": "Hard news can make the world feel overwhelming. It's okay to set limits, like checking once a day and avoiding it close to bedtime. Turn some worry into a small action if it helps, and spend time on things that ground you.",
+    "source": {
+      "name": "CDC: Managing Stress | Mental Health | CDC",
+      "url": "https://www.cdc.gov/mental-health/living-with/index.html"
+    },
+    "reviewed": false,
+    "sourceChecked": "2026-11-16"
+  },
+  {
+    "id": "embarrassing-replay",
+    "title": "Replaying an embarrassing moment",
+    "tags": [
+      "embarrassing",
+      "embarrassed myself",
+      "cringe",
+      "cringing",
+      "humiliated myself",
+      "said something stupid",
+      "made a fool of myself",
+      "awkward moment",
+      "everyone saw"
+    ],
+    "text": "Replaying an awkward moment makes it feel huge, but other people usually forget it far faster than you do. Ask how you'd see it if a friend did the same thing. Then let it become a story you might laugh at later.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "family-money-stress",
+    "title": "Money stress at home",
+    "tags": [
+      "family money",
+      "parents money problems",
+      "my family is broke",
+      "can't afford college",
+      "cant afford college",
+      "tuition",
+      "financial aid",
+      "parents lost their job",
+      "supporting my family"
+    ],
+    "text": "Seeing your family struggle with money can make you feel guilty or responsible. It isn't yours to fix alone. Ask your school's financial aid office about options, and talk honestly with family about what you can and can't carry.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "injury-sidelined",
+    "title": "When an injury takes you out",
+    "tags": [
+      "injury",
+      "injured",
+      "can't play",
+      "cant play",
+      "sidelined",
+      "rehab",
+      "broke my leg",
+      "broke my arm",
+      "athlete",
+      "season is over"
+    ],
+    "text": "Being sidelined by injury can take away your routine, identity, and the people you train with. It's normal to grieve that. Stay connected with your team, set small recovery goals, and find other ways to feel like yourself meanwhile.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "estranged-family",
+    "title": "Distance from family",
+    "tags": [
+      "estranged",
+      "no contact with my family",
+      "cut off my family",
+      "disowned",
+      "kicked out",
+      "don't talk to my parents",
+      "dont talk to my parents",
+      "family rejected me"
+    ],
+    "text": "Distance from family, chosen or not, can bring grief and loneliness, especially around holidays. Relief and sadness can both be true. Build a circle of people who feel like family, and reach out to local services if you need housing or safety help.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  },
+  {
+    "id": "holiday-loneliness",
+    "title": "Lonely holidays",
+    "tags": [
+      "christmas alone",
+      "alone for the holidays",
+      "holidays alone",
+      "holiday season",
+      "alone on thanksgiving",
+      "alone on my birthday",
+      "birthday alone",
+      "new years alone",
+      "nobody to celebrate with",
+      "alone for christmas",
+      "alone at christmas",
+      "alone on christmas",
+      "alone for thanksgiving",
+      "alone on new years",
+      "alone on holidays",
+      "spending christmas alone",
+      "spending the holidays alone"
+    ],
+    "text": "Holidays can highlight what's missing. Plan something small that feels kind, connect with even one person, and remember many people feel this way quietly. It's one day, and you can get through it in your own way.",
+    "source": {
+      "name": "TODO: verify against source",
+      "url": "TODO: verify against source"
+    },
+    "reviewed": false
+  }
+]

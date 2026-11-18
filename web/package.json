@@ -1,0 +1,22 @@
+{
+  "name": "haven-web",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w frontend",
+    "build": "npm run build -w frontend",
+    "lint": "npm run lint -w frontend",
+    "typecheck": "npm run typecheck -w backend && npx -w frontend tsc --noEmit",
+    "test": "npm run test -w backend && npm run test -w frontend",
+    "format": "prettier --write \"frontend/{app,components,lib,tests}/**/*.{ts,tsx,css}\" \"frontend/*.{ts,mjs}\" \"backend/{src,tests}/**/*.ts\" \"backend/*.{ts,mts}\"",
+    "format:check": "prettier --check \"frontend/{app,components,lib,tests}/**/*.{ts,tsx,css}\" \"frontend/*.{ts,mjs}\" \"backend/{src,tests}/**/*.ts\" \"backend/*.{ts,mts}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.10.1",
+    "prettier-plugin-tailwindcss": "^0.8.1",
+    "vitest": "^5.1.0"
+  }
+}

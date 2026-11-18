@@ -1,8 +1,6 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
-/node_modules
-/.pnp
+node_modules/
+.pnp
 .pnp.*
 .yarn/*
 !.yarn/patches
@@ -11,18 +9,21 @@
 !.yarn/versions
 
 # testing
-/coverage
+coverage/
 
 # next.js
-/.next/
-/out/
+.next/
+out/
+next-env.d.ts
 
 # production
-/build
+build/
 
 # misc
 .DS_Store
 *.pem
+*.tsbuildinfo
+.dev.log
 
 # debug
 npm-debug.log*
@@ -30,12 +31,28 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
-
 # vercel
 .vercel
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# Haven: never commit secrets (the example file is the only env file allowed)
+.env
+.env.*
+!.env.example
+*-service-account*.json
+serviceAccount*.json
+
+# App Check debug tokens
+.appcheck-debug-token*
+appcheck-debug-token*
+
+# Firebase CLI
+.firebase/
+firebase-debug.log*
+
+# Hotline scraper tooling (raw downloads + venv are not committed)
+tools/hotlines/.venv/
+tools/hotlines/raw/
+__pycache__/
+
+# Screenshot tool output (the script in tools/shots is kept)
+tools/shots/*.png
