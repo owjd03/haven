@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Source_Serif_4 } from "next/font/google";
+import {
+  Atkinson_Hyperlegible_Next,
+  Geist,
+  Geist_Mono,
+  Nunito,
+  Source_Serif_4,
+} from "next/font/google";
 import "./globals.css";
 import AIProvider from "@/components/AIProvider";
 import CrisisProvider from "@/components/CrisisProvider";
@@ -21,19 +27,28 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// The fonts a person can choose in Settings. They are bundled when Haven is built, so nothing is fetched
+// from Google while the app runs. The browser only downloads a font file once it is actually used.
+const nunito = Nunito({ variable: "--font-nunito", subsets: ["latin"], preload: false });
+const atkinson = Atkinson_Hyperlegible_Next({
+  variable: "--font-atkinson",
+  subsets: ["latin"],
+  preload: false,
+});
+
 export const metadata: Metadata = {
   title: "Haven",
   description: "A private, on-device-first wellness companion.",
 };
 
 // Applies the saved appearance before first paint, so there is no flash of the wrong theme.
-const APPEARANCE_INIT = `try{var d=document.documentElement;if(localStorage.getItem("haven.theme")==="dark")d.setAttribute("data-theme","dark");var t=localStorage.getItem("haven.textSize");if(t==="large"||t==="small")d.setAttribute("data-text",t);}catch(e){}`;
+const APPEARANCE_INIT = `try{var d=document.documentElement;if(localStorage.getItem("haven.theme")==="dark")d.setAttribute("data-theme","dark");var t=localStorage.getItem("haven.textSize");d.setAttribute("data-text",t==="large"||t==="normal"?t:"small");var f=localStorage.getItem("haven.font");if(f==="system"||f==="nunito"||f==="atkinson"||f==="serif")d.setAttribute("data-font",f);}catch(e){}`;
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${sourceSerif.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${sourceSerif.variable} ${nunito.variable} ${atkinson.variable} h-full antialiased`}
       suppressHydrationWarning
     >
       <head>

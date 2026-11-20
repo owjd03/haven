@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useAI } from "./AIProvider";
 import { useCrisis } from "./CrisisProvider";
 import { Button } from "./ui";
 
@@ -48,10 +49,48 @@ const PRIVACY_POINTS = [
   "Before anything is sent, Haven hides names and places and shows you exactly what would go.",
 ];
 
+const FLAG_URL = "chrome://flags/#prompt-api-for-gemini-nano-multimodal-input";
+
+/** A web page can't open chrome:// addresses, so this copies the address for the person to paste. */
+function CopyFlag() {
+  const [state, setState] = useState<"idle" | "copied" | "failed">("idle");
+  async function copy() {
+    try {
+      await navigator.clipboard.writeText(FLAG_URL);
+      setState("copied");
+    } catch {
+      setState("failed");
+    }
+  }
+  return (
+    <div className="mt-3">
+      <div className="flex flex-wrap items-center gap-3">
+        <code className="rounded-lg bg-surface px-3 py-2 text-sm break-all select-all">{FLAG_URL}</code>
+        <Button variant="secondary" size="sm" type="button" onClick={copy}>
+          {state === "copied" ? "Copied" : "Copy link"}
+        </Button>
+      </div>
+      <p role="status" className="mt-2 text-sm text-muted">
+        {state === "failed"
+          ? "Couldn't copy it. Select the address above and copy it by hand."
+          : state === "copied"
+            ? "Copied. Now open a new tab and paste it in the address bar."
+            : ""}
+      </p>
+    </div>
+  );
+}
+
 /** The opening page, shown once. Nothing else in Haven opens until the person agrees. */
 export default function Agreement({ onAgree }: { onAgree: () => void }) {
   const { triggerCrisis } = useCrisis();
+  const { localStatus } = useAI();
   const [checked, setChecked] = useState(false);
+  const [setupDone, setSetupDone] = useState(false);
+  // "available", "downloadable" and "downloading" all mean Chrome's on-device AI is switched on.
+  const ready = localStatus === "available" || localStatus === "downloadable" || localStatus === "downloading";
+  const checking = localStatus === "checking";
+  const canContinue = checked && (ready || setupDone);
   // The scroll prompt shows until the agreement itself has come into view.
   const endRef = useRef<HTMLElement>(null);
   const [atEnd, setAtEnd] = useState(false);
@@ -120,6 +159,57 @@ export default function Agreement({ onAgree }: { onAgree: () => void }) {
         </ul>
       </section>
 
+      <section aria-labelledby="setup" className="mt-12">
+        <h2 id="setup" className="text-2xl">
+          Turn on Chrome&apos;s on-device AI
+        </h2>
+        {checking ? (
+          <p className="mt-4 text-muted">Checking your browser…</p>
+        ) : ready ? (
+          <label className="mt-4 flex items-start gap-3">
+            <input
+              type="checkbox"
+              checked
+              disabled
+              className="mt-1 h-5 w-5 shrink-0 accent-[var(--accent)]"
+            />
+            <span className="leading-relaxed">Your browser is ready. There is nothing to set up.</span>
+          </label>
+        ) : (
+          <>
+            <p className="mt-4 max-w-prose text-muted">
+              Haven&apos;s private chat needs desktop Chrome 139 or newer, with one setting turned
+              on. It takes about a minute.
+            </p>
+            <ol className="mt-4 list-decimal space-y-2 pl-5">
+              <li>Copy this address.</li>
+              <li>Open a new tab, paste it in the address bar and press Enter.</li>
+              <li>
+                Next to the setting, choose <strong>Enabled</strong>, then press{" "}
+                <strong>Relaunch</strong> when Chrome asks.
+              </li>
+              <li>Open this site again.</li>
+            </ol>
+            <CopyFlag />
+            {localStatus === "unavailable" && (
+              <p className="mt-4 rounded-xl bg-warn-bg p-4 text-warn-ink">
+                Haven can&apos;t see the on-device AI in this browser yet. You can still carry on,
+                but private chat won&apos;t work until it is turned on. The cloud features still do.
+              </p>
+            )}
+            <label className="mt-5 flex cursor-pointer items-start gap-3">
+              <input
+                type="checkbox"
+                checked={setupDone}
+                onChange={(e) => setSetupDone(e.target.checked)}
+                className="mt-1 h-5 w-5 shrink-0 accent-[var(--accent)]"
+              />
+              <span className="leading-relaxed">I&apos;ve turned this on and restarted Chrome.</span>
+            </label>
+          </>
+        )}
+      </section>
+
       <section ref={endRef} aria-label="Agreement" className="mt-12 border-t border-line pt-8">
         <label className="flex cursor-pointer items-start gap-3">
           <input
@@ -133,7 +223,7 @@ export default function Agreement({ onAgree }: { onAgree: () => void }) {
             on that basis.
           </span>
         </label>
-        <Button size="lg" className="mt-6" disabled={!checked} onClick={onAgree}>
+        <Button size="lg" className="mt-6" disabled={!canContinue} onClick={onAgree}>
           Continue
         </Button>
       </section>

@@ -1077,3 +1077,76 @@ Chrome's built-in model has a small memory and runs one job at a time, so the "m
 1. **Logic.** Slicing, the Private chain, the instructions, the saved-plan `mode`, tests.
 2. **Page.** The two options, both paths, the animation, the label, checks in Chrome.
 3. **Docs.** README, privacy page, checklist, and the status at the top of this addendum.
+
+## Addendum: font choice, and Small text as the default (v3.14)
+
+Status: **implemented on 2026-11-19** (432 tests pass). The recommended answer was taken each time. Checked in headless Chrome: all five fonts at all three sizes in light and dark, on seven pages and on a phone, with no sideways scrolling; the choice survives a reload; no font file comes from Google. Not checked: how each font looks on a real Windows or Android device (System follows the device).
+
+### What changes
+
+- **Text size starts at Small** (88%, about 15px) for anyone who has not picked one. Normal and Large stay as options. Because Normal used to mean "nothing saved", Normal is now saved like the other two choices.
+- **A Font choice in Settings, under Appearance**, next to Text size. It is a list of five radio options, each name shown in its own font:
+  - **Default** (Geist, as now)
+  - **System**: the font of the person's device. San Francisco on Mac, iPhone and iPad; the native font on Windows and Android. Apple's licence does not allow San Francisco on a website, so Haven uses `system-ui`, not the font files.
+  - **Nunito**: soft and rounded.
+  - **Atkinson Hyperlegible**: very clear letters.
+  - **Source Serif 4**: a calm serif. Haven already loads it for headings, so it adds no download.
+- The choice changes **body text, buttons and chat**. Headings stay in the serif, so Haven keeps its look.
+- The choice is saved on this device and cleared by Delete everything, like the theme and text size.
+
+### Wording
+
+Research found no clinical evidence that any font calms anxiety. The labels describe what a font looks like ("Soft and rounded", "Very clear letters"). Haven makes no claim that a font reduces anxiety.
+
+### Technical design
+
+- The fonts are bundled at build time with `next/font`, Latin letters only. Nothing is fetched from Google while the app runs, so it works offline. A font file downloads only when someone picks it.
+- `lib/appearance.ts`: a `Font` setting and a `data-font` attribute on the page; the text size default becomes Small. `app/layout.tsx`: the start-up script applies both before first paint. `app/globals.css`: `--font-sans` follows the choice.
+- `app/settings/AppearanceSettings.tsx`: the Font radio group, in the same style as Text size.
+- No other new controls.
+
+### Testing
+
+- Unit tests: the default size is Small; each saved size and font is read back; unknown values fall back to the default; Delete everything clears both.
+- In headless Chrome: each of the five fonts at Small, Normal and Large, in light and dark and on a phone, on Chat, Journal, Insights, Small steps and Settings; the choice survives a reload; no layout breaks or cut-off text; no network request for fonts while the app runs. I will look at the screenshots myself.
+
+### Phases (stop after each for review)
+
+1. **Logic.** Settings values, default size, `data-font`, tests.
+2. **Page.** The Font choice, the fonts loaded, checks in Chrome.
+3. **Docs.** README, checklist, and the status at the top of this addendum.
+
+## Addendum: set up Chrome's on-device AI on the opening page (v3.15)
+
+Status: **implemented on 2026-11-20.** The recommended answer was taken each time. As built, the setup box sits in its own section above the agreement box (not under it). Checked in headless Chrome with a stubbed on-device model: ready, downloadable, not ready and no Prompt API at all, plus Copy link, dark mode and a phone (39 checks pass). Not checked: a real Chrome with the flag off and then on.
+
+### Why
+
+Haven will be hosted, so people arrive with a plain Chrome that has not turned on the on-device model. The opening page now walks them through it before they start.
+
+### What changes
+
+- A new section on `/`, **above the agreement checkboxes**: "Turn on Chrome's on-device AI".
+- A web page cannot open a `chrome://` address (Chrome blocks it), so there is no clickable link. A **Copy link** button copies `chrome://flags/#prompt-api-for-gemini-nano-multimodal-input` to the clipboard. The address stays visible too, so it can be copied by hand if the button fails.
+- Four short steps: copy the link; paste it in a new tab and set the flag to **Enabled**; press **Relaunch** when Chrome asks; open this site again. The text says it needs desktop Chrome 139 or newer.
+- A **second checkbox** under the agreement one: "I've turned this on and restarted Chrome." **Continue** stays disabled until both boxes are ticked. A tick is only the person's word, since Haven cannot verify it.
+- **Already set up:** if the browser reports the model as ready (or downloadable), the section shows "Your browser is ready" with the box ticked and locked. Nothing to do.
+- **Browsers that cannot run it** (phone, Safari, Firefox): a short warning that private chat needs desktop Chrome 139 or newer. They can still tick the box and continue. Chat shows its existing gentle message, and the cloud features still work.
+- It is one-time like the agreement: saved with the same "I agree" flag, kept out of backups and wiped by Delete everything. The "Scroll down to read everything" pill keeps working.
+
+### Technical design
+
+- `components/Agreement.tsx`: the new section and checkbox; the Copy link button (with a visible fallback if the clipboard is blocked); `useAI().localStatus` for the ready state.
+- No change to storage: the single `haven.agreed` flag covers both boxes.
+- No new settings or controls elsewhere.
+
+### Testing
+
+- In headless Chrome with a stubbed on-device model: ready (box ticked and locked, Continue needs only the agreement box), not ready (both boxes required), downloadable, and no Prompt API at all (warning shown, can still continue). Copy link puts the right address on the clipboard. Light, dark and phone. I will look at the screenshots myself.
+- The existing 293 frontend tests still pass.
+
+### Phases (stop after each for review)
+
+1. **Section and checkbox.** The steps, Copy link, the second box, the Continue rule.
+2. **Detection.** The ready, downloadable and unsupported states.
+3. **Docs.** README and the status at the top of this addendum.

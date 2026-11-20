@@ -121,8 +121,8 @@ export default function PrivacyView() {
     try {
       await deleteEverything();
       applyAppearance();
-      setMsg({ kind: "ok", text: "Everything was deleted from this device." });
-      await refresh();
+      // Back to the opening page, as for a new visitor. A full page load, so nothing from before stays in memory.
+      window.location.assign("/");
     } catch {
       setMsg({
         kind: "error",

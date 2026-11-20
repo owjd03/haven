@@ -30,7 +30,7 @@ Deadline: **Mon Nov 30, 2026, 2:00 PM PT**. Items marked "verified" were checked
 - [x] Small steps (Private on-device, or Cloud on request; the person picks): a 4-week plan built in three stages (notes to a summary and questions, the person's answers, then the plan streamed live), grounded in a researched, source-linked library of 49 plan ideas (docs/plan-ideas.md); both previews go through the shield; crisis check on answers; the private way is a chain of small on-device jobs (slices of notes, then one job per week) with no network; a calm loading animation; saved and deletable on this device; no tracking, goals or reminders
 - [x] Remote Config: `hotlines_json` and `cloud_enabled` kill switch
 - [x] App Check debug provider on localhost (token never hardcoded)
-- [x] Light by default; dark mode and the text size (smaller, normal, larger) are manual choices in Settings (with Data & privacy). Keyboard navigation, aria labels, typing indicator, error and empty states, 3-step first-run intro
+- [x] Light by default; dark mode and the text size (smaller by default, normal, larger) and the font (five choices) are manual choices in Settings (with Data & privacy). Keyboard navigation, aria labels, typing indicator, error and empty states, 3-step first-run intro
 - [x] Soft palette with enforced contrast (tests), no pressure mechanics, plain warm copy (audited)
 - [x] Tests (Vitest, Firebase AI mocked), README, LICENSE
 

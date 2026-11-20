@@ -64,7 +64,7 @@ export async function importBackup(b: HavenBackup): Promise<void> {
   for (const [k, v] of Object.entries(b.settings)) window.localStorage.setItem(PREFIX + k, v);
 }
 
-/** Wipes Haven's IndexedDB stores and every haven.* localStorage key. */
+/** Wipes Haven's IndexedDB stores and every haven.* localStorage key, including the "I agree" flag. */
 export async function deleteEverything(): Promise<void> {
   await clearAllData();
   for (const k of havenKeys()) window.localStorage.removeItem(k);
