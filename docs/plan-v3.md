@@ -1172,3 +1172,28 @@ Security findings:
 - CSRF does not apply: there are no cookies, logins or server endpoints. The matching risk is another site using the public web key against the Gemini quota. App Check (enforced, with reCAPTCHA) and a low per-user quota are the protection. API-key referrer limits only slow people down, because a script can fake the header.
 
 Still to do by a person: create the reCAPTCHA Enterprise key, register it in App Check, set `NEXT_PUBLIC_RECAPTCHA_SITE_KEY`, restrict the browser API key, deploy, and test the live site in a fresh Chrome profile. The per-browser daily cap is not built yet.
+
+## Addendum: checks on every change, and a protected `main` (v3.17)
+
+Status: **agreed on 2026-11-21 (Q1 to Q11, the recommended answer each time). Nothing is built yet.**
+
+Why: every push to `main` now deploys the live site, so a broken push means a broken site. From now on a change reaches `main` only through a pull request that passes checks.
+
+What gets added:
+
+- **`ci.yml`, run on every pull request** (and reused by the deploy workflow). It uses fake Firebase settings, so no secret is involved and a stranger's pull request can't reach one. Two jobs:
+  1. *Lint, format, typecheck and tests:* `npm run lint`, `npm run format:check`, `npm run typecheck`, `npm test`.
+  2. *Build and safety checks:* the production build (the same static export that gets deployed), then two checks on the built files: the **leak check** (build with a fake `NEXT_PUBLIC_APP_CHECK_DEBUG_TOKEN` and fail if it appears anywhere in `out/`) and the **hidden pages check** (fail if text from the `/debug` or `/dev/prompt` pages appears in `out/`). Each check first confirms its marker text still exists in the source, so it can't pass by accident after a rename.
+- **Deploy workflow:** runs `ci.yml` again, and only then builds with the real settings and uploads. The merged result can differ from what the pull request tested.
+- **Preview of the site on each pull request** (`firebase-hosting-pull-request.yml`): builds with the real settings and uploads to a temporary address that expires after 7 days. Only for pull requests from this repo, never forks, and not for Dependabot (it gets no secrets). Cloud features don't work on preview addresses, because reCAPTCHA only trusts the two real domains.
+- **A GitHub ruleset on `main`:** changes only through a pull request; both jobs above must pass; no force-push, no deletion; no approvals needed (one person); the branch need not be up to date; **no bypass, not even for the owner**. In an emergency the ruleset can be paused in Settings, then switched back on.
+- **Repo settings:** squash merge only; branches are deleted after merge.
+- **Dependabot:** alerts and security updates on; version updates only for GitHub Actions, monthly (the actions are pinned to exact commits, so they never update on their own).
+- **Code scanning (CodeQL):** on, informational, not required to merge.
+- `npm audit` is **not** a required check. It reports 4 high findings in the gRPC package, which the browser never receives (see v3.16), so it would block every pull request.
+
+Order of work, so nothing locks us out: (1) open a branch and a pull request with the workflows, and merge it once its checks are green; (2) turn on the ruleset, naming the check names that have now run; (3) change the repo settings, Dependabot and CodeQL; (4) prove it, by trying a direct push to `main` (it must be refused) and by opening a pull request with a deliberate lint error (it must be blocked).
+
+How we work: I create a branch, commit, push and open the pull request with `gh`, wait for the checks and the preview link, and ask for a go-ahead before merging. Merging is what changes the live site.
+
+Still to do by a person: nothing new. The reCAPTCHA key (v3.16) is still open.
