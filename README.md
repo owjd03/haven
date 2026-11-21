@@ -162,6 +162,20 @@ claude plugin install firebase@firebase
 - Insights: listing every item and choosing which to send (unselected items never appear, nothing selected sends nothing, locked crisis notes carry no text, items that don't fit are reported), gathering for journal only, chats only and both (the 60/40 split, summaries before messages, 30 days within the budget), the instruction (never contains your words, safety lines, cards only when found), and the low-mood note
 - palette contrast: every text/background pair stays at 4.5:1 or better in light and dark, and the theme is light by default
 
+## How changes reach the live site
+
+The site at https://haven-882c1.web.app is built and uploaded by GitHub Actions. Nobody pushes straight to `main`: every change goes through a pull request.
+
+1. Make a branch and open a pull request.
+2. Two checks run (`.github/workflows/ci.yml`, with made-up settings, so no secret is involved):
+   - **Lint, format, typecheck and tests:** `npm run lint`, `npm run format:check`, `npm run typecheck`, `npm test`.
+   - **Build and safety checks:** the production build, then `tools/ci/check-build-output.mjs`, which fails if a debug token or text from the developer pages (`/debug`, `/dev/prompt`) is in the built files.
+3. A preview of the built site is uploaded to a temporary address, shown on the pull request. Cloud features don't work there (reCAPTCHA only trusts the real domains). Pull requests from forks get no preview and no secrets.
+4. Both checks must pass before the pull request can be squash-merged.
+5. Merging to `main` runs the same checks again, builds with the real settings (kept as GitHub secrets, because `.env.local` is not in the repo) and uploads to the live site.
+
+Dependabot opens a pull request when a pinned action or a vulnerable package needs an update, and CodeQL scans the code for security mistakes.
+
 ## Privacy model
 
 - **Stays on your device:** chats, summaries, journal entries and mood ratings, notes and settings; all everyday inference.
