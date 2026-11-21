@@ -1150,3 +1150,25 @@ Haven will be hosted, so people arrive with a plain Chrome that has not turned o
 1. **Section and checkbox.** The steps, Copy link, the second box, the Continue rule.
 2. **Detection.** The ready, downloadable and unsupported states.
 3. **Docs.** README and the status at the top of this addendum.
+
+## Addendum: getting ready to host on Firebase, and a security check (v3.16)
+
+Status: **code changes implemented on 2026-11-21** (433 tests pass; the static export builds). Nothing has been deployed.
+
+What changed:
+
+- `next.config.ts` sets `output: "export"`, so `npm run build` writes plain files to `web/frontend/out`. `cacheComponents`, `partialPrefetching` and `redirects()` were removed because a static export can't use them. `npm run dev` works as before.
+- `/reflection` now forwards to `/insights` from its own small page (`app/reflection/page.tsx`) and from a redirect in the new `firebase.json`.
+- `/debug` calls `notFound()` in production builds, like `/dev/prompt`. `firebase.json` also leaves both out of the upload.
+- App Check: localhost keeps the debug provider. Any other host uses reCAPTCHA Enterprise with `NEXT_PUBLIC_RECAPTCHA_SITE_KEY` (no key means cloud calls are refused and private features still work), and each Firebase AI request uses a limited-use token.
+- `firebase.json` adds security headers (no framing, no content sniffing, referrer and browser-permission limits) and long caching for `_next/static`.
+
+Security findings:
+
+- **Fixed:** `NEXT_PUBLIC_APP_CHECK_DEBUG_TOKEN` is copied into the built JavaScript by Next.js. A build of the old code contained the real debug token (checked by searching the output). The token is now read only outside production builds, and a new build does not contain it.
+- **Fixed:** the crisis page showed any link from the hotline data, which Remote Config can replace. Links must now start with `http://` or `https://` (new test).
+- **Checked, nothing found:** no secrets in the git history; `.env.local` was never tracked; the build contains only the public Firebase web key; there is one `dangerouslySetInnerHTML` (a fixed script); no Firestore or gRPC code reaches the browser.
+- **Known, not fixed:** `npm audit` lists 4 high (`@grpc/grpc-js`, pulled in by Firebase's Firestore package, which Haven never imports) and 7 moderate (ESLint tooling) findings. None ships to visitors. The suggested fix downgrades Firebase to 9.14, so it was not applied.
+- CSRF does not apply: there are no cookies, logins or server endpoints. The matching risk is another site using the public web key against the Gemini quota. App Check (enforced, with reCAPTCHA) and a low per-user quota are the protection. API-key referrer limits only slow people down, because a script can fake the header.
+
+Still to do by a person: create the reCAPTCHA Enterprise key, register it in App Check, set `NEXT_PUBLIC_RECAPTCHA_SITE_KEY`, restrict the browser API key, deploy, and test the live site in a fresh Chrome profile. The per-browser daily cap is not built yet.

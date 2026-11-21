@@ -62,7 +62,11 @@ function Choice<T extends string>({
 
 const FONT_OPTIONS: Option<FontChoice>[] = [
   { value: "default", label: "Default", font: "var(--font-geist-sans), system-ui, sans-serif" },
-  { value: "system", label: "System", font: 'system-ui, -apple-system, "Segoe UI", Roboto, sans-serif' },
+  {
+    value: "system",
+    label: "System",
+    font: 'system-ui, -apple-system, "Segoe UI", Roboto, sans-serif',
+  },
   { value: "nunito", label: "Nunito", font: "var(--font-nunito), system-ui, sans-serif" },
   { value: "atkinson", label: "Atkinson", font: "var(--font-atkinson), system-ui, sans-serif" },
   { value: "serif", label: "Serif", font: "var(--font-serif-source), Georgia, serif" },
@@ -136,9 +140,7 @@ export default function AppearanceSettings() {
           setFont(v);
         }}
       />
-      <p className="mt-2 text-sm text-muted">
-        {FONT_NOTES[font]}
-      </p>
+      <p className="mt-2 text-sm text-muted">{FONT_NOTES[font]}</p>
     </section>
   );
 }

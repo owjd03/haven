@@ -1,7 +1,12 @@
 "use client";
 
 import { getApp, getApps, initializeApp, type FirebaseApp } from "firebase/app";
-import { initializeAppCheck, ReCaptchaV3Provider, type AppCheck } from "firebase/app-check";
+import {
+  initializeAppCheck,
+  ReCaptchaEnterpriseProvider,
+  ReCaptchaV3Provider,
+  type AppCheck,
+} from "firebase/app-check";
 import { getAI, GoogleAIBackend, type AI } from "firebase/ai";
 
 // Public web config only (safe to ship in the client bundle).
@@ -24,17 +29,33 @@ let appCheck: AppCheck | undefined;
 function setupAppCheck(app: FirebaseApp): void {
   if (appCheck || typeof window === "undefined") return;
 
-  // Haven's demo is localhost-only, so App Check always uses the DEBUG provider.
-  // The SDK prints the generated token in the console; register it under
-  // Firebase console > Security > App Check > Apps > Manage debug tokens.
-  // Never hardcode a token: an optional stable one comes from a gitignored env file.
   const host = window.location.hostname;
   const isLocal = host === "localhost" || host === "127.0.0.1";
-  if (!isLocal) return;
 
+  if (!isLocal) {
+    // The hosted site proves itself with reCAPTCHA Enterprise. Without a site key
+    // the private features still work; cloud calls are refused by Firebase.
+    const siteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
+    if (!siteKey) return;
+    appCheck = initializeAppCheck(app, {
+      provider: new ReCaptchaEnterpriseProvider(siteKey),
+      isTokenAutoRefreshEnabled: true,
+    });
+    return;
+  }
+
+  // On localhost App Check uses the DEBUG provider. The SDK prints the generated
+  // token in the console; register it under Firebase console > Security >
+  // App Check > Apps > Manage debug tokens. Never hardcode a token: an optional
+  // stable one comes from a gitignored env file. It is read only outside
+  // production builds, so it can never be copied into the hosted JavaScript.
+  const debugToken =
+    process.env.NODE_ENV === "production"
+      ? undefined
+      : process.env.NEXT_PUBLIC_APP_CHECK_DEBUG_TOKEN;
   (
     self as unknown as { FIREBASE_APPCHECK_DEBUG_TOKEN?: string | boolean }
-  ).FIREBASE_APPCHECK_DEBUG_TOKEN = process.env.NEXT_PUBLIC_APP_CHECK_DEBUG_TOKEN || true;
+  ).FIREBASE_APPCHECK_DEBUG_TOKEN = debugToken || true;
 
   appCheck = initializeAppCheck(app, {
     // With a debug token set, the SDK skips real attestation; the provider's
@@ -61,7 +82,11 @@ let aiInstance: AI | undefined;
 /** One Firebase AI Logic connection (Gemini Developer API, free Spark plan). */
 export function getFirebaseAI(): AI {
   if (!aiInstance) {
-    aiInstance = getAI(getFirebaseApp(), { backend: new GoogleAIBackend() });
+    aiInstance = getAI(getFirebaseApp(), {
+      backend: new GoogleAIBackend(),
+      // Each App Check token works for one request, so a copied token is useless.
+      useLimitedUseAppCheckTokens: true,
+    });
   }
   return aiInstance;
 }

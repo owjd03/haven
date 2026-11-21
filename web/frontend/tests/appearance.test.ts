@@ -185,7 +185,9 @@ describe("Settings control", () => {
 
   it("offers the five fonts, Default first, each shown in its own font", () => {
     const src = read("app/settings/AppearanceSettings.tsx");
-    const labels = ["Default", "System", "Nunito", "Atkinson", "Serif"].map((l) => src.indexOf(`label: "${l}"`));
+    const labels = ["Default", "System", "Nunito", "Atkinson", "Serif"].map((l) =>
+      src.indexOf(`label: "${l}"`),
+    );
     expect(labels.every((i) => i > -1)).toBe(true);
     expect([...labels].sort((a, c) => a - c)).toEqual(labels);
   });

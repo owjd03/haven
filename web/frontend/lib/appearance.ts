@@ -8,7 +8,13 @@
 export type Theme = "light" | "dark";
 export type TextSize = "small" | "normal" | "large";
 export type FontChoice = "default" | "system" | "nunito" | "atkinson" | "serif";
-export const FONT_CHOICES: readonly FontChoice[] = ["default", "system", "nunito", "atkinson", "serif"];
+export const FONT_CHOICES: readonly FontChoice[] = [
+  "default",
+  "system",
+  "nunito",
+  "atkinson",
+  "serif",
+];
 
 const THEME_KEY = "haven.theme";
 const TEXT_KEY = "haven.textSize";

@@ -122,6 +122,7 @@ export default function PrivacyView() {
       await deleteEverything();
       applyAppearance();
       // Back to the opening page, as for a new visitor. A full page load, so nothing from before stays in memory.
+      // eslint-disable-next-line @next/next/no-location-assign-relative-destination -- a full reload is the point
       window.location.assign("/");
     } catch {
       setMsg({

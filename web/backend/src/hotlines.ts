@@ -9,6 +9,12 @@ export function isPlaceholder(value: string | undefined): boolean {
   return !value || /todo/i.test(value);
 }
 
+/** Links must be ordinary web addresses (or an unfinished placeholder), never `javascript:` or `data:`. */
+function isSafeLink(url: unknown): boolean {
+  if (url === undefined || url === null || url === "") return true;
+  return typeof url === "string" && (isPlaceholder(url) || /^https?:\/\//i.test(url));
+}
+
 /** Validates data (e.g. from Remote Config) and falls back to the bundled list if malformed. */
 export function parseHotlines(raw: unknown): HotlineData | null {
   try {
@@ -16,9 +22,13 @@ export function parseHotlines(raw: unknown): HotlineData | null {
     if (!d || !Array.isArray(d.countries) || d.countries.length === 0) return null;
     const ok = d.countries.every(
       (c) =>
-        c && typeof c.code === "string" && typeof c.name === "string" && Array.isArray(c.lines),
+        c &&
+        typeof c.code === "string" &&
+        typeof c.name === "string" &&
+        Array.isArray(c.lines) &&
+        c.lines.every((l) => l && isSafeLink(l.url)),
     );
-    return ok ? (d as HotlineData) : null;
+    return ok && isSafeLink(d.directoryUrl) ? (d as HotlineData) : null;
   } catch {
     return null;
   }

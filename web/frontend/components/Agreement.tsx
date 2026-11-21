@@ -65,7 +65,9 @@ function CopyFlag() {
   return (
     <div className="mt-3">
       <div className="flex flex-wrap items-center gap-3">
-        <code className="rounded-lg bg-surface px-3 py-2 text-sm break-all select-all">{FLAG_URL}</code>
+        <code className="rounded-lg bg-surface px-3 py-2 text-sm break-all select-all">
+          {FLAG_URL}
+        </code>
         <Button variant="secondary" size="sm" type="button" onClick={copy}>
           {state === "copied" ? "Copied" : "Copy link"}
         </Button>
@@ -88,7 +90,8 @@ export default function Agreement({ onAgree }: { onAgree: () => void }) {
   const [checked, setChecked] = useState(false);
   const [setupDone, setSetupDone] = useState(false);
   // "available", "downloadable" and "downloading" all mean Chrome's on-device AI is switched on.
-  const ready = localStatus === "available" || localStatus === "downloadable" || localStatus === "downloading";
+  const ready =
+    localStatus === "available" || localStatus === "downloadable" || localStatus === "downloading";
   const checking = localStatus === "checking";
   const canContinue = checked && (ready || setupDone);
   // The scroll prompt shows until the agreement itself has come into view.
@@ -173,7 +176,9 @@ export default function Agreement({ onAgree }: { onAgree: () => void }) {
               disabled
               className="mt-1 h-5 w-5 shrink-0 accent-[var(--accent)]"
             />
-            <span className="leading-relaxed">Your browser is ready. There is nothing to set up.</span>
+            <span className="leading-relaxed">
+              Your browser is ready. There is nothing to set up.
+            </span>
           </label>
         ) : (
           <>
@@ -204,7 +209,9 @@ export default function Agreement({ onAgree }: { onAgree: () => void }) {
                 onChange={(e) => setSetupDone(e.target.checked)}
                 className="mt-1 h-5 w-5 shrink-0 accent-[var(--accent)]"
               />
-              <span className="leading-relaxed">I&apos;ve turned this on and restarted Chrome.</span>
+              <span className="leading-relaxed">
+                I&apos;ve turned this on and restarted Chrome.
+              </span>
             </label>
           </>
         )}

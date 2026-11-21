@@ -111,6 +111,19 @@ describe("remote hotline validation", () => {
     expect(parseHotlines({ countries: [{ code: 1 }] })).toBeNull();
   });
 
+  it("rejects links that are not plain web addresses", () => {
+    const withUrl = (url: string) => ({
+      countries: [{ code: "XX", name: "Test", lines: [{ name: "Line", phone: "988", url }] }],
+    });
+    expect(parseHotlines(withUrl("https://example.org/help"))).not.toBeNull();
+    expect(parseHotlines(withUrl("TODO: verify"))).not.toBeNull();
+    expect(parseHotlines(withUrl("javascript:alert(1)"))).toBeNull();
+    expect(parseHotlines(withUrl("data:text/html,<b>x</b>"))).toBeNull();
+    expect(
+      parseHotlines({ ...withUrl("https://example.org"), directoryUrl: "javascript:alert(1)" }),
+    ).toBeNull();
+  });
+
   it("isPlaceholder still recognises TODO/empty values", () => {
     expect(isPlaceholder("TODO: verify")).toBe(true);
     expect(isPlaceholder("")).toBe(true);
