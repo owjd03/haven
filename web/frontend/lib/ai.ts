@@ -14,6 +14,7 @@ import {
 } from "firebase/ai";
 import { SAMPLING, resolveSampling, type Sampling } from "./sampling";
 import { getFirebaseAI } from "./firebase";
+import { HavenAIError, isRetryable, MESSAGES, toHavenError } from "./aiErrors";
 
 export const CLOUD_MODEL = process.env.NEXT_PUBLIC_CLOUD_MODEL || "gemini-3.5-flash-lite";
 
@@ -25,18 +26,8 @@ export interface AIResult {
 
 export type LocalStatus = "available" | "downloadable" | "downloading" | "unavailable";
 
-export type AIErrorKind = "rate_limit" | "unavailable" | "device_unavailable" | "unknown";
-
-export class HavenAIError extends Error {
-  constructor(
-    public kind: AIErrorKind,
-    message: string,
-    public cause?: unknown,
-  ) {
-    super(message);
-    this.name = "HavenAIError";
-  }
-}
+// Errors and their plain messages live in ./aiErrors (no Firebase code, so they can be tested).
+export { HavenAIError, toHavenError, type AIErrorKind } from "./aiErrors";
 
 // --- Model objects (one Firebase connection, separate model instances) ---
 
@@ -131,10 +122,7 @@ export function initLocalModel(onProgress?: (fraction: number) => void): Promise
   if (!initPromise) {
     initPromise = (async () => {
       if ((await getLocalStatus()) === "unavailable") {
-        throw new HavenAIError(
-          "device_unavailable",
-          "Your device can't run the private on-device model.",
-        );
+        throw new HavenAIError("device_unavailable", MESSAGES.device);
       }
       const start = async () => {
         const { chat, summary } = getModels();
@@ -176,58 +164,13 @@ export function initLocalModel(onProgress?: (fraction: number) => void): Promise
 
 // --- Error handling ---
 
-function statusOf(e: unknown): number | undefined {
-  const anyE = e as { customErrorData?: { status?: number }; status?: number; message?: string };
-  if (typeof anyE?.customErrorData?.status === "number") return anyE.customErrorData.status;
-  if (typeof anyE?.status === "number") return anyE.status;
-  const m = /\b(429|503)\b/.exec(anyE?.message ?? "");
-  return m ? Number(m[1]) : undefined;
-}
-
-export function toHavenError(e: unknown): HavenAIError {
-  if (e instanceof HavenAIError) return e;
-  const status = statusOf(e);
-  const msg = (e as Error)?.message ?? String(e);
-  if (status === 429) {
-    return new HavenAIError(
-      "rate_limit",
-      "The cloud is a bit busy right now (rate limit). Please wait a minute and try again.",
-      e,
-    );
-  }
-  if (status === 503) {
-    return new HavenAIError(
-      "unavailable",
-      "The cloud model is temporarily unavailable. Please try again soon.",
-      e,
-    );
-  }
-  if (/on-device|on_device|device model|LanguageModel|unavailable/i.test(msg)) {
-    return new HavenAIError(
-      "device_unavailable",
-      "The private on-device model isn't available right now.",
-      e,
-    );
-  }
-  // Surface the real cause in dev so setup problems (API not enabled, App Check, bad model) are visible.
-  if (process.env.NODE_ENV === "development") {
-    console.error("[Haven AI error]", e);
-    return new HavenAIError(
-      "unknown",
-      `Something went wrong talking to the model. (dev detail: ${msg})`,
-      e,
-    );
-  }
-  return new HavenAIError("unknown", "Something went wrong talking to the model.", e);
-}
-
 async function withRetry<T>(fn: () => Promise<T>, retries = 3): Promise<T> {
   let delay = 800;
   for (let attempt = 0; ; attempt++) {
     try {
       return await fn();
     } catch (e) {
-      if (statusOf(e) === 503 && attempt < retries) {
+      if (isRetryable(e) && attempt < retries) {
         await new Promise((r) => setTimeout(r, delay + Math.random() * 250));
         delay *= 2;
         continue;
@@ -385,7 +328,8 @@ export async function cloudGenerateStream(
   onPartial: (textSoFar: string) => void,
 ): Promise<AIResult> {
   try {
-    const result = await getModels().cloud.generateContentStream(prompt);
+    // Starting the reply can fail while the cloud is busy; try again before any text has arrived.
+    const result = await withRetry(() => getModels().cloud.generateContentStream(prompt));
     let text = "";
     for await (const chunk of result.stream) {
       text += chunk.text();

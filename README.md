@@ -143,7 +143,7 @@ claude plugin install firebase@firebase
 
 ## Tests
 
-`npm test` from `web/` runs 445 Vitest tests, with the Firebase AI calls mocked:
+`npm test` from `web/` runs 477 Vitest tests, with the Firebase AI calls mocked:
 - crisis detection (flags crisis phrases, ignores everyday language, and proves no model is called)
 - prompt builder structure and length budget
 - retrieval scoring

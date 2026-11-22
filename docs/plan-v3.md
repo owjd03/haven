@@ -1229,3 +1229,20 @@ What changes (spacing and layout only, nothing new to press):
 - The minimum height of a list is removed. A list is only as tall as its notes and still scrolls when it gets long.
 
 Testing: screenshots in headless Chrome with no data, a little data and a lot of data, at desktop, laptop and phone width, in light and dark mode. I look at them myself. The existing tests still pass.
+
+## Addendum: plain error messages, and a calm screen for crashes (v3.20)
+
+Status: **implemented on 2026-11-22 (477 tests pass: 140 backend, 337 frontend). Not committed. The crash screen (`app/error.tsx`) compiles and type-checks but has not been shown in a browser.**
+
+The problem: a busy cloud showed the raw error from the library, with a URL, a status code and an internal code. In development the code appended that text to the message on purpose. On the live site the fallback line, "Something went wrong talking to the model", was short but said nothing about what to do. A 500 "high demand" error was not a recognised case and was not retried.
+
+What changes:
+
+- One place still turns every error into a message (`toHavenError`), but it now lives in its own file with no Firebase code, `lib/aiErrors.ts`, so it can be tested. Insights, Chat, Write a message, Small steps and the privacy preview all use it, so they all change together.
+- The raw error never appears on screen, not even in development. The full detail goes to the browser console.
+- Plain messages for: the cloud being busy (429, 500, 502, 503, "high demand"), no internet, cloud features not allowed (App Check or permission errors), a reply blocked by the safety filter, a request that took too long, the private chat being unavailable, and anything else. Each says what happened and what to do. None has a code, a URL, or words like "model", "API" or "rate limit", and none claims data stayed on the device when a request may have been sent.
+- A cloud request that fails with 500, 502 or 503 is retried up to three times with a short wait before the message is shown. A real rate limit (429) is not retried. The retry also covers starting a streaming cloud reply.
+- One calm fallback screen (`app/error.tsx`) for crashes that are not AI errors: "Something went wrong on our side. Your notes are safe on this device." with a single Reload button.
+- No "Try again" buttons are added. The button that started the action is still there.
+
+Testing: unit tests for the mapping (each kind of error gives its plain message, none contains a code, a URL or the raw text, and the retry rule). I also force each error in the browser and look at the screen.
