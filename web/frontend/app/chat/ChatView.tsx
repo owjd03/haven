@@ -1,37 +1,33 @@
 "use client";
 
 import { Button, PageTitle, Tag, Textarea } from "@/components/ui";
-import { detectCrisis, type ChatMode } from "@haven/backend";
+import type { ChatMode } from "@haven/backend";
 import {
-  useCallback,
   useEffect,
   useRef,
   useState,
+  useSyncExternalStore,
   type FormEvent,
   type KeyboardEvent,
 } from "react";
-import { toHavenError } from "@/lib/ai";
 import { plainText } from "@/lib/format";
+import { dismissMemory } from "@/lib/chatService";
 import {
-  buildCloudRequest,
-  commitTurn,
-  CrisisDetectedError,
-  dismissMemory,
-  generateReply,
-  saveCloudReply,
-  suggestMemory,
-} from "@/lib/chatService";
+  answerConsent,
+  clearSuggestion,
+  getServerSnapshot,
+  getSnapshot,
+  leaveChat,
+  loadMessages,
+  send as sendMessage,
+  subscribe,
+} from "@/lib/chatSession";
 import { addFact, getMode, setMode as saveMode } from "@/lib/storage";
-import { addMessage, getAllMessages } from "@/lib/db";
 import type { ChatMessage } from "@/lib/types";
 import { useAI } from "@/components/AIProvider";
 import ConfirmDialog from "@/components/ConfirmDialog";
 import { useCrisis } from "@/components/CrisisProvider";
 import { useShield } from "@/components/ShieldProvider";
-
-const DECLINED_HELP =
-  "No problem, nothing was sent. To chat privately, use desktop Chrome 139 or newer, turn on chrome://flags/#prompt-api-for-gemini-nano-multimodal-input, restart Chrome, then come back and press Start chatting.";
-const CANCELLED = "Okay, I didn't send anything. Your message is still only on this device.";
 
 function TypingIndicator() {
   return (
@@ -170,28 +166,23 @@ export default function ChatView() {
   const { phase, cloudMode, markSource } = useAI();
   const { triggerCrisis } = useCrisis();
   const { runShielded } = useShield();
-  const [messages, setMessages] = useState<ChatMessage[]>([]);
-  const [loaded, setLoaded] = useState(false);
+  // The conversation and any running reply live in lib/chatSession.ts, so they survive a switch to
+  // another tab of the app. This page only shows them.
+  const { messages, loaded, thinking, partial, askingConsent, suggestion } = useSyncExternalStore(
+    subscribe,
+    getSnapshot,
+    getServerSnapshot,
+  );
   const [input, setInput] = useState("");
-  const [thinking, setThinking] = useState(false);
-  const [partial, setPartial] = useState("");
-  const [consent, setConsent] = useState<((ok: boolean) => void) | null>(null);
   const [mode, setModeState] = useState<ChatMode>("listen");
-  const [suggestion, setSuggestion] = useState<string | null>(null);
-  /** Bumped on every send, so a memory suggestion for an older message is dropped. */
-  const sendSeq = useRef(0);
   const endRef = useRef<HTMLDivElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
+  const wasThinking = useRef(false);
 
   useEffect(() => {
-    let alive = true;
-    getAllMessages()
-      .then((m) => alive && setMessages(m))
-      .catch(() => undefined)
-      .finally(() => alive && setLoaded(true));
-    return () => {
-      alive = false;
-    };
+    loadMessages();
+    // Leaving the page while the cloud question is open counts as "no": nothing is sent.
+    return leaveChat;
   }, []);
 
   // The saved mode lives in localStorage, which only exists in the browser.
@@ -204,102 +195,31 @@ export default function ChatView() {
     endRef.current?.scrollIntoView({ behavior: "smooth", block: "end" });
   }, [messages, thinking, partial]);
 
-  const push = useCallback((m: ChatMessage) => setMessages((prev) => [...prev, m]), []);
-  const notice = useCallback(
-    (content: string, kind: "error" | "notice" = "notice") =>
-      push({ role: "assistant", content, ts: Date.now(), summarized: false, [kind]: true }),
-    [push],
-  );
+  // Put the cursor back in the box when a reply you were watching finishes.
+  useEffect(() => {
+    if (wasThinking.current && !thinking) textareaRef.current?.focus();
+    wasThinking.current = thinking;
+  }, [thinking]);
 
-  /** Cloud path: ask permission, run the privacy shield preview, and only then send masked text. */
-  const cloudFlow = useCallback(
-    async (text: string, before: ChatMessage[]): Promise<ChatMessage | null> => {
-      const ok = await new Promise<boolean>((resolve) => setConsent(() => resolve));
-      setConsent(null);
-      if (!ok) {
-        notice(DECLINED_HELP);
-        return null;
-      }
-      const { personalText, instruction, plan } = await buildCloudRequest(text, before);
-      const result = await runShielded({
-        text: personalText,
-        instruction,
-        title: "Review what the cloud will see",
-      });
-      if (!result) {
-        notice(CANCELLED);
-        return null;
-      }
-      if (result.altered)
-        notice("Some private details in the reply couldn't be restored, so I left them generic.");
-      const saved = await saveCloudReply(result.text, plan.mode);
-      commitTurn(plan);
-      return saved;
-    },
-    [notice, runShielded],
-  );
-
-  const send = useCallback(async () => {
-    const text = input.trim();
-    if (!text || thinking) return;
-    // Crisis check runs FIRST, in plain code. No model is called, and the text is not stored,
-    // so it can never be fed into a later prompt.
-    setInput("");
-    const seq = ++sendSeq.current;
-    setSuggestion(null);
-    if (detectCrisis(text).matched) {
-      triggerCrisis();
-      return;
-    }
-    setThinking(true);
-    setPartial("");
-    const before = messages.filter((m) => !m.error && !m.notice);
-    try {
-      const userMsg = await addMessage({
-        role: "user",
-        content: text,
-        ts: Date.now(),
-        summarized: false,
-      });
-      push(userMsg);
-
-      let reply: ChatMessage | null = null;
-      if (phase === "ready") {
-        try {
-          reply = await generateReply(text, before, setPartial);
-          markSource("device");
-          // Best-effort and on-device only: look for one lasting fact once the reply is done.
-          // Dropped if the person has already sent their next message.
-          void suggestMemory(text).then((fact) => {
-            if (fact && sendSeq.current === seq) setSuggestion(fact);
-          });
-        } catch (e) {
-          if (e instanceof CrisisDetectedError) throw e;
-          if (toHavenError(e).kind !== "device_unavailable") throw e;
-          // The private model failed: offer the cloud, with consent and the shield.
-        }
-      }
-      if (!reply) reply = await cloudFlow(text, before);
-      if (reply) push(reply);
-    } catch (e) {
-      if (e instanceof CrisisDetectedError) triggerCrisis();
-      else notice(toHavenError(e).message, "error");
-    } finally {
-      setPartial("");
-      setThinking(false);
-      textareaRef.current?.focus();
-    }
-  }, [input, thinking, messages, phase, push, notice, cloudFlow, markSource, triggerCrisis]);
+  function send() {
+    const accepted = sendMessage(input, {
+      deviceReady: phase === "ready",
+      triggerCrisis,
+      markSource,
+      runShielded,
+    });
+    if (accepted) setInput("");
+  }
 
   function onSubmit(e: FormEvent) {
     e.preventDefault();
-    void send();
+    send();
   }
 
   function onKeyDown(e: KeyboardEvent<HTMLTextAreaElement>) {
     if (e.key === "Enter" && !e.shiftKey) {
       e.preventDefault();
-      void send();
+      send();
     }
   }
 
@@ -334,17 +254,17 @@ export default function ChatView() {
           {thinking && partial && (
             <Bubble m={{ role: "assistant", content: partial, ts: 0, summarized: false }} />
           )}
-          {thinking && !partial && !consent && <TypingIndicator />}
+          {thinking && !partial && !askingConsent && <TypingIndicator />}
           {suggestion && !thinking && (
             <MemoryNote
               text={suggestion}
               onKeep={() => {
                 addFact(suggestion, "suggested");
-                setSuggestion(null);
+                clearSuggestion();
               }}
               onSkip={() => {
                 dismissMemory(suggestion);
-                setSuggestion(null);
+                clearSuggestion();
               }}
             />
           )}
@@ -384,13 +304,13 @@ export default function ChatView() {
         </div>
       </form>
 
-      {consent && (
+      {askingConsent && (
         <ConfirmDialog
           title="Use the cloud for this message?"
           confirmLabel="Yes, show me the preview"
           cancelLabel="No thanks"
-          onConfirm={() => consent(true)}
-          onCancel={() => consent(false)}
+          onConfirm={() => answerConsent(true)}
+          onCancel={() => answerConsent(false)}
         >
           <p>
             Your device can&apos;t run the private model. Send this message to the cloud instead?

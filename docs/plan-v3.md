@@ -1197,3 +1197,21 @@ Order of work, so nothing locks us out: (1) open a branch and a pull request wit
 How we work: I create a branch, commit, push and open the pull request with `gh`, wait for the checks and the preview link, and ask for a go-ahead before merging. Merging is what changes the live site.
 
 Still to do by a person: nothing new. The reCAPTCHA key (v3.16) is still open.
+
+## Addendum: keep the chat reply running when you switch tabs (v3.18)
+
+Status: **implemented on 2026-11-22 (445 tests pass: 140 backend, 305 frontend). Not committed. Browser-tab switching still needs a test in real Chrome with Gemini Nano.**
+
+The problem: the chat's running state (the thinking flag, the streaming text and the cloud consent question) lived inside the Chat page. Switching to another tab of the app removed the page, so it came back empty. The on-device request was never cancelled and its reply was saved, but the screen no longer knew about it. It looked as if the reply had stopped, so the message was sent again and appeared twice.
+
+What changes:
+
+- A small store (`lib/chatSession.ts`) holds the conversation on screen, the running state, the streaming text, the consent question and the memory suggestion. It lives outside the pages, so it survives tab switches. The Chat page only displays it.
+- Come back mid-reply and the typing indicator and streaming text carry on, then the finished reply appears by itself. No new buttons, badges or settings.
+- Only on-device replies keep running while you are on another tab. If you leave during the cloud question, nothing is sent and the usual "I didn't send anything" notice is waiting when you return.
+- A second message is still blocked until the reply finishes.
+- "Delete everything" and import already reload the whole page, so the store starts fresh after them.
+
+Not covered: switching to another **browser** tab. Chrome may slow or pause a background tab, and that is outside the app's control. It needs a test in real Chrome with Gemini Nano. If the reply still stops there, it becomes its own item.
+
+Testing: unit tests for the store (a reply finishes with nobody watching; a late viewer sees the partial text; a second send is refused; crisis text calls no model; leaving during the cloud question sends nothing; the cloud fallback). The existing 433 tests still pass, so the total is now 445.
