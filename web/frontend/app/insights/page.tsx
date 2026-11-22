@@ -170,9 +170,16 @@ export default function InsightsPage() {
     return `Ready: ${parts.join(" and ")} from the ${label}.`;
   }
 
-  const both = choices.journal && choices.chats;
   const journalItems = items.filter((i) => i.kind === "journal");
   const chatItems = items.filter((i) => i.kind !== "journal");
+  // A list with nothing in it is one slim line above the boxes. The lists that have notes and the
+  // insights panel then share the width equally, and on a wide screen they are the same height.
+  const emptyText = `nothing in the ${label} yet.`;
+  const showJournal = choices.journal && journalItems.length > 0;
+  const showChats = choices.chats && chatItems.length > 0;
+  const shown = Number(showJournal) + Number(showChats);
+  const xlColumns = ["xl:grid-cols-1", "xl:grid-cols-2", "xl:grid-cols-3"][shown];
+  const listClass = "xl:flex xl:flex-col";
   const listProps = { selected, wontFit, onChange: setSelected, onRead: setReading };
   const actionLabel = busy ? "Working…" : "Get insights";
 
@@ -192,29 +199,61 @@ export default function InsightsPage() {
         <ChoiceBar choices={choices} onChange={change} />
       </header>
 
-      <div className="mt-5 grid items-start gap-5 md:grid-cols-[minmax(0,1fr)_20rem] xl:grid-cols-[minmax(0,1fr)_24rem]">
-        <div className={cx("grid min-w-0 gap-5", both && "xl:grid-cols-2")}>
+      {gathered && (
+        <div className="mt-5 space-y-3 empty:hidden">
+          {choices.journal && journalItems.length === 0 && (
+            <ItemList
+              title="Journal notes"
+              items={journalItems}
+              emptyText={emptyText}
+              {...listProps}
+            />
+          )}
+          {choices.chats && chatItems.length === 0 && (
+            <ItemList title="Chats" items={chatItems} emptyText={emptyText} {...listProps} />
+          )}
+        </div>
+      )}
+
+      <div
+        className={cx(
+          "mt-5 grid items-start gap-5 md:grid-cols-[minmax(0,1fr)_20rem]",
+          xlColumns,
+          shown > 0 && "xl:items-stretch",
+        )}
+      >
+        <div className="grid min-w-0 items-start gap-5 xl:contents">
           {!gathered && (
             <p className="text-muted" role="status">
               Looking at your notes…
             </p>
           )}
-          {gathered && choices.journal && (
+          {gathered && showJournal && (
             <ItemList
               title="Journal notes"
               items={journalItems}
-              twoColumns={!both}
+              emptyText={emptyText}
+              className={listClass}
               {...listProps}
             />
           )}
-          {gathered && choices.chats && (
-            <ItemList title="Chats" items={chatItems} twoColumns={!both} {...listProps} />
+          {gathered && showChats && (
+            <ItemList
+              title="Chats"
+              items={chatItems}
+              emptyText={emptyText}
+              className={listClass}
+              {...listProps}
+            />
           )}
         </div>
 
         <aside
           aria-label="Your insights"
-          className="rounded-xl border border-line bg-surface p-4 md:sticky md:top-4 md:flex md:max-h-[calc(100dvh-8rem)] md:flex-col"
+          className={cx(
+            "rounded-xl border border-line bg-surface p-4 md:sticky md:top-4 md:flex md:max-h-[calc(100dvh-8rem)] md:flex-col xl:static xl:max-h-none",
+            shown === 0 && "xl:mx-auto xl:w-full xl:max-w-md",
+          )}
         >
           {/* This part stays put; only the result below scrolls, so the button is always in reach. */}
           <div className="md:shrink-0">

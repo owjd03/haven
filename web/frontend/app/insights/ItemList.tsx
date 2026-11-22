@@ -14,8 +14,8 @@ interface Props {
   onChange: (next: Set<string>) => void;
   /** Opens the full text of one item. */
   onRead: (item: InsightItem) => void;
-  /** Lay the notes of a day out in two columns (used when one list has the whole width). */
-  twoColumns?: boolean;
+  /** Shown on one slim line, instead of an empty box, when the list has nothing in it. */
+  emptyText: string;
   className?: string;
 }
 
@@ -132,7 +132,7 @@ export default function ItemList({
   wontFit,
   onChange,
   onRead,
-  twoColumns = false,
+  emptyText,
   className,
 }: Props) {
   const selectable = items.filter((i) => !i.locked);
@@ -150,6 +150,18 @@ export default function ItemList({
     onChange(next);
   }
   const allIds = selectable.map((i) => i.id);
+
+  if (items.length === 0) {
+    return (
+      <section
+        aria-label={title}
+        className={cx("rounded-xl border border-line bg-surface px-4 py-3 text-sm", className)}
+      >
+        <span className="font-medium">{title}</span>
+        <span className="text-muted"> · {emptyText}</span>
+      </section>
+    );
+  }
 
   return (
     <section
@@ -184,35 +196,31 @@ export default function ItemList({
         </div>
       </div>
 
-      {items.length === 0 ? (
-        <p className="px-4 py-4 text-sm text-muted">Nothing here in this time range yet.</p>
-      ) : (
-        <div
-          className="max-h-96 overflow-y-auto px-4 py-3 md:max-h-[calc(100dvh-19rem)] md:min-h-[16rem]"
-          tabIndex={0}
-          aria-label={`${title} list`}
-        >
-          {days.map((day) => (
-            <div key={day} className="pb-4 last:pb-0">
-              <p className="mb-2 text-sm text-muted">{formatDay(day)}</p>
-              <ul className={twoColumns ? "grid gap-2 xl:grid-cols-2" : "space-y-2"}>
-                {ordered
-                  .filter((i) => i.day === day)
-                  .map((i) => (
-                    <ItemRow
-                      key={i.id}
-                      item={i}
-                      selected={selected.has(i.id)}
-                      wontFit={wontFit.has(i.id)}
-                      onToggle={(on) => set([i.id], on)}
-                      onRead={() => onRead(i)}
-                    />
-                  ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-      )}
+      <div
+        className="max-h-96 overflow-y-auto px-4 py-3 md:max-h-[calc(100dvh-19rem)] xl:min-h-0 xl:flex-1"
+        tabIndex={0}
+        aria-label={`${title} list`}
+      >
+        {days.map((day) => (
+          <div key={day} className="pb-4 last:pb-0">
+            <p className="mb-2 text-sm text-muted">{formatDay(day)}</p>
+            <ul className="space-y-2">
+              {ordered
+                .filter((i) => i.day === day)
+                .map((i) => (
+                  <ItemRow
+                    key={i.id}
+                    item={i}
+                    selected={selected.has(i.id)}
+                    wontFit={wontFit.has(i.id)}
+                    onToggle={(on) => set([i.id], on)}
+                    onRead={() => onRead(i)}
+                  />
+                ))}
+            </ul>
+          </div>
+        ))}
+      </div>
     </section>
   );
 }

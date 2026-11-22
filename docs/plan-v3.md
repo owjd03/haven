@@ -1215,3 +1215,17 @@ What changes:
 Not covered: switching to another **browser** tab. Chrome may slow or pause a background tab, and that is outside the app's control. It needs a test in real Chrome with Gemini Nano. If the reply still stops there, it becomes its own item.
 
 Testing: unit tests for the store (a reply finishes with nobody watching; a late viewer sees the partial text; a second send is refused; crisis text calls no model; leaving during the cloud question sends nothing; the cloud fallback). The existing 433 tests still pass, so the total is now 445.
+
+## Addendum: a tidier Insights page when there is little to show (v3.19)
+
+Status: **implemented on 2026-11-22 (445 tests pass; screenshots checked). Not committed.**
+
+The problem: with only a few notes, Insights looked hollow. Each list had a minimum height of 16 rem, and the two lists were stretched to the same height, so an empty Journal list became a tall box holding one line. Beside the long Your insights panel, the left side felt empty.
+
+What changes (spacing and layout only, nothing new to press):
+
+- An empty list becomes one slim line, such as "Journal notes · nothing in the last 7 days yet." It no longer has a header with Select all / Select none.
+- On a wide screen (1280 px and up) the lists that have notes and the Your insights panel are **equal width and equal height**, so the insights text has more room. The three match the tallest one, so with little data they stay short instead of leaving empty boxes. Below that width the layout is as before.
+- The minimum height of a list is removed. A list is only as tall as its notes and still scrolls when it gets long.
+
+Testing: screenshots in headless Chrome with no data, a little data and a lot of data, at desktop, laptop and phone width, in light and dark mode. I look at them myself. The existing tests still pass.
