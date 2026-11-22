@@ -230,6 +230,7 @@ export function savePlan(
     sources: PlanSources;
     lowMood: boolean;
     basedOn?: string[];
+    reading?: string[];
     mode?: PlanMode;
   },
   now = Date.now(),
@@ -248,6 +249,7 @@ export function savePlanWeeks(
     sources: PlanSources;
     lowMood: boolean;
     basedOn?: string[];
+    reading?: string[];
     mode?: PlanMode;
   },
   now = Date.now(),

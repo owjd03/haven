@@ -1246,3 +1246,21 @@ What changes:
 - No "Try again" buttons are added. The button that started the action is still there.
 
 Testing: unit tests for the mapping (each kind of error gives its plain message, none contains a code, a URL or the raw text, and the retry rule). I also force each error in the browser and look at the screen.
+
+## Addendum: "Read more" links at the end of a Small steps plan (v3.21)
+
+Status: **implemented on 2026-11-22 (500 tests pass: 155 backend, 345 frontend). Not committed.** Two small differences from the text below: the sentence under the heading reads "General reading from public health and university sites", because the articles are chosen by situation and are not the ideas' own source pages. The link checker lists a page that sends an incomplete certificate chain as "blocked" (it is not broken in a browser).
+
+Why: the plan's ideas come from published guidance, but the screen only named the sources ("general guidance from NHS, ..."). The links existed in the idea library and were never shown. This adds a small, honest version of "suggest articles", for the hackathon, without scraping. The larger version goes under "What's next" in the Devpost text.
+
+What changes:
+
+- A new reading list (`data/readingLinks.json`): about 21 articles, around three per situation (heartbreak, grief, stress, loneliness, conflict, burnout, motivation). Each has a title, the publisher, the web address, the situation and the date it was checked. Links and titles only: no article text is copied. Every page was opened before it went in; a page that could not be opened or did not match its title was left out.
+- At the end of a plan, a "Read more" heading with a short list replaces the old "Written with the help of ..." line. Each item is one link, "Title, Publisher". It shows up to 5 articles for the situations the plan was matched to. The situations are worked out by code on the device, as already happens for the plan's ideas.
+- The plan saves only the ids of the articles. The addresses are looked up from the library when the plan is shown, so saved or imported data can never put an unknown link on screen. Unknown ids are dropped. Plans saved before this keep the old line, with no links.
+- Links open in a new tab, send no referrer, and must be `https`. Screen readers hear "opens in a new tab".
+- Wording: no "proven" and no "reviewed". The existing line that it is not a treatment plan stays.
+- `tools/links/check-links.mjs`: a script you run by hand that reports any address that no longer loads. It is not a required check, because a website being down should not block a deploy.
+- Not included: motivational quotes (copyright and misattribution), links in Chat, and any scraping. These go under "What's next".
+
+Testing: tests that ids resolve only from the library, unknown ids are dropped, there are no repeats and no more than 5, every address is `https`, and old plans still load. I look at the plan in the browser.

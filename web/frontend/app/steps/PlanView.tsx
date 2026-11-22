@@ -1,5 +1,6 @@
 "use client";
 
+import { resolveReading } from "@haven/backend";
 import { useCrisis } from "@/components/CrisisProvider";
 import { Button } from "@/components/ui";
 import { describeSources, type PlanWeek, type SavedPlan } from "@/lib/plan";
@@ -47,6 +48,36 @@ export function WeekBlock({ w }: { w: PlanWeek }) {
                 </div>
               )}
             </dl>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
+/** A few general pages about what the plan was written for. Each opens the publisher's own site. */
+function ReadMore({ ids }: { ids: string[] }) {
+  const links = resolveReading(ids);
+  if (links.length === 0) return null;
+  return (
+    <section aria-labelledby="read-more-h" className="mt-3">
+      <h3 id="read-more-h" className="text-sm font-medium text-ink">
+        Read more
+      </h3>
+      <p className="text-xs text-muted">General reading from public health and university sites.</p>
+      <ul className="mt-2 space-y-1.5 text-sm">
+        {links.map((l) => (
+          <li key={l.id}>
+            <a
+              href={l.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 hover:text-accent focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-accent"
+            >
+              {l.title}
+            </a>
+            <span className="text-muted"> · {l.publisher}</span>
+            <span className="sr-only"> (opens in a new tab)</span>
           </li>
         ))}
       </ul>
@@ -107,7 +138,9 @@ export default function PlanView({ plan, onDelete }: { plan: SavedPlan; onDelete
               ? "Written privately on your device. A simpler plan, written by a small model on your device."
               : "Written with the cloud, with your permission."}
           </p>
-          {plan.basedOn?.length ? (
+          {plan.reading?.length ? (
+            <ReadMore ids={plan.reading} />
+          ) : plan.basedOn?.length ? (
             <p className="mt-1 text-xs text-muted">
               Written with the help of general guidance from {names(plan.basedOn)}.
             </p>

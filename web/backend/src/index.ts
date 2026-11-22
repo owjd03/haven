@@ -29,6 +29,15 @@ export {
 export type { ChatMode, ListenState, ParsedSummary } from "./chatStyle";
 export { PLAN_IDEAS, SITUATIONS, detectSituations, matchPlanIdeas } from "./planIdeas";
 export type { PlanIdea, Situation, SituationScore } from "./planIdeas";
+export {
+  READING_LINKS,
+  MAX_READING,
+  isHttpsUrl,
+  readingFor,
+  readingForIdeas,
+  resolveReading,
+} from "./readingLinks";
+export type { ReadingLink } from "./readingLinks";
 export { COPING_CARDS, retrieve, scoreCard, tokenize } from "./retrieval";
 export type { ScoredCard } from "./retrieval";
 export { detectCrisis, isCrisis, normalizeForCrisis } from "./crisis";

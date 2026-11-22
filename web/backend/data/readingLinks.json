@@ -1,0 +1,170 @@
+[
+  {
+    "id": "heartbreak-anu",
+    "situation": "heartbreak",
+    "title": "Break-ups",
+    "publisher": "Australian National University",
+    "url": "https://www.anu.edu.au/students/health-safety-wellbeing/feeling-well/break-ups",
+    "checked": "2026-11-22"
+  },
+  {
+    "id": "heartbreak-warwick",
+    "situation": "heartbreak",
+    "title": "Dealing with relationship breakdowns",
+    "publisher": "University of Warwick",
+    "url": "https://warwick.ac.uk/services/wss/topics/dealing_with_relationship_breakdowns/",
+    "checked": "2026-11-22"
+  },
+  {
+    "id": "heartbreak-union",
+    "situation": "heartbreak",
+    "title": "Relationship breakup",
+    "publisher": "Union College Counseling Center",
+    "url": "https://www.union.edu/counseling-center/resources/students/handouts/relationship-breakup",
+    "checked": "2026-11-22"
+  },
+  {
+    "id": "grief-nhs",
+    "situation": "grief",
+    "title": "Get help with grief after bereavement or loss",
+    "publisher": "NHS",
+    "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/grief-bereavement-loss/",
+    "checked": "2026-11-22"
+  },
+  {
+    "id": "grief-uri",
+    "situation": "grief",
+    "title": "Coping with grief",
+    "publisher": "University of Rhode Island Counseling Center",
+    "url": "https://web.uri.edu/counseling/grief_coping/",
+    "checked": "2026-11-22"
+  },
+  {
+    "id": "grief-utmb",
+    "situation": "grief",
+    "title": "Grief and loss: helping yourself",
+    "publisher": "UTMB Counseling and Psychological Services",
+    "url": "https://www.utmb.edu/caps/grief-loss/helping-yourself",
+    "checked": "2026-11-22"
+  },
+  {
+    "id": "stress-emm",
+    "situation": "stress",
+    "title": "Dealing with stress",
+    "publisher": "NHS Every Mind Matters",
+    "url": "https://www.nhs.uk/every-mind-matters/mental-health-issues/stress/",
+    "checked": "2026-11-22"
+  },
+  {
+    "id": "stress-breathing",
+    "situation": "stress",
+    "title": "Breathing exercises for stress",
+    "publisher": "NHS",
+    "url": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/breathing-exercises-for-stress/",
+    "checked": "2026-11-22"
+  },
+  {
+    "id": "stress-exams",
+    "situation": "stress",
+    "title": "Tips on preparing for exams",
+    "publisher": "NHS",
+    "url": "https://www.nhs.uk/mental-health/children-and-young-adults/help-for-teenagers-young-adults-and-students/tips-on-preparing-for-exams/",
+    "checked": "2026-11-22"
+  },
+  {
+    "id": "loneliness-emm",
+    "situation": "loneliness",
+    "title": "Dealing with loneliness",
+    "publisher": "NHS Every Mind Matters",
+    "url": "https://www.nhs.uk/every-mind-matters/lifes-challenges/loneliness/",
+    "checked": "2026-11-22"
+  },
+  {
+    "id": "loneliness-standrews",
+    "situation": "loneliness",
+    "title": "Advice for students feeling lonely or homesick",
+    "publisher": "University of St Andrews",
+    "url": "https://www.st-andrews.ac.uk/guides/lonely-homesick-students/",
+    "checked": "2026-11-22"
+  },
+  {
+    "id": "loneliness-samaritans",
+    "situation": "loneliness",
+    "title": "Tips if you're feeling lonely",
+    "publisher": "Samaritans",
+    "url": "https://www.samaritans.org/how-we-can-help/if-youre-having-difficult-time/if-youre-feeling-lonely/",
+    "checked": "2026-11-22"
+  },
+  {
+    "id": "conflict-nhs",
+    "situation": "conflict",
+    "title": "Maintaining healthy relationships and mental wellbeing",
+    "publisher": "NHS Every Mind Matters",
+    "url": "https://www.nhs.uk/every-mind-matters/lifes-challenges/maintaining-healthy-relationships-and-mental-wellbeing/",
+    "checked": "2026-11-22"
+  },
+  {
+    "id": "conflict-harvard",
+    "situation": "conflict",
+    "title": "Fostering healthy relationships",
+    "publisher": "Harvard Health Publishing",
+    "url": "https://www.harvardhealth.org/mind-and-mood/fostering-healthy-relationships",
+    "checked": "2026-11-22"
+  },
+  {
+    "id": "conflict-talk",
+    "situation": "conflict",
+    "title": "How to talk about your mental health",
+    "publisher": "NHS Every Mind Matters",
+    "url": "https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/how-to-talk-about-your-mental-health/",
+    "checked": "2026-11-22"
+  },
+  {
+    "id": "burnout-gvsu",
+    "situation": "burnout",
+    "title": "Watching for burnout and how to recover from it",
+    "publisher": "Grand Valley State University",
+    "url": "https://www.gvsu.edu/studentlife/weekly/watching-for-burnout-and-how-to-recover-from-212.htm",
+    "checked": "2026-11-22"
+  },
+  {
+    "id": "burnout-curtin",
+    "situation": "burnout",
+    "title": "Recovering from burnout without waiting for holidays",
+    "publisher": "Curtin University",
+    "url": "https://www.curtin.edu.au/news/oasis-news/beating-burnout-part-3-recovering-from-burnout-without-waiting-for-holidays/",
+    "checked": "2026-11-22"
+  },
+  {
+    "id": "burnout-umd",
+    "situation": "burnout",
+    "title": "Burnout and graduate students",
+    "publisher": "University of Maryland Graduate School",
+    "url": "https://gradschool.umd.edu/gradcounselor/burnout-graduate-students",
+    "checked": "2026-11-22"
+  },
+  {
+    "id": "motivation-five-steps",
+    "situation": "motivation",
+    "title": "5 steps to mental wellbeing",
+    "publisher": "NHS",
+    "url": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/five-steps-to-mental-wellbeing/",
+    "checked": "2026-11-22"
+  },
+  {
+    "id": "motivation-uts",
+    "situation": "motivation",
+    "title": "Improving motivation",
+    "publisher": "University of Technology Sydney",
+    "url": "https://www.uts.edu.au/for-students/current-students/support/counselling-service-and-self-help/self-help-resources/improving-motivation",
+    "checked": "2026-11-22"
+  },
+  {
+    "id": "motivation-low-mood",
+    "situation": "motivation",
+    "title": "Low mood and depression",
+    "publisher": "NHS Every Mind Matters",
+    "url": "https://www.nhs.uk/every-mind-matters/mental-health-issues/low-mood/",
+    "checked": "2026-11-22"
+  }
+]

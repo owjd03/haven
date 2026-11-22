@@ -41,7 +41,7 @@ import {
   saveStepsChoices,
   type StepsChoices,
 } from "@/lib/storage";
-import { matchPlanIdeas } from "@haven/backend";
+import { matchPlanIdeas, readingForIdeas } from "@haven/backend";
 import { useEffect, useRef, useState } from "react";
 import PlanView, { WeekBlock } from "./PlanView";
 
@@ -254,6 +254,7 @@ export default function StepsPage() {
           sources: { journal: choices.journal, chats: choices.chats, aboutMe: choices.aboutMe },
           lowMood: choices.journal && !!gathered && showsLowMoodNote(gathered.gathered),
           basedOn: run.ideas.map((i) => i.source.name),
+          reading: readingForIdeas(run.ideas).map((l) => l.id),
           mode: "private",
         }),
       );
@@ -299,6 +300,7 @@ export default function StepsPage() {
             sources: { journal: choices.journal, chats: choices.chats, aboutMe: choices.aboutMe },
             lowMood: choices.journal && !!gathered && showsLowMoodNote(gathered.gathered),
             basedOn: ideas.map((i) => i.source.name),
+            reading: readingForIdeas(ideas).map((l) => l.id),
             mode: "cloud",
           }),
         );

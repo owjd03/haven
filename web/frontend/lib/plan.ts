@@ -3,6 +3,8 @@
  * steps, and reading and checking a saved plan, both live here so they can be tested on their own.
  */
 
+import { resolveReading } from "@haven/backend";
+
 export const PLAN_RANGES = [7, 30] as const;
 export type PlanDays = (typeof PLAN_RANGES)[number];
 
@@ -55,6 +57,8 @@ export interface SavedPlan {
   lowMood: boolean;
   /** Publishers of the general guidance the writer was given (e.g. "NHS"). Shown as what it was built on. */
   basedOn?: string[];
+  /** Ids of the "Read more" pages for this plan. The addresses are looked up in the library when shown. */
+  reading?: string[];
   /** Who wrote it: a small model on this device, or the cloud model. Plans saved before this count as cloud. */
   mode?: PlanMode;
 }
@@ -246,10 +250,12 @@ export function planFromWeeks(
     sources: PlanSources;
     lowMood: boolean;
     basedOn?: string[];
+    reading?: string[];
     mode?: PlanMode;
   },
 ): SavedPlan {
-  const { basedOn: names, ...rest } = meta;
+  const { basedOn: names, reading: readingIds, ...rest } = meta;
+  const reading = resolveReading(readingIds).map((l) => l.id);
   const basedOn = [...new Set((names ?? []).map((n) => cut(n, MAX_BASED_ON_NAME)))].slice(
     0,
     MAX_BASED_ON,
@@ -261,6 +267,7 @@ export function planFromWeeks(
     closing: cut(closing, MAX_CLOSING),
     ...rest,
     ...(basedOn.length ? { basedOn } : {}),
+    ...(reading.length ? { reading } : {}),
   };
 }
 
@@ -273,6 +280,7 @@ export function makeSavedPlan(
     sources: PlanSources;
     lowMood: boolean;
     basedOn?: string[];
+    reading?: string[];
     mode?: PlanMode;
   },
 ): SavedPlan {
@@ -280,9 +288,13 @@ export function makeSavedPlan(
     0,
     MAX_BASED_ON,
   );
-  const { basedOn: _ignored, ...rest } = meta;
+  const { basedOn: _ignored, reading: readingIds, ...rest } = meta;
   void _ignored;
-  const extra = basedOn.length ? { basedOn } : {};
+  const reading = resolveReading(readingIds).map((l) => l.id);
+  const extra = {
+    ...(basedOn.length ? { basedOn } : {}),
+    ...(reading.length ? { reading } : {}),
+  };
   const weeks = parseWeeks(reply);
   if (weeks)
     return { text: "", steps: [], weeks: weeks.weeks, closing: weeks.closing, ...rest, ...extra };
@@ -350,6 +362,8 @@ export function parseSavedPlan(raw: unknown): SavedPlan | null {
     if (!basedOn.every((n) => isStr(n, MAX_BASED_ON_NAME))) return null;
   }
   if (!text.trim() && steps.length === 0 && !weeks?.length) return null;
+  // Only ids that are in the library survive, so stored or imported data can't add a link.
+  const reading = Array.isArray(raw.reading) ? resolveReading(raw.reading).map((l) => l.id) : [];
   return {
     text,
     steps: steps as string[],
@@ -360,6 +374,7 @@ export function parseSavedPlan(raw: unknown): SavedPlan | null {
     sources: { journal, chats, aboutMe },
     lowMood,
     ...(basedOn?.length ? { basedOn: basedOn as string[] } : {}),
+    ...(reading.length ? { reading } : {}),
     ...(raw.mode ? { mode: raw.mode } : {}),
   };
 }
